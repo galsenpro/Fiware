@@ -1,0 +1,54 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "75531",
+            "name_fr": "H & M",
+            "name_fr_short": null,
+            "address": {
+                "address_line1": "15 av Jean M\u00e9decin",
+                "address_line2": null,
+                "address_line3": null,
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": null,
+            "fax": null,
+            "email": null,
+            "website": "http://www.hm.com/fr",
+            "contacts": null,
+            "locations": {
+                "location": [
+                    "Mass\u00e9na",
+                    "Jean M\u00e9decin"
+                ]
+            },
+            "categories": {
+                "category": [
+                    "Ouverts le dimanche",
+                    "Mode femme",
+                    "Toutes les boutiques"
+                ]
+            },
+            "sectors": null,
+            "descriptions": null,
+            "images": {
+                "image": "http://www.nicetourisme.com/public/resources/ref/entries/75531/gallery/h-m_172416.jpg"
+            },
+            "living": null,
+            "tariffs": null,
+            "capacity": null,
+            "closures": null,
+            "spaces": null,
+            "opening": "10:00-19:30 - 11:00-19:00 (dimanche)",
+            "closing": null,
+            "latitude": "43.6994",
+            "longitude": "7.26831",
+            "location_map": null,
+            "created": "2015-08-24 12:11:38",
+            "updated": "2016-07-05 10:30:43"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"testnca-datamodels" :[{
+		"entities" : [{
+			"PUBLIC" :{
+				"type":"typeOfEntityOnFiware",
+				"suffixID" : "PUBLIC-",
+				"name": "Name Of the Entity",
+				"entityFiware": ["Liste of Fiware Entities"],
+				"category": ["prefecture", "mairie", "metropole NCA"],
+				"controlledProperty": ["visites", "programme", "description"],
+				"controlledAsset": ["building", "objectName", "etc."],
+				"reference": ["Liste of refered Entities"]
+					}
+				}]
+			}
+		]
+	}

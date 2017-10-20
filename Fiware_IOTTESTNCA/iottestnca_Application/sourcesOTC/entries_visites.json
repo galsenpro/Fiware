@@ -1,0 +1,117 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "40724",
+            "name_fr": "ALLIANZ RIVIERA",
+            "name_fr_short": "ALLIANZ RIVIERA",
+            "address": {
+                "address_line1": "Bd des jardiniers",
+                "address_line2": null,
+                "address_line3": null,
+                "zip": "06200",
+                "city": "NICE"
+            },
+            "phone": null,
+            "fax": null,
+            "email": "entreprise@allianz-riviera.fr",
+            "website": "http://www.allianz-riviera.fr",
+            "contacts": null,
+            "languages": {
+                "language": [
+                    "Anglais",
+                    "Fran\u00e7ais"
+                ]
+            },
+            "amenities": {
+                "amenity": [
+                    "D\u00e9pose-bus",
+                    "Parking bus"
+                ]
+            },
+            "locations": {
+                "location": [
+                    "Nice Plaine du Var Est",
+                    "Nice Ouest"
+                ]
+            },
+            "categories": {
+                "category": [
+                    "Monuments et \u00e9glises",
+                    "Lieux de r\u00e9ceptions Nice",
+                    "Salles de spectacle",
+                    "Autres lieux de r\u00e9unions Nice",
+                    "Sites privatisables Nice"
+                ]
+            },
+            "stations": {
+                "station": [
+                    "Allianz Riviera",
+                    "Allianz Riviera"
+                ]
+            },
+            "options": {
+                "option": "Privatisable"
+            },
+            "publications": null,
+            "common_tags": null,
+            "group_options": null,
+            "disabled_options": {
+                "disabled_option": [
+                    "Accessible personnes handicap\u00e9es",
+                    "Toilettes accessibles",
+                    "Accueil et services sp\u00e9cifiques",
+                    "Accueil et services sp\u00e9cifiques",
+                    "Accueil et services sp\u00e9cifiques"
+                ]
+            },
+            "sectors": null,
+            "descriptions": {
+                "description": {
+                    "@language": "fr",
+                    "@type": "Publique",
+                    "#text": "L\u2019espace polyvalent de l\u2019Allianz Riviera s\u2019anime \u00e0 Nice dans la plaine du Var au sein de l\u2019\u00e9co-vall\u00e9e et \u00e0 quelques encablures de l\u2019a\u00e9roport international Nice C\u00f4te d\u2019Azur. Con\u00e7u par l\u2019architecte de renomm\u00e9e internationale Jean-Michel Wilmotte, v\u00e9ritable lieu de vie, d\u2019\u00e9change et de partage, il accueille les matches de l\u2019OGC Nice, du football mais aussi du rugby, des concerts, des spectacles et des manifestations de grande envergure. Site h\u00f4te de l\u2019Euro 2016, le stade connect\u00e9, accueille de 35 000 \u00e0 45 000 spectateurs et respecte les grands principes du d\u00e9veloppement durable. \nL\u2019Allianz Riviera abrite le Mus\u00e9e National du Sport, labellis\u00e9 \u00ab Mus\u00e9e de France \u00bb, avec 5 000 m\u00b2 d\u00e9di\u00e9s \u00e0 la conservation, diffusion et valorisation du patrimoine sportif (50 000 objets et 200 000 pi\u00e8ces de documentation)."
+                }
+            },
+            "living": {
+                "room_count": "0",
+                "room_bath_count": "0",
+                "room_shower_count": "0",
+                "suite_count": "0",
+                "studio_count": "0",
+                "apartment_count": "0",
+                "room_accessible_count": "0",
+                "single_count": "0",
+                "double_count": "0",
+                "triple_count": "0",
+                "twins_count": "0",
+                "family_count": "0",
+                "area": "0",
+                "type": null,
+                "floor": "0",
+                "bedroom_count": "0",
+                "sleeps_count": "0",
+                "furnished_room_count": "0"
+            },
+            "tariffs": null,
+            "capacity": {
+                "indoor": "0",
+                "outdoor": "0",
+                "room_count": "50",
+                "seated": "36000",
+                "cocktail": "5000"
+            },
+            "closures": null,
+            "spaces": null,
+            "opening": null,
+            "closing": null,
+            "latitude": "43.7048",
+            "longitude": "7.19268",
+            "location_map": null,
+            "created": "2013-10-22 10:55:14",
+            "updated": "2017-03-22 11:37:49"
+        }
+    }
+}

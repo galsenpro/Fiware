@@ -1,0 +1,14 @@
+{
+   "id": "wastecontainermodel:c1",
+   "type": "WasteContainerModel",
+   "width": 0.50,
+   "height": 0.80,
+   "depth": 0.40,
+   "cargoVolume": 150,
+   "brandName": "Contenedores Ejemplo",
+   "modelName": "C1",
+   "compliantWith": ["UNE-EN 840-2:2013"],
+   "madeOf": "plastic",
+   "features": ["wheels", "lid"],
+   "category": ["dumpster"]
+}

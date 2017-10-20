@@ -1,0 +1,79 @@
+{
+    "events": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/events.xsd",
+        "event": {
+            "id": "8090",
+            "name_fr": "15EME CONGRES DE CHIRURGIE DIGESTIVE DU CHU DE NICE 2017",
+            "start": "2017-11-17",
+            "end": "2017-11-18",
+            "address": {
+                "@type": "situation",
+                "address_content": "12 av de Verdun",
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 93 16 75 75",
+            "email": "reservation@plaza.boscolo.com",
+            "website": [
+                {
+                    "@type": "situation",
+                    "#text": "http://www.B4hotels.com"
+                },
+                {
+                    "@type": "principal",
+                    "#text": "http://www.tradotel-riviera.com/ccdcn2017/"
+                }
+            ],
+            "profiles": {
+                "profile": "Convention Bureau"
+            },
+            "categories": {
+                "category": "Congr\u00e8s"
+            },
+            "descriptions": {
+                "description": [
+                    {
+                        "@language": "fr",
+                        "@type": "Nom",
+                        "#text": "15EME CONGRES DE CHIRURGIE DIGESTIVE DU CHU DE NICE 2017"
+                    },
+                    {
+                        "@language": "en",
+                        "@type": "Nom",
+                        "#text": "15EME CONGRES DE CHIRURGIE DIGESTIVE DU CHU DE NICE 2017"
+                    },
+                    {
+                        "@language": "fr",
+                        "@type": "Situation",
+                        "#text": "HOTEL BOSCOLO B4 NICE PLAZA"
+                    },
+                    {
+                        "@language": "en",
+                        "@type": "Situation",
+                        "#text": "BOSCOLO B4 NICE PLAZA HOTEL"
+                    },
+                    {
+                        "@language": "fr",
+                        "@type": "Description",
+                        "#text": "Congr\u00e8s annuel sur le traitement chirurgical de l\u2019ob\u00e9sit\u00e9 morbide"
+                    },
+                    {
+                        "@language": "en",
+                        "@type": "Description",
+                        "#text": "Annual Congress on Surgical Treatment of Morbid Obesity"
+                    }
+                ]
+            },
+            "images": {
+                "image": "http://www.nicetourisme.com/public/resources/ref/events/8090/gallery/15eme-congres-de-chirurgie-digestive-du-chu-de-nice-2017_197234.jpg"
+            },
+            "latitude": "43.6968",
+            "longitude": "7.26836",
+            "note": "0",
+            "created": "2017-09-15 13:47:03",
+            "updated": "2017-09-15 13:53:59"
+        }
+    }
+}

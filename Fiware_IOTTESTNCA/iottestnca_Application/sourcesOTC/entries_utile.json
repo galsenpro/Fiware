@@ -1,0 +1,68 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "1330",
+            "name_fr": "ACTILANGUE",
+            "name_fr_short": "ACTILANGUE",
+            "address": {
+                "address_line1": "2 rue Alexis Mossa",
+                "address_line2": null,
+                "address_line3": null,
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 93 96 33 84",
+            "fax": "+33(0)4 93 44 37 16",
+            "email": "contact@actilangue.com",
+            "website": "http://www.actilangue.com",
+            "contacts": null,
+            "languages": {
+                "language": [
+                    "Anglais",
+                    "Allemand",
+                    "Italien",
+                    "Fran\u00e7ais"
+                ]
+            },
+            "locations": {
+                "location": "Gambetta"
+            },
+            "categories": {
+                "category": [
+                    "Infos pratiques",
+                    "Cours de fran\u00e7ais pour \u00e9tranger",
+                    "Adresses utiles"
+                ]
+            },
+            "publications": null,
+            "sectors": null,
+            "descriptions": null,
+            "living": null,
+            "tariffs": null,
+            "capacity": null,
+            "closures": {
+                "closure": [
+                    {
+                        "closure_day": "Samedi",
+                        "closure_span": "toute la journ\u00e9e"
+                    },
+                    {
+                        "closure_day": "Dimanche",
+                        "closure_span": "toute la journ\u00e9e"
+                    }
+                ]
+            },
+            "spaces": null,
+            "opening": "8:00-13:00  14:00-16:00",
+            "closing": null,
+            "latitude": "43.6962",
+            "longitude": "7.25381",
+            "location_map": null,
+            "created": "2012-05-03 11:28:24",
+            "updated": "2017-04-19 14:37:24"
+        }
+    }
+}

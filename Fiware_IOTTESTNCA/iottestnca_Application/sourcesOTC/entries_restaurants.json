@@ -1,0 +1,97 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "664",
+            "name_fr": "AC LOUNGE BAR & RESTAURANT",
+            "name_fr_short": "AC LOUNGE",
+            "address": {
+                "address_line1": "H\u00f4tel AC By Marriott Nice",
+                "address_line2": "59 Promenade des Anglais",
+                "address_line3": null,
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 93 97 74 27",
+            "fax": "+33(0)4 93 44 50 40",
+            "email": "ac.nceac.restaurant@marriott.com",
+            "website": "http://www.marriott.com/nceac",
+            "contacts": null,
+            "payments": {
+                "payment": [
+                    "Ch\u00e8ques",
+                    "Carte Bleue - Visa"
+                ]
+            },
+            "languages": {
+                "language": [
+                    "Anglais",
+                    "Allemand",
+                    "Espagnol",
+                    "Italien"
+                ]
+            },
+            "amenities": {
+                "amenity": [
+                    "Parking priv\u00e9 payant",
+                    "Parking public \u00e0 proximit\u00e9",
+                    "Piscine",
+                    "Wifi gratuit",
+                    "Animaux accept\u00e9s",
+                    "Climatisation",
+                    "Terrasse privative"
+                ]
+            },
+            "locations": {
+                "location": [
+                    "Bord de mer",
+                    "Magnan",
+                    "Gambetta"
+                ]
+            },
+            "categories": {
+                "category": [
+                    "Restaurants",
+                    "Cuisine M\u00e9diterran\u00e9enne",
+                    "Groupes \u00e0 partir de 50 personnes"
+                ]
+            },
+            "services": {
+                "service": [
+                    "M\u00e9diterran\u00e9enne",
+                    "Traditionnelle"
+                ]
+            },
+            "options": {
+                "option": "Privatisable"
+            },
+            "common_tags": null,
+            "group_options": null,
+            "sectors": null,
+            "atmosphere": {
+                "atmospher": "Lounge"
+            },
+            "descriptions": null,
+            "living": null,
+            "tariffs": null,
+            "capacity": {
+                "indoor": "50",
+                "outdoor": "80",
+                "room_count": "3",
+                "seated": "0",
+                "cocktail": "0"
+            },
+            "closures": null,
+            "spaces": null,
+            "opening": "12:00-14:00 - 19:30 -22:00",
+            "closing": null,
+            "latitude": "43.6931",
+            "longitude": "7.25298",
+            "location_map": "D6",
+            "created": "2012-05-03 11:28:24",
+            "updated": "2016-02-08 09:55:35"
+        }
+    }
+}

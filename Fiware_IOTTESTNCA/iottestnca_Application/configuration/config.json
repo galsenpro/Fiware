@@ -1,0 +1,117 @@
+{
+	"iot": [{
+		"source" : [
+				{
+				"ID": "Identifiant unique à celui de la source",
+				"name": "Nom de la source ",
+				"protocole" : "FTP ou HTTP ou SSH ", 
+				"port" : 1234,
+				"user": "Utilisateur",
+				"passwd": "Passwd MD5",
+				"schema": "Schéma data-model pour la validation",
+				"directory": "Répertoire de connexion",
+				"recovery":"Nom du repertoire de stockage des données avant traitement",
+				"description" : "Description de la source",
+				"mapping": 1
+				},
+				{
+				"ID": "Identifiant unique à celui de la source",
+				"name": "Nom de la source ",
+				"protocole" : "FTP | HTTP | SSH ", 
+				"port" : 1234,
+				"user": "Utilisateur",
+				"passwd": "Mot de passe - MD5",
+				"schema": "Schéma data-model pour la validation",
+				"directory": "Dossier de connexion",
+				"recovery": "Nom du repertoire de stockage des données avant traitement",
+				"description" : "Description de la source",
+				"mapping": 2
+				},
+				{
+				"ID": "Identifiant unique à celui de la source",
+				"name": "Nom de la source ",
+				"protocole" : "FTP - HTTP - SSH ", 
+				"port" : 1234,
+				"user": "USER",
+				"passwd": "MD5",
+				"schema": "Schéma data-model pour la validation",
+				"directory": "Dossier de connexion",
+				"recovery":"Nom du repertoire de stockage des données avant traitement",
+				"description" : "Description de la source",
+				"mapping": 3
+				}
+			]
+				},
+		{
+		"mapping": [
+				{
+				"ID" : 1,
+				"objects" : [{
+						"attribute1" : {
+							"typeAttribut1" : "object | integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+											}
+								}],
+				"dictionary" : [{
+						"attribute1" : {
+							"typeAttribut" : "object | integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+											}
+								}],
+				"samples" : [{
+						"attribute2" : {
+							"typeAttribut2" : "integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+								}
+							}]
+					},
+				{
+				"ID" : 2,
+				"objects" : [{
+						"attribute1" : {
+							"typeAttribut1" : "object | integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+											}
+								}],
+				"dictionary" : [{
+						"attribute1" : {
+							"typeAttribut" : "object | integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+											}
+								}],
+				"samples" : [{
+						"attribute2" : {
+							"typeAttribut2" : "integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+								}
+							}]
+					},
+				{
+				"ID" : 3,
+				"objects" : [{
+						"attribute1" : {
+							"typeAttribut" : "object | integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+											}
+								}],
+				"dictionary" : [{
+						"attribute1" : {
+							"typeAttribut" : "object | integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+											}
+								}],
+				"samples" : [{
+						"attribute2" : {
+							"typeAttribut2" : "integer | other ",
+							"attributDM": "Attribut dans le Data-model"
+								}
+							}]
+					}
+			]
+		}]
+}
+	
+	
+	
+	
+	

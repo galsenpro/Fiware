@@ -1,0 +1,22 @@
+Fichiers déposés sur FTP
+
+Je reviens vers vous concernant le projet afficheur SENSIBEL + HARMONIE
+Nous avons revu entièrement notre gamme d'afficheurs afin de la rendre plus performante visuellement mais également en terme de données enregistrées.
+
+Vous trouverez en P.J. un exemple de fichier généré, avec un paramétrage de transfert toutes les 15 minutes,t un enregistrement toutes les minutes (valeur moyenne), et un enregistrement de 2 valeurs : LeqA et Lcrête.
+
+ Le nom du fichier est AAAAAAAAAAAAA_JJ_MM_AA_HH_MM.json, avec :
+-          AAAAAAAAAAA : identification de l'appareil (paramètre)
+-          JJ_MM_AA : date du transfert (UTC)
+-          HH_MM : heure du transfert (UTC)
+ 
+Comme vous pourrez le voir, le fichier contient :
+-          Un champ source : indique le type d'appareil
+-          Un champ identification : l'identification utilisée pour générer le nom du fichier
+-          Les données :
+o   T : le temps de la mesure (temps unix UTC)
+o   LA : LeqA (valeur moyenne calculée sur la période d'enregistrement)
+o   Pk : Lcrete (valeur maximale sur la période d'enregistrement)
+ 
+Si un sonomètre global est utilisé, les valeurs LeqA, LeqC, Lcrete pourront être enregistrées
+Si un sonomètre BO est utilisé, on pourra enregistrer en plus les 7 valeurs d'octave.

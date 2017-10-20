@@ -1,0 +1,78 @@
+{
+    "events": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/events.xsd",
+        "event": {
+            "id": "8189",
+            "name_fr": "(INS)TABLE",
+            "start": "2018-05-13",
+            "end": "2018-05-13",
+            "address": {
+                "@type": "situation",
+                "address_content": "3 rue Paganini",
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 93 16 82 69",
+            "email": "infos@theatredelacite.fr",
+            "website": [
+                {
+                    "@type": "situation",
+                    "#text": "http://www.theatredelacite.fr"
+                },
+                {
+                    "@type": "principal"
+                }
+            ],
+            "categories": {
+                "category": "Spectacle"
+            },
+            "descriptions": {
+                "description": [
+                    {
+                        "@language": "fr",
+                        "@type": "Situation",
+                        "#text": "TH\u00c9\u00c2TRE DE LA CIT\u00c9"
+                    },
+                    {
+                        "@language": "en",
+                        "@type": "Situation",
+                        "#text": "TH\u00c9\u00c2TRE DE LA CIT\u00c9"
+                    },
+                    {
+                        "@language": "fr",
+                        "@type": "Horaires",
+                        "#text": "18:00"
+                    },
+                    {
+                        "@language": "en",
+                        "@type": "Horaires",
+                        "#text": "18:00"
+                    },
+                    {
+                        "@language": "fr",
+                        "@type": "Description",
+                        "#text": "Dans ce spectacle, des \u00eatres se r\u00e9unissent, s\u2019aiment, se d\u00e9chirent, prennent des d\u00e9cisions, regrettent, r\u00e9fl\u00e9chissent, s\u2019effondrent, font des choix, rient aux \u00e9clats, se rassemblent...Ils vivent tout simplement mais quand cela se passe toujours autour d\u2019une table, cette derni\u00e8re prend alors vie au milieu d\u2019un vacarme fou et d\u2019une po\u00e9sie \u00e9ph\u00e9m\u00e8re pour faire corps avec les humains qui l\u2019entourent. Cette table sur laquelle on rit, on pleure, on s\u2019\u00e9nerve, avec laquelle on joue, on danse, on s\u2019exprime parfois, va devenir le lien et le liant entre ciel et terre, corps et \u00e2mes, glace et flammes, doux et amer, com\u00e9diens et danseurs\u2026 Une table ancr\u00e9e sur sc\u00e8ne, comme un arbre de vie m\u00e9taphorique, t\u00e9moin principal et muet du coeur des hommes et qui garde en m\u00e9moire dans ses racines les mots, les actes, les \u00e9motions et les gestes avant qu\u2019ils ne s\u2019envolent\u2026"
+                    },
+                    {
+                        "@language": "en",
+                        "@type": "Description",
+                        "#text": "In this show, people meet, love, tear each other apart, make decisions, regret, reflect, collapse, make choices, laugh, burst into flames ... They live simply but when it happens always around a table, the latter then comes to life in the midst of a mad racket and ephemeral poetry to make body with the humans that surround it. This table on which one laughs, one weeps, one gets angry, with which one plays, one dances, one expresses sometimes, becomes the link and the link between heaven and earth, body and souls, ice and flames, soft and bitter, actors and dancers ... A table anchored on stage, like a tree of metaphorical life, the main and silent witness of the heart of men and who keeps in memory the roots of words, actions, emotions and gestures before they fly away ..."
+                    }
+                ]
+            },
+            "images": {
+                "image": "http://www.nicetourisme.com/public/resources/ref/events/8189/gallery/ins-table_197427.jpg"
+            },
+            "latitude": "43.7018",
+            "longitude": "7.26389",
+            "note": "0",
+            "ref_entries": {
+                "ref_entry": "28810"
+            },
+            "created": "2017-09-25 10:16:08",
+            "updated": "2017-09-29 11:26:21"
+        }
+    }
+}
