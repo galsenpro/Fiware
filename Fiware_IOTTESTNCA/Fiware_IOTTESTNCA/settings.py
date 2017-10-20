@@ -25,7 +25,7 @@ SECRET_KEY = 'iuhzamwvkga#if99d9n3w7#qtc-j8c4dm@5q)^2g90wjb^#^=1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.135.1", "testnca.org"]
+ALLOWED_HOSTS = ["192.168.135.1", "16-U0117.intranice.ville-nice.fr"]
 
 
 # Application definition
