@@ -1,0 +1,17 @@
+{
+    "id": "PointOfInterest-Util-NCA:1330",
+    "type": "PointOfInterest",
+    "name": "ACTILANGUE",
+    "description": "Description ACTILANGUE", 
+    "address": {
+      "addressCountry": "FR", 
+      "addressLocality": "2 rue Alexis Mossa" 
+    },
+    "category": ["XXX"],
+    "location": {
+      "type": "Point",
+      "coordinates": [43.6962, 7.25381]
+    },
+    "source": null,
+    "refSeeAlso": ["Util-NCA-1330"],
+}
