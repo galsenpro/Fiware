@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for Fiware_IOTTESTNCA project.
 
@@ -12,6 +13,12 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+from django.utils.translation import ugettext_lazy as _
+
+PROJECT_ROOT = os.path.join(
+    os.path.realpath(os.path.dirname(__file__)), os.pardir)
+# PROJECT_ROOT  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,9 +32,14 @@ SECRET_KEY = 'iuhzamwvkga#if99d9n3w7#qtc-j8c4dm@5q)^2g90wjb^#^=1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.135.1", "16-U0117.intranice.ville-nice.fr"]
+ALLOWED_HOSTS = ["*"]
 
 
+ADMINS = (
+     ('Adama DIENG', 'adamadieng.dev@gmail.com'),
+)
+
+MANAGERS = ADMINS
 # Application definition
 
 INSTALLED_APPS = [
@@ -38,6 +50,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'iottestnca_Application.apps.IottestncaApplicationConfig',
+    
+    'xadmin',
+    'crispy_forms',
+    'reversion',
+    #'iottestnca_Application'
 ]
 
 MIDDLEWARE = [
@@ -51,11 +68,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Fiware_IOTTESTNCA.urls'
-
+"""
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -64,6 +81,29 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+        },
+    },
+]
+"""
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [
+            os.path.join(PROJECT_ROOT,"templates"),
+            ],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.i18n',
+                'django.template.context_processors.media',
+                'django.template.context_processors.static',
+                'django.template.context_processors.tz',
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+            'debug': DEBUG,
         },
     },
 ]
@@ -81,19 +121,17 @@ DATABASES = {
     }
 }
 """
-"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'iottestnca',  # Nom de la base de données
+        'NAME': 'dbxadmin',  # Nom de la base de données
         'USER': 'root',            # Utilisateur
-        'PASSWORD': 'passer',        # Mot de passe si nécessaire
+        'PASSWORD': 'ndiogou',        # Mot de passe si nécessaire
         'HOST': 'localhost',         # Utile si votre base de données est sur une autre machine
         'PORT': '',                  # ... et si elle utilise un autre port que celui par défaut
     }
 }
 """
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -104,6 +142,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+"""
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
@@ -130,21 +169,59 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
+
+SITE_ID = 1
+
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
 USE_I18N = True
 
+# If you set this to False, Django will not format dates, numbers and
+# calendars according to the current locale.
 USE_L10N = True
 
+# If you set this to False, Django will not use timezone-aware datetimes.
 USE_TZ = True
 
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/home/media/media.lawrence.com/media/"
+MEDIA_ROOT = ''
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.11/howto/static-files/
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash.
+# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
+MEDIA_URL = ''
 
+# Absolute path to the directory static files should be collected to.
+# Don't put anything in this directory yourself; store your static files
+# in apps' "static/" subdirectories and in STATICFILES_DIRS.
+# Example: "/home/media/media.lawrence.com/static/"
+STATIC_ROOT = 'static/'
+
+# URL prefix for static files.
+# Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
-TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
+# Additional locations of static files
+STATICFILES_DIRS = (
+    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+)
 
-STATIC_URL = '/static/'
+# List of finder classes that know how to find static files in
+# various locations.
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('zh-hans', _('Chinese')),
+)
 
 SOURCES_FOLDER = '/iottestnca_Application/datamodels/OTC/' #Chemin à créer au départ
 DEST_FOLDER= 'sourcesOTC'
