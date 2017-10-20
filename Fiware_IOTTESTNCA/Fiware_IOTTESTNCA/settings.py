@@ -25,7 +25,7 @@ SECRET_KEY = 'iuhzamwvkga#if99d9n3w7#qtc-j8c4dm@5q)^2g90wjb^#^=1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["192.168.135.1", "testnca.org"]
 
 
 # Application definition
@@ -81,7 +81,7 @@ DATABASES = {
     }
 }
 """
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -90,6 +90,18 @@ DATABASES = {
         'PASSWORD': 'passer',        # Mot de passe si nécessaire
         'HOST': 'localhost',         # Utile si votre base de données est sur une autre machine
         'PORT': '',                  # ... et si elle utilise un autre port que celui par défaut
+    }
+}
+"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'iot_nca_app',
+        'USER': 'iot_nca_app',
+        'PASSWORD': 'testnca',
+        'HOST': 'iot.testnca.org',
+        'PORT': '5432',
     }
 }
 # Password validation
