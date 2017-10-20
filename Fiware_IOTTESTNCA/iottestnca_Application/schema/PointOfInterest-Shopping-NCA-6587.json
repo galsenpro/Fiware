@@ -1,0 +1,20 @@
+{
+    "id": "PointOfInterest-SHOP:1328",
+    "type": "PointOfInterest",
+    "name": "H & M",
+    "description": "Boutique de prêt à porter",
+    "address": {
+      "addressCountry": "FR",
+      "addressLocality": "15 av Jean Médecin"
+    },
+    "category": ["169"],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.6994,
+        7.26831
+      ]
+    },
+    "source": null,
+    "refSeeAlso": ["Shopping-NCA-6587"],
+}
