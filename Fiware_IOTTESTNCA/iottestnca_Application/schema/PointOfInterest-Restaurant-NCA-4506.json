@@ -7,7 +7,7 @@
       "addressCountry": "FR", 
       "addressLocality": "59 Promenade des anglais" 
     },
-    "category": ["43X"], #Possibilité_de_proposer_Une_Catégorie???
+    "category": ["43X"],
     "location": {
       "type": "Point",
       "coordinates": [

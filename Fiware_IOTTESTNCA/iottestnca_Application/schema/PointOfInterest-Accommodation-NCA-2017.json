@@ -7,7 +7,7 @@
       "addressCountry": "ES", 
       "addressLocality": "7 Rue Saint-Fraçois de Paule" 
     },
-    "category": ["43X"], #Nouvelle_Catégorie?
+    "category": ["43X"],
     "location": {
       "type": "Point",
       "coordinates": [

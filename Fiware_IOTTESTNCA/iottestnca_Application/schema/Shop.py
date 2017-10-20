@@ -1,6 +1,3 @@
-#POI qui fait référence à un SHOP
-#
-#
 {
     "id": "PointOfInterest-SHOP_1328", #BOUTIQUE_ID
     "type": "PointOfInterest",
