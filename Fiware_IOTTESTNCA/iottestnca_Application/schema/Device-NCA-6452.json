@@ -51,7 +51,7 @@
   "refDeviceModel": "myDevice-wastecontainer-sensor-345", /*Référence du modèle de Device*/
   "batteryLevel": 0.75, /* 1.0 = BATTERIE PLEINE , 0.0 = BATTERIE VIDE */
   "deviceState": "ok",
-  "dateLastValueReported" : "2017-10-22",
+  "dateLastValueReported" : "2017-10-22", /* 1506329846 */
   "value": "l=0.22;t=21.2", /*Valeurs des données reontées */
   "dateModified" : "2017-10-22", /* Date de mise à jour de l'entité*/
   "dateCreated": "2017-10-21"
