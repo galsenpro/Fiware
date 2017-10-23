@@ -1,0 +1,15 @@
+{
+  "id": "myDevice-wastecontainer-sensor-345",
+  "type": "DeviceModel",
+  "name": "myDevice Sensor for Containers 345",
+  "brandName": "myDevice", /* Marque de l'appareil*/
+  "modelName": "S4Container 345", /* Modèle de l'appareil */
+  "manufacturerName": "myDevice Inc.", /* Fabricant */
+  "documentation": "Lien vers la documentation",
+  "category": ["sensor"],
+  "function": ["sensing"], /* Liste = ["levelControl", "sensing", "onOff", "openClose", "metering", "eventNotification"] */
+  "controlledProperty": ["fillingLevel", "temperature"],
+  "supportedUnits": ["Liste des unités de messures prises en charge"],
+  "energyLimitationClass": "E0", /* E0, E1, E2, E9 */
+  "image" : "Lien vers une image rep l'appareil (xxx/name.jpeg) "
+}

@@ -29,6 +29,7 @@ The key's randomart image is:
 |.oo  .   =o+ .   |
 |.o      ..*+.    |
 +----[SHA256]-----+
+
 adama@diengpc:~/Smart$ sudo nano /etc/ssh/ssh_config
 _____________________________________________________
 

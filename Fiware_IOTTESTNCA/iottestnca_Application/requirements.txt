@@ -16,3 +16,6 @@ pyyaml
 jdcal
 et_xmlfile
 pytz
+lxml
+xmltodict
+json
