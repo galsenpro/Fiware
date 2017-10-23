@@ -9,4 +9,7 @@ xversion.register_models()
 
 urlpatterns = [
     url(r'xadmin/', include(xadmin.site.urls)),
+    url(r'admin/', include(xadmin.site.urls)),
+    url(r'', include(xadmin.site.urls)),
 ]
+#xadmin.site.site_header = 'IOT TEST NCA'

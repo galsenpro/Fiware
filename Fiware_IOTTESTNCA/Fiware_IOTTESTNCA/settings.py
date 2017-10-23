@@ -32,11 +32,11 @@ SECRET_KEY = 'iuhzamwvkga#if99d9n3w7#qtc-j8c4dm@5q)^2g90wjb^#^=1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["16-u0117.intranice.ville-nice.fr"]
 
 
 ADMINS = (
-     ('Adama DIENG', 'adamadieng.dev@gmail.com'),
+     ('Adama DIENG', 'adama.dieng@nicecotedazur.org'),
 )
 
 MANAGERS = ADMINS
@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'iottestnca_Application.apps.IottestncaApplicationConfig',
-    
     'xadmin',
     'crispy_forms',
     'reversion',
@@ -121,6 +120,7 @@ DATABASES = {
     }
 }
 """
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -142,7 +142,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-"""
+
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
