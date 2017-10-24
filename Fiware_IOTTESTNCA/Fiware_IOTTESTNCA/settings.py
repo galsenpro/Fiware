@@ -15,8 +15,8 @@ import os
 
 from django.utils.translation import ugettext_lazy as _
 
-PROJECT_ROOT = os.path.join(
-    os.path.realpath(os.path.dirname(__file__)), os.pardir)
+import posixpath
+PROJECT_ROOT = os.path.join(os.path.realpath(os.path.dirname(__file__)), os.pardir)
 # PROJECT_ROOT  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -32,7 +32,7 @@ SECRET_KEY = 'iuhzamwvkga#if99d9n3w7#qtc-j8c4dm@5q)^2g90wjb^#^=1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["16-u0117.intranice.ville-nice.fr"]
+ALLOWED_HOSTS = []
 
 
 ADMINS = (
@@ -50,10 +50,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'iottestnca_Application.apps.IottestncaApplicationConfig',
+    'django_select2',
     'xadmin',
-    'crispy_forms',
+    'crispy_forms', #Pour placer mes éléments de formulaire à a guise
     'reversion',
     #'iottestnca_Application'
+   # 'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -185,32 +187,35 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = BASE_DIR + '/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = ''
-
+MEDIA_URL = '/media/'
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = 'static/'
-
+#STATIC_ROOT = 'static/'
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
-
-# Additional locations of static files
-STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-)
 
 # List of finder classes that know how to find static files in
 # various locations.
+ROOT_PATH = os.path.dirname(__file__)
+STATIC_ROOT = os.path.join(ROOT_PATH, 'static')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join('static'),
+)
+
+ADMIN_TOOLS_MEDIA_URL = '/site_media/'
+ADMIN_MEDIA_PREFIX = posixpath.join(STATIC_URL, "admin/")
+
+
+
+
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
@@ -222,6 +227,37 @@ LANGUAGES = (
     ('en', _('English')),
     ('zh-hans', _('Chinese')),
 )
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'
+        }
+    },
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler'
+        },
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        # 'django.db.backends': {
+        #     'handlers': ['console'],
+        #     'level': 'DEBUG',
+        # }
+    }
+}
 
 SOURCES_FOLDER = '/iottestnca_Application/datamodels/OTC/' #Chemin à créer au départ
 DEST_FOLDER= 'sourcesOTC'

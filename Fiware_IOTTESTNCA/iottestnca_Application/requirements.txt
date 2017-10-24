@@ -19,3 +19,4 @@ pytz
 lxml
 xmltodict
 json
+django_select2
