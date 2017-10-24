@@ -106,8 +106,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="108">
+              <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -239,19 +239,6 @@
               <item name="Fiware" type="462c0819:PsiDirectoryNode" />
               <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
               <item name="site_media" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -761,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="106" />
           <folding />
         </state>
       </provider>
