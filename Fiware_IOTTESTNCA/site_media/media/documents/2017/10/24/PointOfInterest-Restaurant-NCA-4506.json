@@ -1,0 +1,20 @@
+{
+    "id": "PointOfInterest-Restaurant-NCA:4506",
+    "type": "PointOfInterest",
+    "name": "Name of the Restaurant",
+    "description": "Descriptions du Restaurant", 
+    "address": {
+      "addressCountry": "FR", 
+      "addressLocality": "59 Promenade des anglais" 
+    },
+    "category": ["43X"],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.768460000000001, 
+        42.60214472222222
+      ]
+    },
+    "source": null,
+    "refSeeAlso": ["Restaurant-NCA-4506"],
+}

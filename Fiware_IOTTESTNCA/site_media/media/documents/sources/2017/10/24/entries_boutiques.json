@@ -1,0 +1,47 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "1328",
+            "name_fr": "A L'OLIVIER",
+            "name_fr_short": "OLIVIER, A (L')",
+            "address": {
+                "address_line1": "7 rue Saint-Fran\u00e7ois de Paule",
+                "address_line2": null,
+                "address_line3": null,
+                "zip": "06300",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 93 13 44 97",
+            "fax": null,
+            "email": "nice@alolivier.com",
+            "website": null,
+            "contacts": null,
+            "locations": {
+                "location": "Vieux Nice"
+            },
+            "categories": {
+                "category": [
+                    "Produits locaux et souvenirs",
+                    "Toutes les boutiques"
+                ]
+            },
+            "sectors": null,
+            "descriptions": null,
+            "living": null,
+            "tariffs": null,
+            "capacity": null,
+            "closures": null,
+            "spaces": null,
+            "opening": null,
+            "closing": null,
+            "latitude": "43.6958",
+            "longitude": "7.27258",
+            "location_map": null,
+            "created": "2012-05-03 11:28:24",
+            "updated": "2017-03-21 16:52:54"
+        }
+    }
+}

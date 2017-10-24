@@ -1,0 +1,66 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "30707",
+            "name_fr": "ACLOC LOCATION DE VOITURE ET UTILITAIRE",
+            "name_fr_short": "ACLOC",
+            "address": {
+                "address_line1": "25 av Thiers",
+                "address_line2": null,
+                "address_line3": null,
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 93 80 08 00",
+            "fax": "+33(0)4 93 80 06 27",
+            "email": "acloc@hotmail.fr",
+            "website": "http://www.acloc.fr",
+            "contacts": null,
+            "languages": {
+                "language": [
+                    "Anglais",
+                    "Russe",
+                    "Fran\u00e7ais",
+                    "Polonais"
+                ]
+            },
+            "locations": {
+                "location": [
+                    "Gare SNCF",
+                    "Acropolis",
+                    "Port",
+                    "Fabron",
+                    "Jean M\u00e9decin",
+                    "Gambetta",
+                    "Nice Est",
+                    "Centre Ville"
+                ]
+            },
+            "categories": {
+                "category": "Locations de voiture"
+            },
+            "sectors": null,
+            "descriptions": null,
+            "living": null,
+            "tariffs": null,
+            "capacity": null,
+            "closures": {
+                "closure": {
+                    "closure_day": "Dimanche",
+                    "closure_span": "toute la journ\u00e9e"
+                }
+            },
+            "spaces": null,
+            "opening": "8:00-12:00 - 14:00-18:00 (lundi au vendredi) - 9:00-12:00 - 14:00-18:00 (samedi)",
+            "closing": null,
+            "latitude": "43.7029",
+            "longitude": "7.25957",
+            "location_map": null,
+            "created": "2013-03-01 10:50:48",
+            "updated": "2017-04-24 10:32:33"
+        }
+    }
+}

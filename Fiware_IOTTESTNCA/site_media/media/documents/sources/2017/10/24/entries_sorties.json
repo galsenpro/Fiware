@@ -1,0 +1,71 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "25699",
+            "name_fr": "AMOUR-VINUM",
+            "name_fr_short": "AMOUR-VINUM",
+            "address": {
+                "address_line1": "24 rue Alphonse Karr",
+                "address_line2": null,
+                "address_line3": null,
+                "zip": "06000",
+                "city": "NICE"
+            },
+            "phone": "+33(0)4 92 10 20 20",
+            "fax": null,
+            "email": "amourvinumkarr@orange.fr",
+            "website": "http://www.amourvinum.com",
+            "contacts": null,
+            "payments": {
+                "payment": [
+                    "American express",
+                    "Esp\u00e8ces",
+                    "Carte Bleue - Visa"
+                ]
+            },
+            "languages": {
+                "language": [
+                    "Anglais",
+                    "Italien",
+                    "Fran\u00e7ais"
+                ]
+            },
+            "locations": {
+                "location": "Centre Ville"
+            },
+            "categories": {
+                "category": "Bars \u00e0 vin- Bars \u00e0 champagne"
+            },
+            "services": {
+                "service": [
+                    "Vente \u00e0 emporter",
+                    "Livraison \u00e0 domicile",
+                    "Bar \u00e0 vins"
+                ]
+            },
+            "publications": null,
+            "sectors": null,
+            "descriptions": null,
+            "living": null,
+            "tariffs": null,
+            "capacity": null,
+            "closures": {
+                "closure": {
+                    "closure_day": "Dimanche",
+                    "closure_span": "toute la journ\u00e9e"
+                }
+            },
+            "spaces": null,
+            "opening": "10:00-19:00",
+            "closing": null,
+            "latitude": "43.7006",
+            "longitude": "7.2643",
+            "location_map": "H4",
+            "created": "2012-06-04 15:16:48",
+            "updated": "2017-04-24 10:04:08"
+        }
+    }
+}

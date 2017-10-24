@@ -61,4 +61,19 @@ class Datamodel(models.Model):
         verbose_name_plural = 'Datamodels '
     file = models.FileField(upload_to="documents/%Y/%m/%d", validators=[validate_file_extension_docs])
 
+class SourceNCA(models.Model):
+    name = models.CharField(max_length=250, default='Source-NCA-[Identifiant]', unique = True, verbose_name="Name", help_text="Source en xml | json | txt | csv")
+    date = models.DateTimeField(auto_now=False,
+                               verbose_name="Date de création", default= timezone.now)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'Source NCA '
+        verbose_name_plural = 'Sources NCA '
+    json = models.FileField(upload_to="documents/sources/%Y/%m/%d", validators=[validate_file_extension_json])
+    otherFormat = models.FileField(upload_to="documents/sources/%Y/%m/%d", validators=[validate_file_extension_docs])
+
 xadmin.site.register(Datamodel)
+xadmin.site.register(SourceNCA)

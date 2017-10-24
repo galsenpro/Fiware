@@ -1,0 +1,58 @@
+{
+  "id": "Device-NCA-6452",
+  "type": "Device",
+  "name" : "Name Of Device",
+  "category": ["sensor"], /* sensor = environnement
+                          | actuator = déplacement ou controle d'un système
+                          | meter = détection ou affichage d'une quantité
+                          | HVAC = appareil de chauffage, ventillation, climatisation (CVC)
+                          | network
+                          | multimedia */
+  "description" : "Description of this Device",
+  "controlledProperty": ["fillingLevel","temperature"],/* temperature, humidity, light, motion, fillingLevel,
+                                                          occupancy, power, pressure, smoke, energy, airPollution,
+                                                          noiseLevel, weatherConditions, precipitation, windSpeed,
+                                                          windDirection,  barometricPressure, solarRadiation,
+                                                          depth, pH, pressure, conductivity, conductance, tss,
+                                                          tds, turbidity, salinity, orp, cdom, waterPollution,
+                                                          location, speed, heading, weight,  waterConsumption,
+                                                          gasComsumption, electricityConsumption
+                                                          */
+  "controlledAsset": ["wastecontainer-Osuna-100"],
+  "ipAddress": "192.14.56.78",
+  "mcc": "214",
+  "mnc": "07",
+  "macAddress" : "",
+  "supportProtocol": ["mqtt"], /*["ul20", "mqtt", "lwm2m", "http",
+                                "websocket", "onem2m", "sigfox",
+                                "lora", "nb-iot", "ec-gsm-iot",
+                                "lte-m", "cat-m", "3g", "grps" */
+  "configuration" : "structured type with dateModified attribute",
+  "location" : {
+      "type": "Feature",
+      "geometry": {
+          "type": "Point",
+          "coordinates": [102.0, 0.5]
+      },
+      "properties": {
+          "prop0": "value0"
+      }
+  },
+  "dateInstalled" : "2017-09-15",
+  "dateFirstUsed" : "2017-10-21",
+  "dateManufactured" : "2017-06-13",
+  "hardwareVersion" : "v1.1",
+  "softwareVersion" : "v2.1",
+  "firmwareVersion" : "v1.0",
+  "osVersion" : "v9.1",
+  "dateLastCalibration" : "2017-10-21",
+  "serialNumer": "9845A",
+  "provider": "Name of provider",
+  "refDeviceModel": "myDevice-wastecontainer-sensor-345", /*Référence du modèle de Device*/
+  "batteryLevel": 0.75, /* 1.0 = BATTERIE PLEINE , 0.0 = BATTERIE VIDE */
+  "deviceState": "ok",
+  "dateLastValueReported" : "2017-10-22", /* 1506329846 */
+  "value": "l=0.22;t=21.2", /*Valeurs des données reontées */
+  "dateModified" : "2017-10-22", /* Date de mise à jour de l'entité*/
+  "dateCreated": "2017-10-21"
+}

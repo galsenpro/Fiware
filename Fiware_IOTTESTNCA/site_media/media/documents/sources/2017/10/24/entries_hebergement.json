@@ -1,0 +1,119 @@
+{
+    "entries": {
+        "@xmlns": "http://ref.otcnice.com/webservice/",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:SchemaLocation": "http://ref.otcnice.com/webservice/entries.xsd",
+        "entry": {
+            "ID": "74564",
+            "name_fr": "\"DOUBLE TERRASSES L'ARCOLE\"",
+            "name_fr_short": "MAJONE",
+            "address": {
+                "address_line1": "5 rue Mant\u00e9ga",
+                "address_line2": "R\u00e9sidence l'Arede",
+                "address_line3": null,
+                "zip": "06100",
+                "city": "NICE"
+            },
+            "phone": "+33(0)6 63 52 19 70",
+            "fax": null,
+            "email": "gregoops@hotmail.com",
+            "website": null,
+            "contacts": null,
+            "payments": {
+                "payment": [
+                    "Esp\u00e8ces",
+                    "Virements"
+                ]
+            },
+            "languages": {
+                "language": [
+                    "Anglais",
+                    "Fran\u00e7ais"
+                ]
+            },
+            "amenities": {
+                "amenity": [
+                    "Ascenseur",
+                    "Wifi gratuit",
+                    "Double vitrage",
+                    "T\u00e9l\u00e9vision",
+                    "Terrasse privative",
+                    "Lave linge",
+                    "Lave vaisselle",
+                    "Draps fournis",
+                    "Fer \u00e0 repasser",
+                    "S\u00e8che cheveux",
+                    "Serviettes de bain fournies",
+                    "Chaise haute",
+                    "Micro-ondes/chauffe biberon",
+                    "Lit b\u00e9b\u00e9"
+                ]
+            },
+            "locations": {
+                "location": [
+                    "Nice Nord",
+                    "Gambetta"
+                ]
+            },
+            "categories": {
+                "category": "Meubl\u00e9s"
+            },
+            "standings_levels": {
+                "standings_level": "2 \u00e9toiles"
+            },
+            "furnished_rentals": {
+                "furnished_rental": "Appartement dans immeuble"
+            },
+            "rental_monthes": {
+                "rental_monthe": [
+                    "Avril",
+                    "Mai",
+                    "Juin",
+                    "Juillet",
+                    "Ao\u00fbt",
+                    "Septembre",
+                    "Octobre"
+                ]
+            },
+            "sectors": null,
+            "alliance_options": {
+                "alliance_option": "widget direct Felix"
+            },
+            "sleepings": {
+                "sleeping": "4 couchages"
+            },
+            "descriptions": null,
+            "living": {
+                "room_count": "0",
+                "room_bath_count": "0",
+                "room_shower_count": "0",
+                "suite_count": "0",
+                "studio_count": "0",
+                "apartment_count": "0",
+                "room_accessible_count": "0",
+                "single_count": "0",
+                "double_count": "0",
+                "triple_count": "0",
+                "twins_count": "0",
+                "family_count": "0",
+                "area": "41",
+                "type": null,
+                "floor": "0",
+                "bedroom_count": "1",
+                "sleeps_count": "4",
+                "furnished_room_count": "2"
+            },
+            "tariffs": null,
+            "capacity": null,
+            "closures": null,
+            "spaces": null,
+            "opening": null,
+            "closing": null,
+            "latitude": "43.7106",
+            "longitude": "7.2552",
+            "location_map": "G3",
+            "created": "2015-07-21 15:30:03",
+            "updated": "2017-08-30 17:31:02"
+        }
+    }
+}

@@ -22,11 +22,18 @@ def validate_file_xsd(value):
             raise ValidationError(u'Unsupported file extension.')
     except Exception as x:
         print(x)
+
 def validate_file_extension_docs(value):
     ext = os.path.splitext(value.name)[1]  # [0] returns path+filename
-    valid_extensions = ['.xml', '.csv','.json']
+    valid_extensions = ['.xml', '.csv','.json', '.py', '.txt']
     if not ext.lower() in valid_extensions:
         raise ValidationError(u'Unsupported file extension.')
+
+def validate_file_extension_json(value):
+    ext = os.path.splitext(value.name)[1]  # [0] returns path+filename
+    valid_extensions = ['.json']
+    if not ext.lower() in valid_extensions:
+        raise ValidationError(u'This file is not a json format')
 
 def generateConfig():
     try:
