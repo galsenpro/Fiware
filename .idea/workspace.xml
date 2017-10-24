@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f3cc2e-9eb8-49e6-92b7-c03ed2a9e63c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,8 +106,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="36">
+              <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -228,6 +227,19 @@
               <item name="Fiware" type="462c0819:PsiDirectoryNode" />
               <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
               <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
+              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
+              <item name="site_media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
+              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
+              <item name="site_media" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
@@ -749,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="36">
+          <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
           <folding />
         </state>
       </provider>
