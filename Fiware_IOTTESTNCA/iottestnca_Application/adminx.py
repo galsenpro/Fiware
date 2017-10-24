@@ -4,9 +4,9 @@ import xadmin
 from xadmin import views
 from .models import *
 from xadmin.layout import *
-
+from django.utils import timezone
 from xadmin.plugins.inline import Inline
-
+from .extras import *
 
 class ProductItemAdminInline(object):
     model = ProductItem
@@ -43,5 +43,22 @@ class ProductAttributeAdmin(object):
     inlines = [ProductAttributeValueAdminInline]
 
 
-xadmin.site.register(Product, ProductAdmin)
-xadmin.site.register(ProductAttribute, ProductAttributeAdmin)
+#xadmin.site.register(Product, ProductAdmin)
+#xadmin.site.register(ProductAttribute, ProductAttributeAdmin)
+
+
+class Datamodel(models.Model):
+    name = models.CharField(max_length=250, default='Datamodel-NCA-[Identifiant]', unique = True, verbose_name="Name", help_text="Schéma JSON du datamodel")
+    description = models.TextField()
+    date = models.DateTimeField(auto_now=False,
+                               verbose_name="Date de création", default= timezone.now)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'Datamodel '
+        verbose_name_plural = 'Datamodels '
+    file = models.FileField(upload_to="documents/%Y/%m/%d", validators=[validate_file_extension_docs])
+
+xadmin.site.register(Datamodel)
