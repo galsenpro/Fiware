@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f3cc2e-9eb8-49e6-92b7-c03ed2a9e63c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/Fiware_IOTTESTNCA/settings.py" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/Fiware_IOTTESTNCA/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/extras.py" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/extras.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/xadmin/auth/password_reset/form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -38,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
-              <caret line="46" column="62" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+              <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
               <folding>
                 <element signature="e#46#59#0" expanded="true" />
               </folding>
@@ -50,22 +49,66 @@
         <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/Fiware_IOTTESTNCA/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="194" column="31" lean-forward="true" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+              <caret line="194" column="31" lean-forward="false" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
               <folding>
                 <element signature="e#345#354#0" expanded="true" />
+                <marker date="1508850258618" expanded="true" signature="1275:1701" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="1652:1700" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="1718:2115" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="2158:2660" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1508850258618" expanded="true" signature="2674:3473" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="2680:3470" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="2768:2833" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="2882:3463" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="2918:3424" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="3534:3609" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="3610:3758" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1508850258618" expanded="true" signature="3759:4217" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1508850258618" expanded="true" signature="4231:4458" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4248:4456" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4461:4562" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4592:4986" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4598:4695" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4703:4790" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4798:4886" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4894:4983" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="4990:5066" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="5126:5245" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="5263:5377" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="5484:5614" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6075:6192" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6283:6335" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6349:7114" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6423:6526" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6456:6520" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6546:6830" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6571:6716" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6739:6823" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6849:7112" ph="..." />
+                <marker date="1508850258618" expanded="true" signature="6877:6988" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extras.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="extras.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/extras.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="106" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,7 +157,6 @@
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/DeviceModel-NCA-6452.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/Device-NCA-6452.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/Sensibel.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/iot/iotSensorNCA.py" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/static/xadmin/stats.html" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/stats.html" />
@@ -133,6 +175,7 @@
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/adminx.py" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/Fiware_IOTTESTNCA/settings.py" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/extras.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -189,26 +232,13 @@
               <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fiware" type="462c0819:PsiDirectoryNode" />
               <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="iottestnca_Application" type="462c0819:PsiDirectoryNode" />
+              <item name="site_media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fiware" type="462c0819:PsiDirectoryNode" />
               <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="iottestnca_Application" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="site_media" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -403,13 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -646,7 +669,7 @@
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/xadmin/auth/password_reset/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -662,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
-          <caret line="46" column="62" lean-forward="true" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
           <folding>
             <element signature="e#46#59#0" expanded="true" />
           </folding>
@@ -672,9 +695,43 @@
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/Fiware_IOTTESTNCA/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="194" column="31" lean-forward="true" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+          <caret line="194" column="31" lean-forward="false" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
           <folding>
             <element signature="e#345#354#0" expanded="true" />
+            <marker date="1508850258618" expanded="true" signature="1275:1701" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="1652:1700" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="1718:2115" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="2158:2660" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1508850258618" expanded="true" signature="2674:3473" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="2680:3470" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="2768:2833" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="2882:3463" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="2918:3424" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="3534:3609" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="3610:3758" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1508850258618" expanded="true" signature="3759:4217" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1508850258618" expanded="true" signature="4231:4458" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4248:4456" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4461:4562" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4592:4986" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4598:4695" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4703:4790" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4798:4886" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4894:4983" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="4990:5066" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="5126:5245" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="5263:5377" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="5484:5614" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6075:6192" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6283:6335" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6349:7114" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6423:6526" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6456:6520" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6546:6830" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6571:6716" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6739:6823" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6849:7112" ph="..." />
+            <marker date="1508850258618" expanded="true" signature="6877:6988" ph="..." />
           </folding>
         </state>
       </provider>
@@ -682,10 +739,18 @@
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/extras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="89" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="106" />
+          <folding />
         </state>
       </provider>
     </entry>
