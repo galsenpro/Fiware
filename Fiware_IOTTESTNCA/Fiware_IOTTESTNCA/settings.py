@@ -243,8 +243,8 @@ LOGGING = {
         # }
     }
 }
-
-SOURCES_FOLDER = '/iottestnca_Application/datamodels/OTC/' #Chemin à créer au départ
+APP_NAME = 'iottestnca_Application'
+SOURCES_FOLDER = "/"+ APP_NAME+'/datamodels/OTC/' #Chemin à créer au départ
 DEST_FOLDER= 'sourcesOTC'
 ENTITIES = ["TRANSPORT", "RESTAURANT", "PUBLIC", "PARKING", "MUSEE"]
 NCAMAPPING = [{
@@ -256,3 +256,5 @@ NCAMAPPING = [{
         "categories" : ["List of entities categories"],
         "model" : ["List of models entities"]
         }]
+
+SENSORFOLDER = "/"+APP_NAME + "/" + DEST_FOLDER + "/"
