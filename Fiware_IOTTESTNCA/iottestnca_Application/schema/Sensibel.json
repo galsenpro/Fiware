@@ -4,16 +4,16 @@
 "identification":"BRUITO-SENSIB-000001", /* Identification de l'appareil*/
 "data":[
   {"t":1506329786, /* Temps de la mesure en UTC */
-    "lA":62.6, /* leqA, valeur moyenne calculée sur la période d'enregistrement (dans la seconde) */
+    "lA":62.6, /* leqA, valeur minimale calculée sur la période d'enregistrement (dans la seconde) */
     "lC":75.1, /* */
     "Pk":95.3,/*Lcrete, valeur maximale calculée sur la période d'enregistrement */
-    "l63":74.9,/* */
-    "l125":65.1,/* */
-    "l250":61.8,/* */
-    "l500":59.4,/* */
-    "l1000":58.9,/* */
-    "l2000":55.7,/* */
-    "l4000":52.7 /* */
+    "l63":74.9,/* Noise level 63 Hz Band */
+    "l125":65.1,/* Noise level 125 Hz Band */
+    "l250":61.8,/* Noise level 250 Hz Band */
+    "l500":59.4,/* Noise level 500 Hz Band */
+    "l1000":58.9,/* Noise level 11000 Hz Band */
+    "l2000":55.7,/* Noise level 12000 Hz Band */
+    "l4000":52.7 /* Noise level 14000 Hz Band */
   },
   {"t":1506329846,"lA":60.0,"lC":74.5,"Pk":94.1,"l63":74.5,"l125":62.5,"l250":63.9,"l500":57.5,"l1000":53.5,"l2000":50.3,"l4000":47.3},
   {"t":1506329906,"lA":62.2,"lC":74.4,"Pk":94.8,"l63":74.3,"l125":63.2,"l250":61.9,"l500":55.0,"l1000":53.7,"l2000":54.4,"l4000":58.7},

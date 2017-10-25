@@ -54,9 +54,9 @@ class IOTSENSORNCA:
                     listValues.append(str(value))
                 sensorTuple = str(self.ncaGetSourceSensor()), str(self.ncaGetIdentificationSensor()),listAttrs, listValues
                 #print(listAttrs, listValues)
-                print(sensorTuple)
+                #print(sensorTuple)
                 listSensor.append(sensorTuple)
-            print(listSensor)
+            #print(listSensor)
             return listSensor
                 #return listAttrs, listValues
         except Exception as x:
