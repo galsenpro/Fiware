@@ -38,6 +38,7 @@ class IOTSENSORNCA:
         try:
             data = self.config["data"]
             #print(data)
+            #print(type(data))
             return data
         except Exception as x:
             print(x)
@@ -49,6 +50,8 @@ class IOTSENSORNCA:
             for k in data:
                 listAttrs = []
                 listValues = []
+                del k['t']
+                #print(k)
                 for key, value in k.items():
                     listAttrs.append(str(key))
                     listValues.append(str(value))
