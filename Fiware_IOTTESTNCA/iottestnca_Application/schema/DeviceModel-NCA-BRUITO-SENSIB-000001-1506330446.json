@@ -4,16 +4,16 @@
         "sensor"
     ],
     "controlledProperty": [
-        "lA",
-        "lC",
-        "Pk",
-        "l63",
-        "l125",
-        "l250",
-        "l500",
-        "l1000",
-        "l2000",
-        "l4000"
+        "noiseLevel-LA",
+        "noiseLevel-LC",
+        "noiseLevel-PK",
+        "noiseLevel-L63",
+        "noiseLevel-L125",
+        "noiseLevel-L250",
+        "noiseLevel-L500",
+        "noiseLevel-L1000",
+        "noiseLevel-L2000",
+        "noiseLevel-L4000"
     ],
     "dateLastValueReported": "2017-09-25T09:07:26Z",
     "documentation": "Lien vers la documentation",
@@ -30,5 +30,5 @@
         "Liste des unit\u00c3\u00a9s de messures prises en charge"
     ],
     "type": "DeviceModel",
-    "value": "lA=1506330446;lC=58.3;Pk=73.8;l63=93.7;l125=74.1;l250=61.5;l500=55.3;l1000=57.1;l2000=53.7;l4000=50.3;"
+    "value": "LA=1506330446;LC=58.3;PK=73.8;L63=93.7;L125=74.1;L250=61.5;L500=55.3;L1000=57.1;L2000=53.7;L4000=50.3;"
 }

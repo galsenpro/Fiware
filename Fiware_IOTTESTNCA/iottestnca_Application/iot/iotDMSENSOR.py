@@ -24,7 +24,7 @@ class IOTDMSENSOR:
                 values = ""
                 for i in tpl[2]:
                     myIndex = tpl[2].index(i)
-                    values = values + i + "=" +tpl[3][myIndex] +";"
+                    values = values + str(i).split('-')[1] + "=" +tpl[3][myIndex] +";"
                 dm["value"] = values
                 print(dateT)
                 self.dmSource.update(dm)

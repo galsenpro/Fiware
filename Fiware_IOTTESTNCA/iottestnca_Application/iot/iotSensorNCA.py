@@ -53,7 +53,7 @@ class IOTSENSORNCA:
                 #del k['t']
                 #print(k)
                 for key, value in k.items():
-                    listAttrs.append(str(key))
+                    listAttrs.append("noiseLevel-"+str(key).upper())
                     listValues.append(str(value))
                 del listAttrs[0]
                 #del listValues[0]
