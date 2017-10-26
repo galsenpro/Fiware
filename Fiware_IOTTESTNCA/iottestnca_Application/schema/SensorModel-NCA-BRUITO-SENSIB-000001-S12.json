@@ -1,0 +1,34 @@
+{
+    "brandName": "PREVENTEC Sensibel triple-S12",
+    "category": [
+        "sensor"
+    ],
+    "controlledProperty": [
+        "t",
+        "lA",
+        "lC",
+        "Pk",
+        "l63",
+        "l125",
+        "l250",
+        "l500",
+        "l1000",
+        "l2000",
+        "l4000"
+    ],
+    "documentation": "Lien vers la documentation",
+    "energyLimitationClass": "E0",
+    "function": [
+        "sensing"
+    ],
+    "id": "BRUITO-SENSIB-000001-S12",
+    "image": "Lien vers une image rep l'appareil (xxx/name.jpeg) ",
+    "manufacturerName": "myDevice Inc.",
+    "modelName": "S4Container 345",
+    "name": "PREVENTEC Sensibel triple-S12",
+    "supportedUnits": [
+        "Liste des unit\u00c3\u00a9s de messures prises en charge"
+    ],
+    "type": "DeviceModel",
+    "value": "t=1506330446;lA=58.3;lC=73.8;Pk=93.7;l63=74.1;l125=61.5;l250=55.3;l500=57.1;l1000=53.7;l2000=50.3;l4000=45.8;"
+}
