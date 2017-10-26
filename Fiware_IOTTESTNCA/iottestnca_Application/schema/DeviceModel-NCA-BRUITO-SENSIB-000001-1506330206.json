@@ -4,7 +4,6 @@
         "sensor"
     ],
     "controlledProperty": [
-        "t",
         "lA",
         "lC",
         "Pk",
@@ -31,5 +30,5 @@
         "Liste des unit\u00c3\u00a9s de messures prises en charge"
     ],
     "type": "DeviceModel",
-    "value": "t=1506330206;lA=51.7;lC=73.5;Pk=90.1;l63=74.0;l125=60.7;l250=51.1;l500=47.5;l1000=40.3;l2000=37.4;l4000=33.4;"
+    "value": "lA=1506330206;lC=51.7;Pk=73.5;l63=90.1;l125=74.0;l250=60.7;l500=51.1;l1000=47.5;l2000=40.3;l4000=37.4;"
 }

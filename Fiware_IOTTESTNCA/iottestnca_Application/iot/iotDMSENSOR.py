@@ -9,13 +9,12 @@ class IOTDMSENSOR:
         self.dmSource = dict(self.dmSource)
         self.sensorTuple = sensorTuple
 
-    def mapDataSensor(self, nameModel = "SensorModel-NCA-"):
+    def mapDataSensor(self, nameModel = "DeviceModel-NCA-"):
         try:
             print("Mapping Sensor ...")
             for tpl in self.sensorTuple:
                 dm = {}
                 dm["controlledProperty"] = tpl[2]
-                print(type(tpl[2]))
                 dateT = tpl[3][0]
                 import datetime
                 dm["dateLastValueReported"] = datetime.datetime.utcfromtimestamp(int(dateT)).strftime('%Y-%m-%dT%H:%M:%SZ')
@@ -25,9 +24,9 @@ class IOTDMSENSOR:
                 values = ""
                 for i in tpl[2]:
                     myIndex = tpl[2].index(i)
-                    print(str(tpl[3][myIndex]))
-                    values = values + i + "=" +str(tpl[3][myIndex]) +";"
-                #print(dateT)
+                    values = values + i + "=" +tpl[3][myIndex] +";"
+                dm["value"] = values
+                print(dateT)
                 self.dmSource.update(dm)
                 jsonF = json.dumps(self.dmSource, sort_keys=True, indent=4)
                 print(jsonF)
@@ -36,9 +35,8 @@ class IOTDMSENSOR:
                 fichier.close()
         except Exception as x:
             print(x)
-"""
+
 tplSensor = IOTSENSORNCA()
 t = tplSensor.ncaSensorProvider()
 mp = IOTDMSENSOR(t)
 mp.mapDataSensor()
-"""

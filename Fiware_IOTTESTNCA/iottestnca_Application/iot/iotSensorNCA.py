@@ -50,11 +50,13 @@ class IOTSENSORNCA:
             for k in data:
                 listAttrs = []
                 listValues = []
-                del k['t']
+                #del k['t']
                 #print(k)
                 for key, value in k.items():
                     listAttrs.append(str(key))
                     listValues.append(str(value))
+                del listAttrs[0]
+                #del listValues[0]
                 sensorTuple = str(self.ncaGetSourceSensor()), str(self.ncaGetIdentificationSensor()),listAttrs, listValues
                 #print(listAttrs, listValues)
                 #print(sensorTuple)

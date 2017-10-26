@@ -1,10 +1,9 @@
 {
-    "brandName": "PREVENTEC Sensibel triple-1506329846",
+    "brandName": "PREVENTEC Sensibel triple-1506330026",
     "category": [
         "sensor"
     ],
     "controlledProperty": [
-        "t",
         "lA",
         "lC",
         "Pk",
@@ -16,20 +15,20 @@
         "l2000",
         "l4000"
     ],
-    "dateLastValueReported": "2017-09-25T08:57:26Z",
+    "dateLastValueReported": "2017-09-25T09:00:26Z",
     "documentation": "Lien vers la documentation",
     "energyLimitationClass": "E0",
     "function": [
         "sensing"
     ],
-    "id": "BRUITO-SENSIB-000001-1506329846",
+    "id": "BRUITO-SENSIB-000001-1506330026",
     "image": "Lien vers une image rep l'appareil (xxx/name.jpeg) ",
     "manufacturerName": "myDevice Inc.",
     "modelName": "S4Container 345",
-    "name": "PREVENTEC Sensibel triple-1506329846",
+    "name": "PREVENTEC Sensibel triple-1506330026",
     "supportedUnits": [
         "Liste des unit\u00c3\u00a9s de messures prises en charge"
     ],
     "type": "DeviceModel",
-    "value": "t=1506329846;lA=60.0;lC=74.5;Pk=94.1;l63=74.5;l125=62.5;l250=63.9;l500=57.5;l1000=53.5;l2000=50.3;l4000=47.3;"
+    "value": "lA=1506330026;lC=53.7;Pk=73.7;l63=91.5;l125=74.2;l250=60.9;l500=55.4;l1000=49.6;l2000=45.6;l4000=46.1;"
 }
