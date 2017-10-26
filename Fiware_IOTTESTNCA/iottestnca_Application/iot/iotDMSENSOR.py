@@ -17,7 +17,7 @@ class IOTDMSENSOR:
                 dm["controlledProperty"] = tpl[2]
                 dateT = tpl[3][0]
                 import datetime
-                dm["dateCreated"] = datetime.datetime.utcfromtimestamp(int(dateT)).strftime('%Y-%m-%d %H:%M:%S')
+                dm["dateLastValueReported"] = datetime.datetime.utcfromtimestamp(int(dateT)).strftime('%Y-%m-%dT%H:%M:%SZ')
                 dm["id"] = tpl[1]+ "-"+ str(dateT)
                 dm["brandName"] = tpl[0]+"-"+ str(dateT)
                 dm["name"] = tpl[0]+"-"+ str(dateT)
@@ -25,7 +25,7 @@ class IOTDMSENSOR:
                 for i in tpl[2]:
                     myIndex = tpl[2].index(i)
                     values = values + i + "=" +tpl[3][myIndex] +";"
-                dm["value"] = values
+                dm["value"] = values.replace("t=1506330626;","")
                 print(dateT)
                 self.dmSource.update(dm)
                 jsonF = json.dumps(self.dmSource, sort_keys=True, indent=4)

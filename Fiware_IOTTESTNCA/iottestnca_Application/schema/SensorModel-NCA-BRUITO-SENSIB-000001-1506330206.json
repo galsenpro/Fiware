@@ -16,7 +16,7 @@
         "l2000",
         "l4000"
     ],
-    "dateCreated": "2017-09-25 09:03:26",
+    "dateLastValueReported": "2017-09-25T09:03:26Z",
     "documentation": "Lien vers la documentation",
     "energyLimitationClass": "E0",
     "function": [
