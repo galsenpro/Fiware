@@ -2,11 +2,12 @@
   <img src="http://16-u0117.intranice.ville-nice.fr:5555/site_media/images/téléchargement.png" width="400"/>
 </p>
 
-Install
+<span><h3>INSTALL </h3></span>
 ^^^^^^^
-
-.. code:: bash
+```
 apt-get install python-pip
+```
+
 <hr/>
 
 <span><h3>Required modules (requirements.txt ) </h3></span>
