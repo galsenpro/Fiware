@@ -9,29 +9,35 @@ class IOTDMSENSOR:
         self.dmSource = dict(self.dmSource)
         self.sensorTuple = sensorTuple
 
-    def mapDataSensor(self, position = 1):
+    def mapDataSensor(self, nameModel = "SensorModel-NCA-"):
         try:
             print("Mapping Sensor ...")
             for tpl in self.sensorTuple:
                 dm = {}
-                dm["brandName"] = tpl[0]+"-S"+ str(position)
-                dm["name"] = tpl[0]+"-S"+ str(position)
-                dm["id"] = tpl[1]+"-S"+ str(position)
                 dm["controlledProperty"] = tpl[2]
-
+                dateT = tpl[3][0]
+                import datetime
+                dm["dateCreated"] = datetime.datetime.utcfromtimestamp(int(dateT)).strftime('%Y-%m-%d %H:%M:%S')
+                dm["id"] = tpl[1]+ "-"+ str(dateT)
+                dm["brandName"] = tpl[0]+"-"+ str(dateT)
+                dm["name"] = tpl[0]+"-"+ str(dateT)
                 values = ""
                 for i in tpl[2]:
                     myIndex = tpl[2].index(i)
                     values = values + i + "=" +tpl[3][myIndex] +";"
                 dm["value"] = values
+                print(dateT)
                 self.dmSource.update(dm)
-                position = position +1
                 jsonF = json.dumps(self.dmSource, sort_keys=True, indent=4)
                 print(jsonF)
+                fichier = open("schema/"+nameModel+str(dm["id"]+".json"), "w") #a
+                fichier.write(jsonF)
+                fichier.close()
         except Exception as x:
             print(x)
-
+"""
 tplSensor = IOTSENSORNCA()
 t = tplSensor.ncaSensorProvider()
 mp = IOTDMSENSOR(t)
 mp.mapDataSensor()
+"""
