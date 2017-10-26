@@ -1,6 +1,17 @@
 <p align="center">
   <img src="http://16-u0117.intranice.ville-nice.fr:5555/site_media/images/téléchargement.png" width="400"/>
-</p>	
+</p>
+```
+apt-get install python-pip
+```
+<span><h3>Required modules (requirements.txt ) </h3></span>
+```
+python install -r requirements.txt
+```
+<hr/>
+```
+python manage.py makemigrations
+```
 ```
 python manage.py migrate
 ```
