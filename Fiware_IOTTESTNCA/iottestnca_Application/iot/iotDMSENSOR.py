@@ -9,7 +9,7 @@ class IOTDMSENSOR:
         self.dmSource = dict(self.dmSource)
         self.sensorTuple = sensorTuple
 
-    def mapDataSensor(self, nameModel = "DeviceModel-NCA-"):
+    def mapDataSensor(self, nameModel = "DeviceModel-Sensibel-NCA-"):
         try:
             print("Mapping Sensor ...")
             for tpl in self.sensorTuple:
