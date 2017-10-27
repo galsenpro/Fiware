@@ -1,0 +1,22 @@
+{
+    "id": "IdOfPointInterest",
+    "type": "PointOfInterest",
+    "name": "POI's name",
+    "description": "POI's description",
+    "address": {
+      "zip" : 06000,
+      "city" : "NICE",
+      "addressCountry": "FR",
+      "addressLocality": "455 Promenade des anglais"
+    },
+    "category": ["113"],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.768460000000001,
+        42.60214472222222
+      ]
+    },
+    "source": "http://[SourceOfThePOI]",
+    "refSeeAlso": ["IdOfTheReferencedDataModel"]
+}

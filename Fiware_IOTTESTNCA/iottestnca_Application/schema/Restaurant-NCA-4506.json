@@ -1,6 +1,6 @@
 {
-    "id": "Restaurant-NCA:664",
-    "type": "Restaurant-NCA",
+    "id": "Restaurant-NCA:4506",
+    "type": "Restaurant",
     "name": "AC LOUNGE BAR & RESTAURANT", 
     "name_fr_short": "AC LOUNGE",
     "description": "Descriptions dU RESTAURANT",
@@ -15,10 +15,10 @@
     "contacts": null,
     "payments":  ["Ch√®ques","Carte Bleue - Visa"],
     "languages": ["Anglais","Allemand","Espagnol","Italien"],
-    "amenities": ["Parking priv√© payant", "Parking public √† proximit√©", "Piscine", "Wifi gratuit", "Animaux accept√©s", "Climatisation","Terrasse privative"],
+    "amenities": ["Parking privÈ payant", "Parking public √† proximitÈ", "Piscine", "Wifi gratuit", "Animaux acceptÈs", "Climatisation","Terrasse privative"],
     "locations": ["Bord de mer","Magnan", "Gambetta" ],
-    "categories": ["Restaurants", "Cuisine M√©diterran√©enne", "Groupes √† partir de 50 personnes"],
-    "services": ["M√©diterran√©enne", "Traditionnelle"],
+    "categories": ["Restaurants", "Cuisine MÈditerranÈenne", "Groupes √† partir de 50 personnes"],
+    "services": ["MÈditerranÈenne", "Traditionnelle"],
     "options": {
            "option": "Privatisable"
          },
