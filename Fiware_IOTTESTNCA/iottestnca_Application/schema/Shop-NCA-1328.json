@@ -6,8 +6,8 @@
     "address": {
       "addressCountry": "ES", 
       "addressLocality": "7 Rue Saint-Fraçois de Paule",
-      "zip" :06300,
-      "city" "NICE"
+      "zip" : "06300",
+      "city": "NICE"
     },
     "location": {
       "type": "Point",

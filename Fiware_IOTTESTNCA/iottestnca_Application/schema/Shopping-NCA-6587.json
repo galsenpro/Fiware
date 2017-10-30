@@ -6,8 +6,8 @@
     "address": {
       "addressCountry": "ES", 
       "addressLocality": "15 av Jean Médecin",
-      "zip" :06300,
-      "city" "NICE"
+      "zip" : "06300",
+      "city": "NICE"
     },
     "phone": null,
     "fax": null,
@@ -25,5 +25,5 @@
     "closures": null,
     "spaces": null,
     "opening": "10:00-19:30 - 11:00-19:00 (dimanche)",
-    "closing": null,
+    "closing": null
 }

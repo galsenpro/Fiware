@@ -4,7 +4,7 @@
     "name": "POI's name",
     "description": "POI's description",
     "address": {
-      "zip" : 06000,
+      "zip" :"06000",
       "city" : "NICE",
       "addressCountry": "FR",
       "addressLocality": "455 Promenade des anglais"
@@ -20,3 +20,5 @@
     "source": "http://[SourceOfThePOI]",
     "refSeeAlso": ["IdOfTheReferencedDataModel"]
 }
+
+
