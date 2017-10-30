@@ -1,20 +1,33 @@
 {
-    "id": "PointOfInterest-Accommodation:2017",
-    "type": "PointOfInterest",
-    "name": "Name of the Accommadation",
+    "id": "PointOfInterest-Accommodation-74564",
+    "type": "Accommodation",
+    "name": "DOUBLE TERRASSES L'ARCOLE",
     "description": "Descriptions de la boutique", 
     "address": {
+      "zip" :"06100",
+      "city" : "NICE",
       "addressCountry": "ES", 
-      "addressLocality": "7 Rue Saint-FraÃ§ois de Paule" 
+      "addressLocality": "5 rue Mantéga, Résidence l'Arede" 
     },
-    "category": ["43X"],
-    "location": {
+    "website" : "http://www.hm.com/fr",
+    "fax" : "0 805 08 88 65",
+    "phone" : "+33(0)6 63 52 19 70",
+    "email": "gregoops@hotmail.com",
+    "payments" : ["Espèces","Virements"],
+    "languages": ["Anglais", "Français"],
+   "location": {
       "type": "Point",
       "coordinates": [
         -8.768460000000001, 
         42.60214472222222
       ]
     },
-    "source": null,
-    "refSeeAlso": ["Accomadation-NCA-2017"],
+    "proximity" : ["Nice Nord", "Gambetta"],
+   "amenities" : ["Ascenseur","Wifi gratuit", "Double vitrage", "Télévision", "Terrasse privative", "Lave linge","Sèche cheveux"],
+   "typeAccommodation": ["Meublés"],
+   "standingsLevel" : "2 étoiles",
+   "furnishedRental":"Appartement dans immeuble",
+   "rentalMonthes": ["Avril", "Mai", ""],
+   	"source": null,
+    "refSeeAlso": ["Accomadation-NCA-2017"]
 }
