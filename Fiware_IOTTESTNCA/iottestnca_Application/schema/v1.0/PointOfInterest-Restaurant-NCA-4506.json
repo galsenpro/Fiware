@@ -1,21 +1,18 @@
 {
     "id": "Restaurant-NCA:4506",
     "type": "Restaurant",
-    "name": "AC LOUNGE BAR & RESTAURANT", 
-    "name_fr_short": "AC LOUNGE",
+    "name": "AC LOUNGE BAR & RESTAURANT | AC LOUNGE", 
     "description": "Descriptions dU RESTAURANT",
     "address": {
-      "zip" : "06000",
-      "city": "NICE",
-      "addressCountry": "FR", 
-      "addressLocality": "59 Promenade des anglais" 
+      "addressCountry": "FR",
+      "streetAddress": "59 Promenade des anglais"
     },
     "phone": "+33(0)4 93 97 74 27",
     "fax": "+33(0)4 93 44 50 40",
     "email": "ac.nceac.restaurant@marriott.com",
     "website": "http://www.marriott.com/nceac",
     "contacts": null,
-    "payments":  ["ChÃ¨ques","Carte Bleue - Visa"],
+    "payments":  ["Chèques","Carte Bleue - Visa"],
     "languages": ["Anglais","Allemand","Espagnol","Italien"],
     "amenities": ["Parking privé payant", "Parking public Ã  proximité", "Piscine", "Wifi gratuit", "Animaux acceptés", "Climatisation","Terrasse privative"],
     "locations": ["Bord de mer","Magnan", "Gambetta" ],
@@ -26,23 +23,23 @@
            "option": "Privatisable"
          },
     "publications" : null,
-    "common_tags": null,
-    "group_options": null,
-    "family_options": ["matériel adapté aux enfants"],
-    "disabled_options" : ["Accessible personnes handicapées"],
+    "commonTags": null,
+    "groupOptions": null,
+    "familyOptions": ["matériel adapté aux enfants"],
+    "disabledOptions" : ["Accessible personnes handicapées"],
     "sectors": null,
     "living": null,
     "tariffs": null,
     "capacity": {
             "indoor": "50",
             "outdoor": "80",
-            "room_count": "3",
+            "roomCount": "3",
             "seated": "0",
             "cocktail": "0"
           },
     "closures": {
-    	"closure_day": "Dimanche",
-    	"closure_span": "toute la journée"
+    	"closureDay": "Dimanche",
+    	"closureSpan": "toute la journée"
     	},
     "spaces": null,
     "opening": "12:00-14:00 - 19:30 -22:00",

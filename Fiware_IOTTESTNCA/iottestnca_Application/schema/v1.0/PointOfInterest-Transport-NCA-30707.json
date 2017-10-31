@@ -4,10 +4,8 @@
     "name": "ACLOC LOCATION DE VOITURE ET UTILITAIRE | ACLOC",
     "description": "MAJONE ....", 
     "address": {
-      "zip" :"06000",
-      "city" : "NICE",
-      "addressCountry": "FR", 
-      "addressLocality": "25 av Thiers" 
+      "addressCountry": "FR",
+      "streetAddress": "455 Promenade des anglais"
     },
     "website" : "http://www.acloc.fr",
     "fax" : "+33(0)4 93 80 06 27",
@@ -25,36 +23,36 @@
    "categories": ["Locations de voiture"],
    "sectors" : null, 
    "living" : {
-		   	"room_count" : 0,
-		   	"room_bath_count" : 0,
-		   	"room_shower_count" :0,
-		   	"suite_count" : 0,
-		   	"studio_count" : 0,
-		   	"apartment_count" : 0,
-		   	"room_accessible_count" :0,
-		   	"single_count": 0,
-		   	"double_count" :0,
-		   	"triple_count" :0,
-		   	"twins_count" : 0,
-		   	"family_count" : 0,
+		   	"roomCount" : 0,
+		   	"roomBathCount" : 0,
+		   	"roomShowerCount" :0,
+		   	"suiteCount" : 0,
+		   	"studioCount" : 0,
+		   	"apartmentCount" : 0,
+		   	"roomAccessibleCount" :0,
+		   	"singleCount": 0,
+		   	"doubleCount" :0,
+		   	"tripleCount" :0,
+		   	"twinsCount" : 0,
+		   	"familyCount" : 0,
 		   	"area" : 0,
 		   	"typeLiving" : null,
 		   	"floor" : 0,
-		   	"bedroom_count" :1,
-		   	"sleeps_count" :4,
-		   	"furnished_room_count" :2
+		   	"bedroomCount" :1,
+		   	"sleepsCount" :4,
+		   	"furnishedRoomCount" :2
       	},
     "tariffs" : null,
     "capacity" : {
     	"indoor": 0,
     	"outdoor": 0,
-    	"room_count": 0,
+    	"roomCount": 0,
     	"seated": 0,
     	"cocktail" : 0
     	},
     "closures" : {
-    	"closure_day" : "Dimanche",
-    	"closure_span" : "Toute la journée"
+    	"closureDay" : "Dimanche",
+    	"closureSpan" : "Toute la journée"
     	},
     "spaces" : null,
     "opening" : "8:00-23:00 (lundi au samedi) - 10:00-23:00 (dimanche)",

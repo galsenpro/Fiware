@@ -1,0 +1,15 @@
+{
+  "id": "SPOT-NCA-4326",
+  "type": "SmartPointOfInteraction",
+  "category": ["information", "entertainment", "infotainment", "co-creation"],
+  "areaCovered": {                           
+    "type": "Polygon",
+    "coordinates": [[
+      [43.7018, 7.28081],
+      [43.7018, 7.26389], 
+    ]]
+  },
+  "applicationUrl": "http://www.B4hotels.com;http://www.theatredelacite.fr",
+  "availability": null,
+  "refseeAlso": [ "EVENT-PRO-NCA-8090", "EVENT-PUBLIC-NCA-8189"]
+}

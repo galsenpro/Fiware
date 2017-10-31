@@ -1,0 +1,33 @@
+{
+  "id": "EVENT-PRO-NCA-8090",
+  "type": "Event",
+  "name":"15EME CONGRES DE CHIRURGIE DIGESTIVE DU CHU DE NICE 2017",
+  "start" : "2017-11-17",
+  "end": "2017-11-18",
+  "address": {
+      "addressCountry": "FR",
+      "streetAddress": "12 av de Verdun"
+    },
+   "applicationUrl" : "http://www.B4hotels.com;http://www.tradotel-riviera.com/ccdcn2017/",
+   "phone" : "+33(0)4 93 16 75 75",
+   "email": "reservation@plaza.boscolo.com",
+   "profiles" : ["Convention Bureau"],
+   "description" : ["18EME CONGRÈS DE LA SOCIÉTÉ FRANÇAISE DE LUTTE CONTRE LE SIDA",
+   					"18TH SFLS CONGRESS",
+   					"ACROPOLIS, PALAIS DES CONGRÈS ET DES EXPOSITIONS",
+   					"NICE ACROPOLIS CONVENTION CENTRE"],
+   "images" : ["http://www.nicetourisme.com/public/resources/ref/events/5872/gallery/18eme-congres-de-la-societe-francaise-de-lutte-contre-le-sida_192709.jpg"],
+   "location": {
+      "type": "Point",
+      "coordinates": [
+        7.28081,
+       43.7039
+      ]
+     },
+  "categories" : ["Congrès"],
+  "note": 0,
+  "refEntries" : ["68"],
+  "dateCreated": "2017-09-15 13:47:03",
+  "dateUpdated": "2017-09-15 13:53:59",  
+  "refRelatedEntity": "POI-ENTITY-ID"
+}

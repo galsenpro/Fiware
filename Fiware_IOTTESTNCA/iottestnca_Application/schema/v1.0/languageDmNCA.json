@@ -1,0 +1,20 @@
+{
+	"languages" : {
+		"fr": "Français",
+		"en": "English",
+		"es": "Spanish" 
+	},
+	"payments" : {
+		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
+		"en": [],
+		"es": []
+		},
+	"amenities":{
+	},
+	"accommodationLabels":{
+	},
+	"accommodationType":{
+	},
+	"standingsLevel":{
+	}
+}

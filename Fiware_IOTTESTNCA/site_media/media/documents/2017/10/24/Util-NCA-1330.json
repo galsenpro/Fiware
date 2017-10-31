@@ -6,8 +6,8 @@
     "address": {
       "addressCountry": "FR", 
       "addressLocality": "2 rue Alexis Mossa",
-      "zip" :06000,
-      "city" "NICE"
+      "zip" :"06000",
+      "city": "NICE"
     },
     "phone": "+33(0)4 93 13 44 97",
     "fax": "+33(0)4 93 44 37 16",

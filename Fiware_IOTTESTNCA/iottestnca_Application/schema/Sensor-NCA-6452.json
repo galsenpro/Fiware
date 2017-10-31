@@ -2,22 +2,9 @@
   "id": "Sensor-NCA-6452",
   "type": "Sensor",
   "name" : "Name Of Sensor",
-  "category": ["sensor"], /* sensor = environnement
-                          | actuator = déplacement ou controle d'un système
-                          | meter = détection ou affichage d'une quantité
-                          | HVAC = appareil de chauffage, ventillation, climatisation (CVC)
-                          | network
-                          | multimedia */
+  "category": ["sensor"], 
   "description" : "Description of Sensor",
-  "controlledProperty": ["noiseLevel","noiseLevel"],/* temperature, humidity, light, motion, fillingLevel,
-                                                          occupancy, power, pressure, smoke, energy, airPollution,
-                                                          noiseLevel, weatherConditions, precipitation, windSpeed,
-                                                          windDirection,  barometricPressure, solarRadiation,
-                                                          depth, pH, pressure, conductivity, conductance, tss,
-                                                          tds, turbidity, salinity, orp, cdom, waterPollution,
-                                                          location, speed, heading, weight,  waterConsumption,
-                                                          gasComsumption, electricityConsumption
-                                                          */
+  "controlledProperty": ["noiseLevel","noiseLevel"],
   "controlledAsset": ["wastecontainer-Osuna-100"],
   "ipAddress": "192.14.56.78",
   "location" : {
@@ -31,8 +18,8 @@
       }
   },
   "dateLastCalibration" : "2017-10-21",
-  "refDeviceModel": "mySensor-ID", /*Référence du modèle de Device*/
+  "refDeviceModel": "mySensor-ID",
   "deviceState": "ok",
-  "dateLastValueReported" : "2017-10-22", /* 1506329846 */
-  "value": "l=0.22;t=21.2", /*Valeurs des données reontées */
+  "dateLastValueReported" : "2017-10-22", 
+  "value": "l=0.22;t=21.2"
 }

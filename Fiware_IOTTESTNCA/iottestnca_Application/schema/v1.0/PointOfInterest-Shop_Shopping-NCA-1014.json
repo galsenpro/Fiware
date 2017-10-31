@@ -1,13 +1,11 @@
 {
     "id": "PointOfInterest-Shop-1014",
-    "type": "Shopping Centers and Malls",
+    "type": "Shopping",
     "name": "ALBERT ARTS",
     "description": "MAJONE ....", 
     "address": {
-      "zip" :"06100",
-      "city" : "NICE",
-      "addressCountry": "FR", 
-      "addressLocality": "5 Promenade des Anglais" 
+      "addressCountry": "FR",
+      "streetAddress": "5 Promenade des anglais"
     },
     "website" : "http://albert-arts.eu",
     "fax" : "0 805 08 88 65",
@@ -29,8 +27,8 @@
     "tariffs" : null,
     "capacity" :null,
     "closures" : {
-    	"closure_day": "Dimanche",
-    	"closure_span": "toute la journée"
+    	"closureDay": "Dimanche",
+    	"closureSpan": "toute la journée"
     	},
     "spaces" : null,
     "opening" : "11:00-19:30",

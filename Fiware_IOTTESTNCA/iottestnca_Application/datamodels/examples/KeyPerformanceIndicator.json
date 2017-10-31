@@ -14,7 +14,7 @@
   "currentStanding": "good",
   "calculationPeriod": {
     "from": "2016-06-01",
-    "to":   "2016-06-30",
+    "to":   "2016-06-30"
   },
   "calculationMethod": "automatic",
   "calculationFrequency": "monthly",

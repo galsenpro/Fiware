@@ -1,0 +1,33 @@
+{
+  "id": "EVENT-PUBLIC-NCA-8189",
+  "type": "Event",
+  "name":"(INS)TABLE",
+  "start" : "2018-05-13",
+  "end": "2018-05-13",
+  "address": {
+      "addressCountry": "FR",
+      "streetAddress": "3 rue Paganini"
+    },
+   "applicationUrl" : "http://www.theatredelacite.fr",
+   "phone" : "+33(0)4 93 16 82 69",
+   "email": "infos@theatredelacite.fr",
+   "profiles" : ["Spectacle"],
+   "description" : ["THÉÂTRE DE LA CITÉ",
+   					"18:00",
+   					"Dans ce spectacle, des êtres se réunissent, s’aiment, se déchirent, prennent des décisions, regrettent, réfléchissent, s’effondrent, font des choix, rient aux éclats, se rassemblent..."
+   					],
+   "images" : ["http://www.nicetourisme.com/public/resources/ref/events/8189/gallery/ins-table_197427.jpg"],
+   "location": {
+      "type": "Point",
+      "coordinates": [
+        7.26389,
+       43.7018
+      ]
+     },
+  "categories" : ["Spectacle"],
+  "note": 0,
+  "refEntries" : ["28810"],
+  "dateCreated": "2017-09-25 10:16:08",
+  "dateUpdated": "2017-09-29 11:26:21", 
+  "refRelatedEntity": "POI-ENTITY-ID"
+}

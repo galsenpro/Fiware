@@ -3,6 +3,13 @@
     "type": "Device",
     "name" : "PREVENTEC Sensibel triple - BRUITO-SENSIB",
     "description" : "PREVENTEC Sensibel triple ... ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.26344, 
+        43.7124
+      ]
+     },
     "category": [
         "sensor"
     ],
@@ -24,7 +31,7 @@
   "mnc": "07",
   "batteryLevel": 0.75,
   "serialNumer": "9845A",
-  "refDeviceModel": "myDevice-container-sensor-XXX",
+  "refSeeAlso": ["DeviceModel-Sensibel-XXX"],
   "deviceState": "ok",
   "dateFirstUsed": "2014-09-11",
   "dateLastValueReported": "2017-09-25T09:06:26Z",
