@@ -1,13 +1,13 @@
 {
 	"languages" : {
-		"fr": "Français",
+		"fr": "FranÃ§ais",
 		"en": "English",
-		"es": "Spanish" 
+		"es": "Spanish"
 	},
 	"payments" : {
-		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
-		"en": [],
-		"es": []
+		"fr": ["ExpÃ¨ces", "Virement", "Carte Bleue - Visa"],
+		"en": ["Cash", "Transfer", "Credit card - Visa"],
+		"es": ["Efectivo","Transferencia","Tarjeta de crÃ©dito - Visa"]
 		},
 	"amenities":{
 	},

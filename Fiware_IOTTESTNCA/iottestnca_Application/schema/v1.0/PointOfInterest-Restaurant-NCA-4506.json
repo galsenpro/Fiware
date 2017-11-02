@@ -12,8 +12,16 @@
     "email": "ac.nceac.restaurant@marriott.com",
     "website": "http://www.marriott.com/nceac",
     "contacts": null,
-    "payments":  ["Chèques","Carte Bleue - Visa"],
-    "languages": ["Anglais","Allemand","Espagnol","Italien"],
+    "payments" :{
+		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
+		"en": ["Cash", "Transfer", "Credit card - Visa"],
+		"es": ["Efectivo","Transferencia","Tarjeta de crédito - Visa"]
+		},
+    "languages": {
+		"fr": "Français",
+		"en": "English",
+		"es": "Spanish"
+	},
     "amenities": ["Parking privé payant", "Parking public Ã  proximité", "Piscine", "Wifi gratuit", "Animaux acceptés", "Climatisation","Terrasse privative"],
     "locations": ["Bord de mer","Magnan", "Gambetta" ],
     "categories": ["Restaurants", "Cuisine Méditerranéenne", "Groupes Ã  partir de 50 personnes"],

@@ -11,8 +11,11 @@
     "fax" : "0 805 08 88 65",
     "phone" : "+33(0)4 93 87 28 73",
     "email": "boutique@albert-arts.com",
-    "payments" : ["Espèces","Virements", ""],
-    "languages": ["Anglais", "Français", "Italien"],
+    "payments" :{
+		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
+		"en": ["Cash", "Transfer", "Credit card - Visa"],
+		"es": ["Efectivo","Transferencia","Tarjeta de crédito - Visa"]
+		},
     "location": {
       "type": "Point",
       "coordinates": [
