@@ -39,5 +39,6 @@
   "energyLimitationClass": "E0",
   "image": "Lien vers une image rep l'appareil (xxx/name.jpeg) ",
   "manufacturerName": "myDevice Inc.",
-  "modelName": "SenibelContainer-XXX"
+  "modelName": "SenibelContainer-XXX",
+  "value": "LA=1506330386;LC=55.1;PK=73.6;L63=91.7;L125=74.0;L250=60.8;L500=55.3;L1000=53.4;L2000=48.0;L4000=44.9"
 }

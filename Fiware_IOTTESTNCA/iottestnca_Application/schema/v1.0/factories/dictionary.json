@@ -1,0 +1,294 @@
+{
+	"attributes" : [{
+		"value": "languages",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "French",
+			      "fr": "Français",
+			      "es": "Francés"
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "English",
+			      "fr": "Anglais",
+			      "es": "Inglés"
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "Spanish",
+			      "fr": "Espagnol",
+			      "es": "Español"
+			    }
+	   		}
+ 	},{
+		"value": "paymentMethod",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "Cash",
+			      "fr": "Espèces",
+			      "es": "Efectivo"
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "Transfer",
+			      "fr": "Virement",
+			      "es": "Transferencia"
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "Credit card - Visa",
+			      "fr": "Carte Bleue - Visa",
+			      "es": "Tarjeta de crédito - Visa"
+			    }
+	   		}
+ 	},{
+		"value": "amenities",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Ascenseur",
+			      "es": ""
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Wifi gratuit",
+			      "es":""
+			    }
+	   	 	},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Double vitrage",
+			      "es":""
+			    }
+	   		},
+			"4":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Télévision",
+			      "es":""
+			    }
+	   		},
+			"5":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Terrasse privative",
+			      "es":""
+			    }
+	   		},
+			"6":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Lave linge",
+			      "es":""
+			    }
+	   		},
+			"7":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Sèche cheveux",
+			      "es":""
+			    }
+	   		}
+ 	},{
+		"value": "localBusiness",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Nice Irisée Naturellement",
+			      "es": ""
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Famille Plus",
+			      "es":""
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Accueil sportif",
+			      "es":""
+			    }
+	   		}
+ 	},{
+		"value": "accommodationType",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Meublé",
+			      "es":""
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Non meublé",
+			      "es":""
+			    }
+	   		}
+ 	},{
+		"value": "standingsLevel",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "1 étoile"
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "2 étoiles"
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "3 étoiles"
+			    }
+	   		},
+			"4":{
+			    "labels": {
+			      "en": "",
+			      "fr": "4 étoiles"
+			    }
+	   		},
+			"5":{
+			    "labels": {
+			      "en": "",
+			      "fr": "5 étoiles"
+			    }
+	   		}
+ 	},{
+		"value": "furnishedRental",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Appartement dans immeuble"
+			    }
+	   		}
+ 	},{
+		"value": "rentalMonthes",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "January",
+			      "fr": "Janvier",
+			      "es": "Enero"
+			    }
+	   		},
+	   		"2":{
+			    "labels": {
+			      "en": "February",
+			      "fr": "Février",
+			      "es": "Febrero"
+			    }
+	   		},
+	   		"3":{
+			    "labels": {
+			      "en": "March",
+			      "fr": "Mars",
+			      "es": "Marzo"
+			    }
+	   		},
+	   		"4":{
+			    "labels": {
+			      "en": "April",
+			      "fr": "Avril",
+			      "es": "Abril"
+			    }
+	   		},
+	   		"5":{
+			    "labels": {
+			      "en": "May",
+			      "fr": "Mai",
+			      "es": "Mayo"
+			    }
+	   		},
+	   		"6":{
+			    "labels": {
+			      "en": "Juin",
+			      "fr": "Juin",
+			      "es": "Junio"
+			    }
+	   		},
+	   		"7":{
+			    "labels": {
+			      "en": "July",
+			      "fr": "Juillet",
+			      "es": "Julio"
+			    }
+	   		},
+	   		"8":{
+			    "labels": {
+			      "en": "August",
+			      "fr": "Août",
+			      "es": "Agosto"
+			    }
+	   		},
+	   		"9":{
+			    "labels": {
+			      "en": "September",
+			      "fr": "Septembre",
+			      "es": "Setiembre"
+			    }
+	   		},
+	   		"10":{
+			    "labels": {
+			      "en": "October",
+			      "fr": "Octobre",
+			      "es": "Octubre"
+			    }
+	   		},
+	   		"11":{
+			    "labels": {
+			      "en": "November",
+			      "fr": "Novembre",
+			      "es": "Noviembre"
+			    }
+	   		},
+	   		"12":{
+			    "labels": {
+			      "en": "December",
+			      "fr": "Décembre",
+			      "es": "Diciembre"
+			    }
+	   		}
+ 	},{
+		"value": "disabledOptions",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Accessible personnes handicapées"
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Toilettes accessibles"
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Douche de plain pied"
+			    }
+	   		}
+ 	}
+ ]}

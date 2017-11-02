@@ -11,7 +11,11 @@
     "fax" : "+33(0)4 93 80 06 27",
     "phone" : "+33(0)4 93 80 08 00",
     "email": "acloc@hotmail.fr",
-    "languages": ["Anglais", "Français", "Russe", "Polonais"],
+	"languages": {
+		"fr": "Français",
+		"en": "English",
+		"es": "Spanish"
+	},
     "location": {
       "type": "Point",
       "coordinates": [

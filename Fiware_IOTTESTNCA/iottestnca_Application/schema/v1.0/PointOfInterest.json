@@ -21,7 +21,7 @@
       ]
     },
     "source": "http://[SourceOfThePOI]",
-    "refSeeAlso": ["IdOfTheReferencedDataModel"]
+    "refSeeAlso": ["IdOfTheReferencedDataModel","PointOfInterest-Accommodation-74564"]
 }
 
 
