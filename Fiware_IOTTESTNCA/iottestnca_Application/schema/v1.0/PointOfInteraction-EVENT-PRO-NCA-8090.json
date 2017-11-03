@@ -2,6 +2,7 @@
   "id": "EVENT-PRO-NCA-8090",
   "type": "Event",
   "name":"15EME CONGRES DE CHIRURGIE DIGESTIVE DU CHU DE NICE 2017",
+  "publicAccess": false,
   "start" : "2017-11-17",
   "end": "2017-11-18",
   "address": {

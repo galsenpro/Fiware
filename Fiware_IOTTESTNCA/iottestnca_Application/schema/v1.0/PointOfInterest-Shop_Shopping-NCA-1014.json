@@ -7,15 +7,11 @@
       "addressCountry": "FR",
       "streetAddress": "5 Promenade des anglais"
     },
-    "website" : "http://albert-arts.eu",
-    "fax" : "0 805 08 88 65",
-    "phone" : "+33(0)4 93 87 28 73",
+    "url" : "http://albert-arts.eu",
+    "faxNumber" : "0 805 08 88 65",
+    "telephone" : "+33(0)4 93 87 28 73",
     "email": "boutique@albert-arts.com",
-    "payments" :{
-		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
-		"en": ["Cash", "Transfer", "Credit card - Visa"],
-		"es": ["Efectivo","Transferencia","Tarjeta de crédito - Visa"]
-		},
+    "paymentAccepted":["1", "2", "3"],
     "location": {
       "type": "Point",
       "coordinates": [
@@ -24,7 +20,7 @@
       ]
      },
     "proximity" : ["Bord de mer"],
-    "categories": ["Magasins de Luxe", "Mode homme", "Toutes les boutiques"],
+    "category": ["Magasins de Luxe", "Mode homme", "Toutes les boutiques"],
     "sectors": null,
     "living" : null,
     "tariffs" : null,
@@ -34,9 +30,9 @@
     	"closureSpan": "toute la journée"
     	},
     "spaces" : null,
-    "opening" : "11:00-19:30",
-    "closing" : null,
-   	"source": null,
+    "openingHours" : "11:00-19:30",
+    "closing" : "24H",
+   	"source": "LinkOfTheSource",
    	"dateCreated": "2015-07-21 15:30:03",
    	"dateUpdated": "2017-08-30 17:31:02", 
    	"refSeeAlso": ["Shop-NCA-2017"]

@@ -3,19 +3,15 @@
     "type": "Transport",
     "name": "ACLOC LOCATION DE VOITURE ET UTILITAIRE | ACLOC",
     "description": "MAJONE ....", 
+    "url" : "http://www.acloc.fr",
+    "faxNumber" : "+33(0)4 93 80 06 27",
+    "telephone" : "+33(0)4 93 80 08 00",
+    "email": "acloc@hotmail.fr",
     "address": {
       "addressCountry": "FR",
       "streetAddress": "455 Promenade des anglais"
     },
-    "website" : "http://www.acloc.fr",
-    "fax" : "+33(0)4 93 80 06 27",
-    "phone" : "+33(0)4 93 80 08 00",
-    "email": "acloc@hotmail.fr",
-	"languages": {
-		"fr": "Français",
-		"en": "English",
-		"es": "Spanish"
-	},
+	"language": ["1", "2", "3"],
     "location": {
       "type": "Point",
       "coordinates": [
@@ -24,7 +20,7 @@
       ]
      },
    "proximity" : ["Gare SNCF", "Acropolis", "Port", "Fabron", "Jean Médecin", "Gambetta", "Nice Est", "Centre Ville"],
-   "categories": ["Locations de voiture"],
+   "category": ["Locations de voiture"],
    "sectors" : null, 
    "living" : {
 		   	"roomCount" : 0,
@@ -59,7 +55,7 @@
     	"closureSpan" : "Toute la journée"
     	},
     "spaces" : null,
-    "opening" : "8:00-23:00 (lundi au samedi) - 10:00-23:00 (dimanche)",
+    "openingHours" : "8:00-23:00 (lundi au samedi) - 10:00-23:00 (dimanche)",
     "closing" : "01/12-30/04",
    	"source": null,
    	"dateCreated": "2015-07-21 15:30:03",

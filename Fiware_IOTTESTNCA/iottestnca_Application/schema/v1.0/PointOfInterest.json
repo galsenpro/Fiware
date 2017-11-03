@@ -16,8 +16,8 @@
     "location": {
       "type": "Point",
       "coordinates": [
-        -8.768460000000001,
-        42.60214472222222
+	        -8.768460000000001,
+	        42.60214472222222
       ]
     },
     "source": "http://[SourceOfThePOI]",

@@ -7,11 +7,11 @@
       "addressCountry": "FR",
       "streetAddress": "455 Promenade des anglais"
     },
-    "website" : "http://www.allianz-riviera.fr",
-    "fax" : null,
-    "phone" : null,
+    "url" : "http://www.allianz-riviera.fr",
+    "faxNumber" : "+33(0)4 93 44 50 40",
+    "telephone" : "+33(0)4 93 97 74 27",
     "email": "entreprise@allianz-riviera.fr",
-    "languages": ["Anglais", "Français", "Russe", "Polonais"],
+	"language": ["1", "2", "3"],
     "location": {
       "type": "Point",
       "coordinates": [
@@ -19,15 +19,15 @@
         43.7124
       ]
      },
-   "amenities" : ["Dépose-bus", "Parking bus"],
+   "amenityFeature" : ["13", "14"],
    "proximity" : ["Nice Plaine du Var Est", "Nice Ouest"],
-   "categories": ["Monuments et églises", "Lieux de réceptions Nice","Salles de spectacle", "Autres lieux de réunions Nice", "Sites privatisables Nice"],
+   "category": ["Monuments et églises", "Lieux de réceptions Nice","Salles de spectacle", "Autres lieux de réunions Nice", "Sites privatisables Nice"],
    "stations" : ["Allianz Riviera"], 
    "options" : ["Privatisable"],
    "publications" : null,
    "commonTags":null,
    "groupOptions":null,
-   "disabledOtion":["Accessible personnes handicapées", "Toilettes accessibles","Accueil et services spécifiques"],
+   "disabledOptions":["Accessible personnes handicapées", "Toilettes accessibles","Accueil et services spécifiques"],
    "sectors" : null,
    "descriptions":["L’espace polyvalent de l’Allianz Riviera s’anime à Nice dans la plaine du Var au sein de l’éco-vallée et à quelques encablures de l’aéroport international Nice Côte d’Azur. Conçu par l’architecte de renommée internationale Jean-Michel Wilmotte, véritable lieu de vie, d’échange et de partage, il accueille les matches de l’OGC Nice, du football mais aussi du rugby, des concerts, des spectacles et des manifestations de grande envergure. Site hôte de l’Euro 2016, le stade connecté, accueille de 35 000 à 45 000 spectateurs et respecte les grands principes du développement durable. L’Allianz Riviera abrite le Musée National du Sport, labellisé « Musée de France », avec 5 000 m² dédiés à la conservation, diffusion et valorisation du patrimoine sportif (50 000 objets et 200 000 pièces de documentation)"],
    "living" : {
@@ -63,7 +63,7 @@
     	"closureSpan" : "Toute la journée"
     	},
     "spaces" : null,
-    "opening" : "8:00-23:00 (lundi au samedi) - 10:00-23:00 (dimanche)",
+    "openingHours" : "8:00-23:00 (lundi au samedi) - 10:00-23:00 (dimanche)",
     "closing" : "01/12-30/04",
    	"source": null,
    	"dateCreated": "2013-10-22 10:55:14",

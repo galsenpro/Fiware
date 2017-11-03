@@ -3,9 +3,7 @@
     "type": "DeviceModel",
     "name": "PREVENTEC Sensibel triple-1506330386",
     "brandName": "PREVENTEC Sensibel triple-1506330386",
-    "category": [
-        "sensor"
-    ],
+    "category": ["sensor"],
     "controlledProperty": [
         "noiseLevel-LA",
         "noiseLevel-LC",

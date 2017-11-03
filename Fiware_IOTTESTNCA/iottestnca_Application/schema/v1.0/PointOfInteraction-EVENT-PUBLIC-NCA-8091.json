@@ -2,6 +2,7 @@
   "id": "EVENT-PUBLIC-NCA-8189",
   "type": "Event",
   "name":"(INS)TABLE",
+  "publicAccess": true,
   "start" : "2018-05-13",
   "end": "2018-05-13",
   "address": {

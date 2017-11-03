@@ -1,6 +1,6 @@
 {
 	"attributes" : [{
-		"value": "languages",
+		"value": "language",
 		"default" : "fr",
 			"1":{
 			    "labels": {
@@ -24,7 +24,7 @@
 			    }
 	   		}
  	},{
-		"value": "paymentMethod",
+		"value": "paymentAccepted",
 		"default" : "fr",
 			"1":{
 			    "labels": {
@@ -48,7 +48,7 @@
 			    }
 	   		}
  	},{
-		"value": "amenities",
+		"value": "amenityFeature",
 		"default" : "fr",
 			"1":{
 			    "labels": {
@@ -97,6 +97,55 @@
 			      "en": "",
 			      "fr": "Sèche cheveux",
 			      "es":""
+			    }
+	   		},
+			"8":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Parking privé payant",
+			      "es":""
+			    }
+	   		},
+			"9":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Parking public à  proximité",
+			      "es":""
+			    }
+	   		},
+			"10":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Piscine",
+			      "es":""
+			    }
+	   		},
+			"11":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Animaux acceptés",
+			      "es":""
+			    }
+	   		},
+			"12":{
+			    "labels":{
+			      "en": "",
+			      "fr": "Climatisation",
+			      "es":""
+			    }
+	   		},
+			"13":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Dépose-bus",
+			      "es": ""
+			    }
+	   		},
+			"14":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Parking bus",
+			      "es": ""
 			    }
 	   		}
  	},{
@@ -288,6 +337,54 @@
 			    "labels": {
 			      "en": "",
 			      "fr": "Douche de plain pied"
+			    }
+	   		}
+ 	},{
+		"value": "servesCuisine",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Méditerranéenne",
+			      "es":""
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Traditionnelle",
+			      "es":""
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Pizzas",
+			      "es":""
+			    }
+	   		}
+ 	},{
+		"value": "atmospher",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Lounge",
+			      "es":""
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Soirées à thème",
+			      "es":""
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Animation Spectacle",
+			      "es":""
 			    }
 	   		}
  	}

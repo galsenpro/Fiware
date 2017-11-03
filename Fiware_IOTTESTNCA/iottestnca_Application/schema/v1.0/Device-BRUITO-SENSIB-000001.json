@@ -10,9 +10,7 @@
         43.7124
       ]
      },
-    "category": [
-        "sensor"
-    ],
+    "category": ["sensor"],
     "controlledProperty": [
         "noiseLevel-LA",
         "noiseLevel-LC",
