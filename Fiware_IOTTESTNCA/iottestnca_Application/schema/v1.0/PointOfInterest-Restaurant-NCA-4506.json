@@ -15,7 +15,7 @@
     "paymentAccepted":["1", "2", "3"],
     "amenities": ["8", "9", "10", "2", "11", "12","5"],
     "proximity": ["Bord de mer","Magnan", "Gambetta" ],
-    "category": ["Restaurants", "Cuisine Méditerranéenne", "Groupes à  partir de 50 personnes"],
+    "category": ["1", "2", "3"],
     "servesCuisine": ["1", "2", "3"],
     "atmospher" : ["1", "2","3"],
     "option": ["Privatisable"],

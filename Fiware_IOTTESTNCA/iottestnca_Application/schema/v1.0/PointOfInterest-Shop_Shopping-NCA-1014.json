@@ -20,8 +20,8 @@
       ]
      },
     "proximity" : ["Bord de mer"],
-    "category": ["Magasins de Luxe", "Mode homme", "Toutes les boutiques"],
-    "sectors": null,
+    "category": ["4", "5", "6"],
+    "sector": null,
     "living" : null,
     "tariffs" : null,
     "capacity" :null,

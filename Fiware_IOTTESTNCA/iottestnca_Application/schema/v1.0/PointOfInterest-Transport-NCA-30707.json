@@ -20,7 +20,7 @@
       ]
      },
    "proximity" : ["Gare SNCF", "Acropolis", "Port", "Fabron", "Jean Médecin", "Gambetta", "Nice Est", "Centre Ville"],
-   "category": ["Locations de voiture"],
+   "category": ["10"],
    "sectors" : null, 
    "living" : {
 		   	"roomCount" : 0,

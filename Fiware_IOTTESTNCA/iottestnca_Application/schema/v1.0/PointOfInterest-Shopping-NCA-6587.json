@@ -12,7 +12,7 @@
       "addressCountry": "FR",
       "streetAddress": "455 Promenade des anglais"
     },
-    "category" : ["Ouverts le dimanche", "Mode femme", "Toutes les boutiques"] ,
+    "category" : ["9", "5", "6"] ,
     "alternateName" : "",
     "shopType" : ["droguerie","cremerie"],
     "accessType": ["privateVehicle", "onFoot", "publicTransport"],
@@ -25,8 +25,8 @@
     },
     "source": null,
     "refSeeAlso": ["Shopping-NCA-6587"],
-    "images" : "http://www.nicetourisme.com/public/resources/ref/entries/75531/gallery/h-m_172416.jpg",
-    "opening": "10:00-19:30 - 11:00-19:00 (dimanche)",
+    "image" : "http://www.nicetourisme.com/public/resources/ref/entries/75531/gallery/h-m_172416.jpg",
+    "openingHours": "10:00-19:30 - 11:00-19:00 (dimanche)",
     "dateModified": "2016-07-05 10:30:43",
     "dateCreated": "2015-08-24 12:11:38"
 }

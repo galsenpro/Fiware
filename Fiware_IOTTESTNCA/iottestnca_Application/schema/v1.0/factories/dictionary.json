@@ -149,6 +149,121 @@
 			    }
 	   		}
  	},{
+		"value": "category",
+		"default" : "fr",
+			"1":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Restaurants",
+			      "es": ""
+			    }
+	   		},
+			"2":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Cuisine Méditerranéenne",
+			      "es": ""
+			    }
+	   		},
+			"3":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Groupes à  partir de 50 personnes",
+			      "es": ""
+			    }
+	   		},
+			"4":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Magasins de Luxe",
+			      "es": ""
+			    }
+	   		},
+			"5":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Mode homme",
+			      "es": ""
+			    }
+	   		},
+			"6":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Toutes les boutiques",
+			      "es": ""
+			    }
+	   		},
+			"7":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Mode femme",
+			      "es": ""
+			    }
+	   		},
+			"8":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Toutes les boutiques",
+			      "es": ""
+			    }
+	   		},
+			"9":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Ouverts le dimanche",
+			      "es": ""
+			    }
+	   		},
+			"10":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Locations de voiture",
+			      "es": ""
+			    }
+	   		},
+			"11":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Monuments et églises",
+			      "es": ""
+			    }
+	   		},
+			"12":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Lieux de réceptions Nice",
+			      "es": ""
+			    }
+	   		},
+			"13":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Salles de spectacle",
+			      "es": ""
+			    }
+	   		},
+			"14":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Autres lieux de réunions Nice",
+			      "es": ""
+			    }
+	   		},
+			"15":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Sites privatisables Nice",
+			      "es": ""
+			    }
+	   		},
+			"16":{
+			    "labels": {
+			      "en": "",
+			      "fr": "Monuments et églises",
+			      "es": ""
+			    }
+	   		}
+	},{
 		"value": "localBusiness",
 		"default" : "fr",
 			"1":{

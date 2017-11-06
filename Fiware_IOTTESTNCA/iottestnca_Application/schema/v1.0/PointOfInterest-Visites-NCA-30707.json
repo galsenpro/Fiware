@@ -21,7 +21,7 @@
      },
    "amenityFeature" : ["13", "14"],
    "proximity" : ["Nice Plaine du Var Est", "Nice Ouest"],
-   "category": ["Monuments et églises", "Lieux de réceptions Nice","Salles de spectacle", "Autres lieux de réunions Nice", "Sites privatisables Nice"],
+   "category": ["11", "12","13", "14", "15"],
    "stations" : ["Allianz Riviera"], 
    "options" : ["Privatisable"],
    "publications" : null,

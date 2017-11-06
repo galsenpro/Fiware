@@ -9,8 +9,8 @@
       "addressCountry": "FR",
       "streetAddress": "12 av de Verdun"
     },
-   "website": ["http://www.B4hotels.com", "http://www.tradotel-riviera.com/ccdcn2017/"],
-   "phone": "+33(0)4 93 16 75 75",
+   "website": ["http://www.B4hotels.com" , "http://www.tradotel-riviera.com/ccdcn2017/"],
+   "telephone": "+33(0)4 93 16 75 75",
    "email": "reservation@plaza.boscolo.com",
    "profiles" : ["Convention Bureau"],
    "description" : ["18EME CONGRÈS DE LA SOCIÉTÉ FRANÇAISE DE LUTTE CONTRE LE SIDA",
@@ -25,7 +25,7 @@
        43.7039
       ]
      },
-  "categories" : ["Congrès"],
+  "category" : ["Congrès"],
   "note": 0,
   "refEntries" : ["68"],
   "dateCreated": "2017-09-15 13:47:03",
