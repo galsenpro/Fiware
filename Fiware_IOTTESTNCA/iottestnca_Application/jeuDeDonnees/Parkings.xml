@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parkings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Parking>
+		<id>OBJ001</id>
+		<active>oui</active>
+		<nom>MASSENA</nom>
+		<capa>325</capa>
+		<place>1</place>
+		<message>1</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:18:58</eventdate>
+		<latitude>43.69770086</latitude>
+		<longitude>7.26985643</longitude>
+		<streetAddress>18 Avenue Félix Faure</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ002</id>
+		<active>oui</active>
+		<nom>CORVESY</nom>
+		<capa>327</capa>
+		<place>8</place>
+		<message>8</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:18:58</eventdate>
+		<latitude>43.69654415</latitude>
+		<longitude>7.27213</longitude>
+		<streetAddress>3 Rue Alexandre Mari</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ003</id>
+		<active>oui</active>
+		<nom>SALEYA</nom>
+		<capa>360</capa>
+		<place>71</place>
+		<message>71</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:18:59</eventdate>
+		<latitude>43.69573495</latitude>
+		<longitude>7.27374683</longitude>
+		<streetAddress>Cours Saleya</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ004</id>
+		<active>oui</active>
+		<nom>PALAIS DE JUSTICE</nom>
+		<capa>265</capa>
+		<place>14</place>
+		<message>14</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:18:59</eventdate>
+		<latitude>43.69631646</latitude>
+		<longitude>7.27402474</longitude>
+		<streetAddress>Place du Palais de Justice</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ005</id>
+		<active>oui</active>
+		<nom>LES ARTS</nom>
+		<capa>322</capa>
+		<place>4</place>
+		<message>4</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:00</eventdate>
+		<latitude>43.70087911</latitude>
+		<longitude>7.27810532</longitude>
+		<streetAddress>18 Avenue Saint-Jean-Baptiste</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ006</id>
+		<active>oui</active>
+		<nom>PALAIS MASSENA</nom>
+		<capa>227</capa>
+		<place>0</place>
+		<message>OUVERT</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:01</eventdate>
+		<latitude>43.69519501</latitude>
+		<longitude>7.25996345</longitude>
+		<streetAddress>29 Prom. des Anglais</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ007</id>
+		<active>oui</active>
+		<nom>MOZART</nom>
+		<capa>468</capa>
+		<place>0</place>
+		<message>OUVERT</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:18:00</eventdate>
+		<latitude>43.70053547</latitude>
+		<longitude>7.26190962</longitude>
+		<streetAddress>11 Avenue Auber</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ008</id>
+		<active>oui</active>
+		<nom>LOUVRE</nom>
+		<capa>324</capa>
+		<place>0</place>
+		<message>OUVERT</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:06</eventdate>
+		<latitude>43.69992958</latitude>
+		<longitude>7.26445177</longitude>
+		<streetAddress>20 Boulevard Victor Hugo</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ009</id>
+		<active>oui</active>
+		<nom>PALAIS MEDITERANNEE</nom>
+		<capa>471</capa>
+		<place>0</place>
+		<message>OUVERT</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:07</eventdate>
+		<latitude>43.69556265</latitude>
+		<longitude>7.26287123</longitude>
+		<streetAddress>63 Rue de France</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ010</id>
+		<active>oui</active>
+		<nom>GRIMALDI</nom>
+		<capa>300</capa>
+		<place>0</place>
+		<message>OUVERT</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:07</eventdate>
+		<latitude>43.69801298</latitude>
+		<longitude>7.26441619</longitude>
+		<streetAddress>11 Rue Maccarani</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ011</id>
+		<active>oui</active>
+		<nom>RUHL-MERIDIEN</nom>
+		<capa>420</capa>
+		<place>0</place>
+		<message>COMPLET</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:13</eventdate>
+		<latitude>43.6956485</latitude>
+		<longitude>7.26596991</longitude>
+		<streetAddress>1 Prom. des Anglais</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ012</id>
+		<active>oui</active>
+		<nom>NICE ETOILE</nom>
+		<capa>1161</capa>
+		<place>394</place>
+		<message>...</message>
+		<eventinfo>NK</eventinfo>
+		<eventdate>07/11/2017 14:19:19</eventdate>
+		<latitude>43.70099682</latitude>
+		<longitude>7.26843645</longitude>
+		<streetAddress>Rue Lamartine</streetAddress>
+		<postalCode>06000</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<Parking>
+		<id>OBJ013</id>
+		<active>oui</active>
+		<nom>SULZER</nom>
+		<capa>1161</capa>
+		<place>73</place>
+		<message>73</message>
+		<eventinfo>OK</eventinfo>
+		<eventdate>07/11/2017 14:19:17</eventdate>
+		<latitude>43.69536681</latitude>
+		<longitude>7.27109925</longitude>
+		<streetAddress>103 Quai des États-Unis</streetAddress>
+		<postalCode>06300</postalCode>
+		<locality>Nice</locality>
+	</Parking>
+	<updated>2017-11-07T13:19:20.3174434Z</updated>
+</Parkings>
