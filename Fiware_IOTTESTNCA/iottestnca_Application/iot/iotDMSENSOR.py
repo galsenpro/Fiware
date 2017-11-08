@@ -1,6 +1,7 @@
 from iottestnca_Application.iot.iotSensorNCA import *
 import ast
 class IOTDMSENSOR:
+
     def __init__(self,sensorTuple, dmSource = "DeviceModel-NCA-6452.json"):
 
         self.sensorFolder = settings.BASE_DIR + settings.SENSORFOLDER

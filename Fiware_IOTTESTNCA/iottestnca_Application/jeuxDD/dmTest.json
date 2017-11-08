@@ -1,0 +1,23 @@
+{
+  "id": "IDENTIFIANT",
+  "type": "Device",
+  "name" : "Qualitair",
+  "category": [""], 
+  "description" : "Description of this Device",
+  "dateCreated": "2017-11-01T00:12:00",
+  "address": {
+      "postalCode":"06200",
+      "addressLocality": "NICE",
+      "addressRegion": "Alpes Maritimes",
+      "addressCountry": "France",
+      "streetAddress": "64 route de Grenoble"
+    },
+   "nbSites": "2",
+   "code":"",
+   "nom": "ozone",
+   "uniteMesure": "microg/m3",
+   "methode": "absorption_uv",
+   "hauteur": "2",
+   "limiteSup": "2000",
+   "limiteInf": "0"
+}
