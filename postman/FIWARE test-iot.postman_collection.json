@@ -1,0 +1,3184 @@
+{
+	"variables": [],
+	"info": {
+		"name": "FIWARE test-iot",
+		"_postman_id": "3cc5bbdd-3739-af93-ae9f-29344a8fbd7b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PAGINATION",
+			"description": "",
+			"item": [
+				{
+					"name": "OFFSET",
+					"description": "",
+					"item": [
+						{
+							"name": "GET ALL CARS ",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?offset=3&limit=100",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "offset",
+											"value": "3",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "limit",
+											"value": "100",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Get all Cars"
+							},
+							"response": []
+						},
+						{
+							"name": "GET ALL CARS _ORDER BY",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?limit=20&offset=0&orderBy=speed,!color",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "limit",
+											"value": "20",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "offset",
+											"value": "0",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "orderBy",
+											"value": "speed,!color",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Get all Cars ORDERED\nSi l'attribut n'existe pas, il sera pas pris en compte dans le filtre"
+							},
+							"response": []
+						},
+						{
+							"name": "CREATE A CAR ENTITY_META",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/entities",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"type\": \"Car\",\n\t\"id\": \"Car7\",\n\t\"tirePressure\": {\n\t\t\"type\": \"kPa\",\n\t\t\"value\": {\n\t\t\"frontRight\": \"120\",\n\t\t\"frontLeft\": \"110\",\n\t\t\"backRight\": \"115\",\n\t\t\"backLeft\": \"130\"\n\t\t}\n\t}\n}"
+								},
+								"description": "Création d'une entité Car_ Meta Part"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "TYPE BROWSING",
+					"description": "",
+					"item": [
+						{
+							"name": "GET CAR TYPE",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?offset=3&limit=100",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "offset",
+											"value": "3",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "limit",
+											"value": "100",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "get car type"
+							},
+							"response": []
+						},
+						{
+							"name": "GET TYPES",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/types",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Get all Types of Cars"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "GEOLOCALISATION",
+					"description": "",
+					"item": [
+						{
+							"name": "CREATE A CITY ENTITY",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/entities",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCity",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"type\": \"City\",\n\t\"id\": \"Madrid\",\n\t\"position\": {\n\t\t\"type\": \"geo:point\",\n\t\t\"value\": \"40.418889, -3.691944\"\n\t}\n}"
+								},
+								"description": "Création d'une entité city avec des données de géolocalisation"
+							},
+							"response": []
+						},
+						{
+							"name": "GET ALL CITIES",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?offset=3&limit=100",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "offset",
+											"value": "3",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "limit",
+											"value": "100",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Get all Cities"
+							},
+							"response": []
+						},
+						{
+							"name": "GET ALL CITIES_Max distance",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?type=City&georel=near;maxDistance:13500&geometry=point&coords=40.418889,-3691944",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "City",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "georel",
+											"value": "near;maxDistance:13500",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "geometry",
+											"value": "point",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "coords",
+											"value": "40.418889,-3691944",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCity",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Get all Cities with Max distance"
+							},
+							"response": []
+						},
+						{
+							"name": "GET ALL CITIES_Min distance",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?type=City&georel=near;maxDistance:13500&geometry=point&coords=40.418889,-3691944",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "City",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "georel",
+											"value": "near;maxDistance:13500",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "geometry",
+											"value": "point",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "coords",
+											"value": "40.418889,-3691944",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCity",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Get all Cities with Min distance"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "QUERY FILTER REQUESTS",
+					"description": "By entity type :  GET <cb_host>:1026/v2/entities?type=Room\n\nBy entity id list : GET <cb_host>:1026/v2/entities?id=Room1,Room2\n\nBy entity id pattern (regex) : GET <cb_host>:1026/v2/entities?idPattern=^Room[2-5]\n\nBy entity type pattern (regex) : GET <cb_host>:1026/v2/entities?typePattern=T[ABC]\n\n",
+					"item": [
+						{
+							"name": "FILTER ON TEMPERATURE",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?offset=3&limit=100",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "offset",
+											"value": "3",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "limit",
+											"value": "100",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Filter on temperature"
+							},
+							"response": []
+						},
+						{
+							"name": "FILTER ON TEMPERATURE copy",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?offset=3&limit=100",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "offset",
+											"value": "3",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "limit",
+											"value": "100",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Filter on temperature"
+							},
+							"response": []
+						},
+						{
+							"name": "FILTER ON tirePressure",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?q=tirePressure.frontRight >12",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "tirePressure.frontRight >12",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Filter on tirePressure"
+							},
+							"response": []
+						},
+						{
+							"name": "FILTER ON tirePressure copy",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?q=tirePressure.frontRight >12",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "tirePressure.frontRight >12",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addCar",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+								},
+								"description": "Filter on tirePressure"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "SUBSCRIPTION",
+					"description": "Service de Souscription",
+					"item": [
+						{
+							"name": "CREATE SUBSCRIPTION",
+							"request": {
+								"url": "iot.testnca.org:1026/v1/subscriptions",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addSubscription",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"subject\": {\n\t\"entities\": [\n\t\t{\n\t\t\t\"id\": \"Car5\",\n\t\t\t\"type\": \"Car\"\n\t\t},\n\t\t{\n\t\t\t\"idPattern\": \"^Room[0-1]\",\n\t\t\t\"type\": \"Room\"\n\t\t},\n\t\t{\n\t\t\t\"id\": \"D37\",\n\t\t\t\"typePattern\": \"Type[ABC]\"\n\t\t}\n\t],\n\t\"condition\": {\n\t\t\"attrs\": [ \"temperature\" ],\n\t\t\"expression\": {\n\t\t\"q\": \"temperature>40\",\n\t\t\"mq\": \"humidity.avg==80..90\",\n\t\t\"georel\": \"near;maxDistance:100000\",\n\t\t\"geometry\": \"point\",\n\t\t\"coords\": \"40.418889,-3.691944\"\n\t}\n\t}\n\t}\n}"
+								},
+								"description": "SUBSCRIPTION"
+							},
+							"response": []
+						},
+						{
+							"name": "SUBSCRIPTION",
+							"request": {
+								"url": "iot.testnca.org:1026/v1/subscriptions",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/addSubscription",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"subject\": {\n\t\"entities\": [\n\t\t{\n\t\t\t\"id\": \"Car5\",\n\t\t\t\"type\": \"Car\"\n\t\t},\n\t\t{\n\t\t\t\"idPattern\": \"^Room[0-1]\",\n\t\t\t\"type\": \"Room\"\n\t\t},\n\t\t{\n\t\t\t\"id\": \"D37\",\n\t\t\t\"typePattern\": \"Type[ABC]\"\n\t\t}\n\t],\n\t\"condition\": {\n\t\t\"attrs\": [ \"temperature\" ],\n\t\t\"expression\": {\n\t\t\"q\": \"temperature>40\",\n\t\t\"mq\": \"humidity.avg==80..90\",\n\t\t\"georel\": \"near;maxDistance:100000\",\n\t\t\"geometry\": \"point\",\n\t\t\"coords\": \"40.418889,-3.691944\"\n\t}\n\t}\n\t}\n}"
+								},
+								"description": "SUBSCRIPTION"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "CREATE-ORION ENTITIES copy",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "CREATION OBJET ORION"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "IDAS",
+			"description": "",
+			"item": [
+				{
+					"name": "STEP1-SERVICE",
+					"description": "Création du Service IDAS",
+					"item": [
+						{
+							"name": "CREATE-IDAS SERVICE",
+							"request": {
+								"url": "http://iot.testnca.org:4041/iot/services",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/oliv",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"services\": [\r\n        {\r\n            \"apikey\": \"APIKEY-NCA\",\r\n            \"cbroker\": \"http://iot.testnca.org:1026\",\r\n            \"resource\": \"/iot/d\",\r\n            \"entity_type\": \"obj-test\"\r\n        }\r\n    ]\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "STEP2-DEVICE",
+					"description": "Création of the device service",
+					"item": [
+						{
+							"name": "CREATE-IDAS DEVICE",
+							"request": {
+								"url": "http://iot.testnca.org:4041/iot/devices",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/oliv",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"devices\": [\r\n        {\r\n            \"device_id\": \"test1-sensor-temperature\",\r\n            \"entity_name\": \"test1\",\r\n            \"protocol\": \"UL20\",\r\n            \"entity_type\": \"obj-test\",\r\n            \"attributes\": [\r\n                {\r\n                    \"object_id\": \"t\",\r\n                    \"name\": \"temperature\",\r\n                    \"type\": \"Number\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "STEP3-UPDATING",
+					"description": "Updating Data",
+					"item": [
+						{
+							"name": "UPDATE-IDAS SENSOR VALUE",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:7896/iot/d?k=APIKEY-NCA&i=test1-sensor-temperature",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "7896",
+									"path": [
+										"iot",
+										"d"
+									],
+									"query": [
+										{
+											"key": "k",
+											"value": "APIKEY-NCA",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "i",
+											"value": "test1-sensor-temperature",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "t|24"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "APPLICATION",
+			"description": "Application ORION-IDAS avec des datamodels Fiware\n\t-Tests exhaustifs avec ORION\n\t-Tests  exhaustifs avec IDAS",
+			"item": [
+				{
+					"name": "ORION APPLICATION",
+					"description": "",
+					"item": [
+						{
+							"name": "CREATE  RATING ENTITY",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/entities/",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"LeBistro::Client1235\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 3\n  }\n}"
+								},
+								"description": "CREATION OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "CREATE  RATING ENTITY OTHER ATTRS",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/entities/",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"LeBistro::Client1236\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 4\n  },\n  \n  \"name\": {\n    \"type\": \"Text\",\n    \"value\": \"Le Bistro\"\n  },\n  \"average_scoring\": {\n    \"type\": \"Float\",\n    \"value\": 4.2\n  },\n  \"location\": {\n    \"type\": \"geo:point\",\n    \"value\": \"40.419697, -3.691281\"\n  },\n  \"postal_address\": {\n    \"type\": \"Address\",\n    \"value\": {\n      \"street\": \"Calle Alcala 57\",\n      \"city\": \"Madrid\",\n      \"country\": \"Spain\"\n    }\n  },\n  \"cousine_type\": {\n    \"type\": \"Text\",\n    \"value\": \"french\"\n  }\n}"
+								},
+								"description": "CREATION OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "GET ALL ATTRS OF ON ENTITY",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities/LeBistro::Client1236/attrs?type=Rating",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities",
+										"LeBistro::Client1236",
+										"attrs"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "Rating",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"LeBistro::Client1236\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 4\n  },\n  \n  \"name\": {\n    \"type\": \"Text\",\n    \"value\": \"Le Bistro\"\n  },\n  \"average_scoring\": {\n    \"type\": \"Float\",\n    \"value\": 4.2\n  },\n  \"location\": {\n    \"type\": \"geo:point\",\n    \"value\": \"40.419697, -3.691281\"\n  },\n  \"postal_address\": {\n    \"type\": \"Address\",\n    \"value\": {\n      \"street\": \"Calle Alcala 57\",\n      \"city\": \"Madrid\",\n      \"country\": \"Spain\"\n    }\n  },\n  \"cousine_type\": {\n    \"type\": \"Text\",\n    \"value\": \"french\"\n  }\n}"
+								},
+								"description": "CREATION OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "GET KEY_VALUEES",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities/LeBistro::Client1236/attrs?type=Rating&options=keyValues",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities",
+										"LeBistro::Client1236",
+										"attrs"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "Rating",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "options",
+											"value": "keyValues",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"LeBistro::Client1236\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 4\n  },\n  \n  \"name\": {\n    \"type\": \"Text\",\n    \"value\": \"Le Bistro\"\n  },\n  \"average_scoring\": {\n    \"type\": \"Float\",\n    \"value\": 4.2\n  },\n  \"location\": {\n    \"type\": \"geo:point\",\n    \"value\": \"40.419697, -3.691281\"\n  },\n  \"postal_address\": {\n    \"type\": \"Address\",\n    \"value\": {\n      \"street\": \"Calle Alcala 57\",\n      \"city\": \"Madrid\",\n      \"country\": \"Spain\"\n    }\n  },\n  \"cousine_type\": {\n    \"type\": \"Text\",\n    \"value\": \"french\"\n  }\n}"
+								},
+								"description": "CREATION OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "UPDATE WITH JSON",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities/LeBistro::Client1235/attrs/score?type=Rating",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities",
+										"LeBistro::Client1235",
+										"attrs",
+										"score"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "Rating",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"type\": \"Float\",\n  \"value\" : 9.5\n}"
+								},
+								"description": "MOYENNE SCORE"
+							},
+							"response": []
+						},
+						{
+							"name": "UPDATE WITH TEXT",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities/LeBistro::Client1235/attrs/score/value?type=Rating",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities",
+										"LeBistro::Client1235",
+										"attrs",
+										"score",
+										"value"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "Rating",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/plain",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "smartown",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/NiceEating",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "5.3"
+								},
+								"description": "MOYENNE SCORE"
+							},
+							"response": []
+						},
+						{
+							"name": "CREATE  RATING ENTITY copy",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/entities/",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/oliv",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+								},
+								"description": "CREATION OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "GET  RATING ENTITIES",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/entities/",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "\n{\n  \"id\": \"LeBistro::Client1234\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 4\n  }\n}"
+								},
+								"description": "GET OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "GEOLOCALIZATION",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities?type=Rating&georel=near;maxDistance:1000&geometry=point&coords=40.418889,-3.691944",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "Rating",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "georel",
+											"value": "near;maxDistance:1000",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "geometry",
+											"value": "point",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "coords",
+											"value": "40.418889,-3.691944",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "\n{\n  \"id\": \"LeBistro::Client1234\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 4\n  }\n}"
+								},
+								"description": "GET OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "SUBSCRIPTIONS",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/subscriptions",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"description\": \"New ratings subscription\",\n  \"subject\": {\n    \"entities\": [\n      {\n        \"idPattern\": \".*\",\n        \"type\": \"Rating\"\n      }\n    ],\n    \"condition\": {\n      \"attrs\": [ \"score\" ]\n    }\n  },\n  \"notification\": {\n    \"http\": {\n      \"url\": \"http://backend.niceeating.foo.com:1028/ratings\"\n    },\n    \"attrs\": [ \"score\" ]\n  }\n}"
+								},
+								"description": "GET OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "SUBSCRIPTIONS 2",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/subscriptions",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"description\": \"Average ratings changes subscription\",\n  \"subject\": {\n    \"entities\": [\n      {\n        \"idPattern\": \".*\",\n        \"type\": \"Restaurant\"\n      }\n    ],\n    \"condition\": {\n      \"attrs\": [ \"average_scoring\" ]\n    }\n  },\n  \"notification\": {\n    \"http\": {\n      \"url\": \"http://myapp.foo.com:1028/restaurant_average_scorings\"\n    },\n    \"attrs\": [ \"average_scoring\" ]\n  }\n}"
+								},
+								"description": "GET OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "GET SUBSCRIPTIONS",
+							"request": {
+								"url": "iot.testnca.org:1026/v2/subscriptions/",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "\n{\n  \"id\": \"LeBistro::Client1234\",\n  \"type\": \"Rating\",\n  \"score\": {\n    \"type\" : \"Integer\",\n    \"value\" : 4\n  }\n}"
+								},
+								"description": "GET OBJET ORION"
+							},
+							"response": []
+						},
+						{
+							"name": "GET  RATING ENTITIES copy",
+							"request": {
+								"url": {
+									"raw": "iot.testnca.org:1026/v2/entities/LeBistro/attrs/average_scoring/value?type=Restaurant",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "1026",
+									"path": [
+										"v2",
+										"entities",
+										"LeBistro",
+										"attrs",
+										"average_scoring",
+										"value"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "Restaurant",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/plain",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "smartown",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/NiceEating",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "4.2"
+								},
+								"description": "GET OBJET ORION"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "IDAS APPLICATION",
+					"description": "",
+					"item": [
+						{
+							"name": "SERVICE IDAS",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:4041/iot/services?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"services"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \n  \"services\": [\n    {\n      \"apikey\": \"801230BJKL23Y9090DSFL123HJK09H324HV8732\",\n      \"entity_type\": \"SensorMachine\",\n      \"cbroker\": \"http://iot.testnca.org:1026\",\n      \"resource\": \"/iot/d\",\n      \"commands\": [\n        {\n          \"name\": \"wheel1\",\n          \"type\": \"Wheel\"\n        }\n      ],\n      \"lazy\": [\n        {\n          \"name\": \"luminescence\",\n          \"type\": \"Lumens\"\n        }\n      ],\n      \"attributes\": [\n        {\n          \"name\": \"status\",\n          \"type\": \"Boolean\"\n        }\n      ],\n      \"static_attributes\": [\n        {\n          \"name\": \"bootstrapServer\",\n          \"type\": \"Address\",\n          \"value\": \"127.0.0.1\"\n        }\n      ]\n    }\n  ]\n}\n"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "SERVICE IDAS LOCALHOST",
+							"request": {
+								"url": {
+									"raw": "http://localhost:4041/iot/services?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"services"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \n  \"services\": [\n    {\n      \"apikey\": \"801230BJKL23Y9090DSFL123HJK09H324HV8732_LOCAL\",\n      \"entity_type\": \"SensorMachine\",\n      \"cbroker\": \"http://localhost:1026\",\n      \"resource\": \"/iot/d\",\n      \"commands\": [\n        {\n          \"name\": \"wheel1\",\n          \"type\": \"Wheel\"\n        }\n      ],\n      \"lazy\": [\n        {\n          \"name\": \"luminescence\",\n          \"type\": \"Lumens\"\n        }\n      ],\n      \"attributes\": [\n        {\n          \"name\": \"status\",\n          \"type\": \"Boolean\"\n        }\n      ],\n      \"static_attributes\": [\n        {\n          \"name\": \"bootstrapServer\",\n          \"type\": \"Address\",\n          \"value\": \"127.0.0.1\"\n        }\n      ]\n    }\n  ]\n}\n"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "SERVICE IDAS LOCALHOST",
+							"request": {
+								"url": {
+									"raw": "http://localhost:4041/iot/services?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"services"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \n  \"services\": [\n    {\n      \"apikey\": \"801230BJKL23Y9090DSFL123HJK09H324HV8732_LOCAL\",\n      \"entity_type\": \"SensorMachine\",\n      \"cbroker\": \"http://localhost:1026\",\n      \"resource\": \"/iot/d\",\n      \"commands\": [\n        {\n          \"name\": \"wheel1\",\n          \"type\": \"Wheel\"\n        }\n      ],\n      \"lazy\": [\n        {\n          \"name\": \"luminescence\",\n          \"type\": \"Lumens\"\n        }\n      ],\n      \"attributes\": [\n        {\n          \"name\": \"status\",\n          \"type\": \"Boolean\"\n        }\n      ],\n      \"static_attributes\": [\n        {\n          \"name\": \"bootstrapServer\",\n          \"type\": \"Address\",\n          \"value\": \"127.0.0.1\"\n        }\n      ]\n    }\n  ]\n}\n"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "SERVICE IDAS copy",
+							"request": {
+								"url": {
+									"raw": "http://localhost:4041/iot/services?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"services"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIOT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\n  \"services\": [\n    {\n      \"apikey\": \"801230BJKL23Y9090DSFL123HJK09H324HV8732_TEST2\",\n      \"entity_type\": \"SensorMachine\",\n       \"cbroker\": \"http://iot.testnca.org:1026\",\n      \"resource\": \"/iot/d\",\n      \"commands\": [\n        {\n          \"name\": \"wheel1\",\n          \"type\": \"Wheel\"\n        }\n      ],\n      \"lazy\": [\n        {\n          \"name\": \"luminescence\",\n          \"type\": \"Lumens\"\n        }\n      ],\n      \"attributes\": [\n        {\n          \"name\": \"status\",\n          \"type\": \"Boolean\"\n        }\n      ],\n      \"static_attributes\": [\n        {\n          \"name\": \"bootstrapServer\",\n          \"type\": \"Address\",\n          \"value\": \"127.0.0.1\"\n        }\n      ]\n    }\n  ]\n}\n"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UL2.0 HTTP",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:7896/iot/d?k=801230BJKL23Y9090DSFL123HJK09H324HV8732&i=Machine-sensor",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "7896",
+									"path": [
+										"iot",
+										"d"
+									],
+									"query": [
+										{
+											"key": "k",
+											"value": "801230BJKL23Y9090DSFL123HJK09H324HV8732",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "i",
+											"value": "Machine-sensor",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/plain",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "",
+										"description": "",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "t|25"
+								},
+								"description": "Enregistrement pour MQTT"
+							},
+							"response": []
+						},
+						{
+							"name": "UL2.0 HTTP _CHARGE UTILE",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:7896/iot/d?k=801230BJKL23Y9090DSFL123HJK09H324HV8732&i=Machine-sensor",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "7896",
+									"path": [
+										"iot",
+										"d"
+									],
+									"query": [
+										{
+											"key": "k",
+											"value": "801230BJKL23Y9090DSFL123HJK09H324HV8732",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "i",
+											"value": "Machine-sensor",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/plain",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "",
+										"description": "",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "t|25"
+								},
+								"description": "Enregistrement pour MQTT"
+							},
+							"response": []
+						},
+						{
+							"name": "UL2.0 HTTP _CHARGE UTILE copy",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:7896/iot/d?k=801230BJKL23Y9090DSFL123HJK09H324HV8732&i=Machine-sensor",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "7896",
+									"path": [
+										"iot",
+										"d"
+									],
+									"query": [
+										{
+											"key": "k",
+											"value": "801230BJKL23Y9090DSFL123HJK09H324HV8732",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "i",
+											"value": "Machine-sensor",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "text/plain",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "",
+										"description": "",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "t|25"
+								},
+								"description": "Enregistrement pour MQTT"
+							},
+							"response": []
+						},
+						{
+							"name": "JSON HTTP",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:4041/iot/json?k=801230BJKL23Y9090DSFL123HJK09H324HV8732&i=Machine-sensor1",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"json"
+									],
+									"query": [
+										{
+											"key": "k",
+											"value": "801230BJKL23Y9090DSFL123HJK09H324HV8732",
+											"equals": true,
+											"description": ""
+										},
+										{
+											"key": "i",
+											"value": "Machine-sensor1",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "",
+										"description": "",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"t\": 5,\n    \"h\": 13,\n    \"l\": 32\n}"
+								},
+								"description": "JSON HTTP"
+							},
+							"response": []
+						},
+						{
+							"name": "DEVICE  IDAS",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:4041/iot/devices?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"devices"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIoT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"devices\": [{\n        \"device_id\": \"Machine-sensor\",\n        \"entity_name\": \"Machine\",\n        \"protocol\": \"UL20\",\n        \"entity_type\": \"thing\",\n        \"timezone\": \"Europe/Madrid\",\n        \"attributes\": [{\n            \"object_id\": \"t\",\n            \"name\": \"temperature\",\n            \"type\": \"int\"\n        }],\n        \"commands\": [{\n            \"name\": \"ping\",\n            \"type\": \"command\",\n            \"value\": \"Machine-sensor@ping|%s\"\n        }],\n        \"static_attributes\": [{\n            \"name\": \"color\",\n            \"type\": \"string\",\n            \"value\": \"value\"\n        }]\n    }]\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DEVICE  IDAS LOCALHOST",
+							"request": {
+								"url": {
+									"raw": "http://localhost:4041/iot/devices?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"devices"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIoT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"devices\": [{\n        \"device_id\": \"Machine1\",\n        \"entity_name\": \"Machine\",\n        \"protocol\": \"UL20\",\n        \"entity_type\": \"SensorMachine\",\n        \"timezone\": \"Europe/Madrid\",\n        \"attributes\": [{\n            \"object_id\": \"t\",\n            \"name\": \"temperature\",\n            \"type\": \"int\"\n        }],\n        \"commands\": [{\n            \"name\": \"ping\",\n            \"type\": \"command\",\n            \"value\": \"Machine-sensor@ping|%s\"\n        }],\n        \"static_attributes\": [{\n            \"name\": \"color\",\n            \"type\": \"string\",\n            \"value\": \"value\"\n        }]\n    }]\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DEVICE  IDAS LOCALHOST",
+							"request": {
+								"url": {
+									"raw": "http://localhost:4041/iot/devices?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"devices"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIoT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"devices\": [{\n        \"device_id\": \"Machine-sensor\",\n        \"entity_name\": \"Machine\",\n        \"protocol\": \"UL20\",\n        \"entity_type\": \"SensorMachine\",\n        \"timezone\": \"Europe/Madrid\",\n        \"attributes\": [{\n            \"object_id\": \"t\",\n            \"name\": \"temperature\",\n            \"type\": \"int\"\n        }],\n        \"commands\": [{\n            \"name\": \"ping\",\n            \"type\": \"command\",\n            \"value\": \"Machine-sensor@ping|%s\"\n        }],\n        \"static_attributes\": [{\n            \"name\": \"color\",\n            \"type\": \"string\",\n            \"value\": \"value\"\n        }]\n    }]\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DEVICE  WITH MULTIPLE ATTRS",
+							"request": {
+								"url": {
+									"raw": "http://iot.testnca.org:4041/iot/devices?protocol=IoTA-UL",
+									"protocol": "http",
+									"host": [
+										"iot",
+										"testnca",
+										"org"
+									],
+									"port": "4041",
+									"path": [
+										"iot",
+										"devices"
+									],
+									"query": [
+										{
+											"key": "protocol",
+											"value": "IoTA-UL",
+											"equals": true,
+											"description": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "OpenIoT",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"devices\": [{\n        \"device_id\": \"Machine-sensor\",\n        \"entity_name\": \"Machine\",\n        \"protocol\": \"UL20\",\n        \"entity_type\": \"thing\",\n        \"timezone\": \"Europe/Madrid\",\n        \"attributes\": [{\n            \"object_id\": \"t\",\n            \"name\": \"temperature\",\n            \"type\": \"int\"\n        },\n        {\n            \"object_id\": \"h\",\n            \"name\": \"height\",\n            \"type\": \"int\"\n        },\n        {\n            \"object_id\": \"l\",\n            \"name\": \"length\",\n            \"type\": \"int\"\n        }],\n        \"commands\": [{\n            \"name\": \"ping\",\n            \"type\": \"command\",\n            \"value\": \"Machine-sensor@ping|%s\"\n        }],\n        \"static_attributes\": [{\n            \"name\": \"color\",\n            \"type\": \"string\",\n            \"value\": \"value\"\n        }]\n    }]\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "AUTHENTIFICATION",
+					"description": "",
+					"item": [
+						{
+							"name": "Identifier",
+							"request": {
+								"url": "iot.testnca.org:5001/v3/auth/tokens",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/login",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"auth\": {\n        \"identity\": {\n            \"methods\": [\n                \"password\"\n            ],\n            \"password\": {\n                \"user\": {\n                    \"domain\": {\n                        \"name\": \"testnca\"\n                    },\n                    \"name\": \"adama\",\n                    \"password\": \"adama\"\n                }\n            }\n        },\n        \"scope\": {\n            \"domain\": {\n                \"name\": \"testnca\"\n            }\n        }\n    }\n}\n"
+								},
+								"description": "S'indentifier\nBODY = \n\t{\n    \"auth\": {\n        \"identity\": {\n            \"methods\": [\n                \"password\"\n            ],\n            \"password\": {\n                \"user\": {\n                    \"domain\": {\n                        \"name\": \"{{Fiware-Service}}\"\n                    },\n                    \"name\": \"{{user-name}}\",\n                    \"password\": \"{{user-pass}}\"\n                }\n            }\n        },\n        \"scope\": {\n            \"domain\": {\n                \"name\": \"{{Fiware-Service}}\"\n            }\n        }\n    }\n}\n\n____________________________\n"
+							},
+							"response": []
+						},
+						{
+							"name": "New token",
+							"request": {
+								"url": "iot.testnca.org:5001/v3/auth/tokens",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/login",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"auth\": {\n        \"identity\": {\n            \"methods\": [\n                \"token\"\n            ],\n            \"token\": {\n                \"id\": \"{{user-token}}\"\n            }\n        }\n    }\n}"
+								},
+								"description": "Obtenir un nouveau token"
+							},
+							"response": []
+						},
+						{
+							"name": "Statut Token",
+							"request": {
+								"url": "iot.testnca.org:5001/v3/auth/tokens ",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/login",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"auth\": {\n        \"identity\": {\n            \"methods\": [\n                \"token\"\n            ],\n            \"token\": {\n                \"id\": \"{{user-token}}\"\n            }\n        }\n    }\n}"
+								},
+								"description": "Obtenir un statut token\n\nLien : http://fiware-iot-stack.readthedocs.io/en/master/authentication_api/index.html"
+							},
+							"response": []
+						},
+						{
+							"name": "Jeton valide",
+							"request": {
+								"url": "iot.testnca.org:5001/v3/auth/tokens ",
+								"method": "HEAD",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": "",
+										"disabled": true
+									},
+									{
+										"key": "Fiware-Service",
+										"value": "testnca",
+										"description": ""
+									},
+									{
+										"key": "Fiware-ServicePath",
+										"value": "/login",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"auth\": {\n        \"identity\": {\n            \"methods\": [\n                \"token\"\n            ],\n            \"token\": {\n                \"id\": \"{{user-token}}\"\n            }\n        }\n    }\n}"
+								},
+								"description": "Vérifier que le jeton est valide\n\nLien : http://fiware-iot-stack.readthedocs.io/en/master/authentication_api/index.html"
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "DEVICE",
+					"description": "DEVICE API",
+					"item": [],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "DATA",
+					"description": "DATA API",
+					"item": [],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "HISTORICAL DATA",
+					"description": "HISTORICAL DATA API",
+					"item": [],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "CEP",
+					"description": "CEP API",
+					"item": [],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "MANAGEMENT",
+					"description": "MANAGEMENT API",
+					"item": [],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "TESTS",
+			"description": "",
+			"item": [
+				{
+					"name": "CHECK HEALTH",
+					"request": {
+						"url": "iot.testnca.org:1026/version",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/version",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "VERSION"
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE-ORION ENTITIES",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "CREATION OBJET ORION"
+					},
+					"response": []
+				},
+				{
+					"name": "SUBSCRIBE-ORION NOTIFICATION",
+					"request": {
+						"url": "iot.testnca.org:1026/v1/subscribeContext",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"entities\": [\r\n        {\r\n            \"type\": \"obj-test\",\r\n            \"isPattern\": \"true\",\r\n            \"id\": \"test*\"\r\n        }\r\n    ],\r\n    \"attributes\": [\r\n        \"temperature\"\r\n    ],\r\n    \"reference\": \"http://iot.testnca.org:5050/notify\",\r\n    \"duration\": \"P1M\",\r\n    \"notifyConditions\": [\r\n        {\r\n            \"type\": \"ONCHANGE\",\r\n            \"condValues\": [\r\n                \"temperature\"\r\n            ]\r\n        }\r\n    ],\r\n    \"throttling\": \"PT1S\"\r\n}"
+						},
+						"description": "subs notif"
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE-IDAS SERVICE",
+					"request": {
+						"url": "http://iot.testnca.org:4041/iot/services",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"services\": [\r\n        {\r\n            \"apikey\": \"APIKEY-NCA\",\r\n            \"cbroker\": \"http://iot.testnca.org:1026\",\r\n            \"resource\": \"/iot/d\",\r\n            \"entity_type\": \"obj-test\"\r\n        }\r\n    ]\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE-IDAS DEVICE",
+					"request": {
+						"url": "http://iot.testnca.org:4041/iot/devices",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"devices\": [\r\n        {\r\n            \"device_id\": \"test1-sensor-temperature\",\r\n            \"entity_name\": \"test1\",\r\n            \"protocol\": \"UL20\",\r\n            \"entity_type\": \"obj-test\",\r\n            \"attributes\": [\r\n                {\r\n                    \"object_id\": \"t\",\r\n                    \"name\": \"temperature\",\r\n                    \"type\": \"Number\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "REQ-STH",
+					"request": {
+						"url": {
+							"raw": "http://iot.testnca.org:8666/STH/v1/contextEntities/type/obj-test/id/test1/attributes/temperature?lastN=5",
+							"protocol": "http",
+							"host": [
+								"iot",
+								"testnca",
+								"org"
+							],
+							"port": "8666",
+							"path": [
+								"STH",
+								"v1",
+								"contextEntities",
+								"type",
+								"obj-test",
+								"id",
+								"test1",
+								"attributes",
+								"temperature"
+							],
+							"query": [
+								{
+									"key": "lastN",
+									"value": "5",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GET-ORION ENTITIES",
+					"request": {
+						"url": {
+							"raw": "iot.testnca.org:1026/v2/entities?options=keyValues",
+							"host": [
+								"iot",
+								"testnca",
+								"org"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "options",
+									"value": "keyValues",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"sample-id\",\r\n    \"type\": \"Restaurant\",\r\n    \"address\": {\r\n        \"type\": \"PostalAddress\",\r\n        \"value\": {\r\n            \"streetAddress\": \"Cuesta de las Cabras Aldapa 2\",\r\n            \"addressRegion\": \"Araba\",\r\n            \"addressLocality\": \"Alegría-Dulantzi\",\r\n            \"postalCode\": \"01240\"\r\n        }\r\n    },\r\n    \"aggregateRating\": {\r\n        \"type\": \"AggregateRating\",\r\n        \"value\": {\r\n            \"ratingValue\": 3,\r\n            \"reviewCount\": 98\r\n        }\r\n    },\r\n    \"capacity\": {\r\n        \"type\": \"PropertyValue\",\r\n        \"value\": 100      \r\n    },\r\n    \"department\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"Franchise1\"            \r\n    },\r\n    \"description\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"Sample description\"            \r\n    },\r\n    \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"42.8404625, -2.5123277\"\r\n    },\r\n    \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"Sample-restaurant\"\r\n    },\r\n    \"occupancyLevels\": {\r\n        \"type\": \"PropertyValue\",\r\n        \"value\": 0,\r\n        \"metadata\": {\r\n            \"timestamp\": {\r\n                \"type\": \"DateTime\",\r\n                \"value\": \"2016-09-19T06:32:15.901Z\"\r\n            }\r\n        }\r\n    },\r\n    \"priceRange\": {\r\n        \"type\": \"Number\",\r\n        \"value\": 0\r\n    },\r\n    \"telephone\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"945 400 868\"\r\n    }\r\n}"
+						},
+						"description": "GET ORION ENTITIES"
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE-IDAS SENSOR VALUE",
+					"request": {
+						"url": {
+							"raw": "http://iot.testnca.org:7896/iot/d?k=APIKEY-NCA&i=test1-sensor-temperature",
+							"protocol": "http",
+							"host": [
+								"iot",
+								"testnca",
+								"org"
+							],
+							"port": "7896",
+							"path": [
+								"iot",
+								"d"
+							],
+							"query": [
+								{
+									"key": "k",
+									"value": "APIKEY-NCA",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "i",
+									"value": "test1-sensor-temperature",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "t|24"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE A CAR ENTITY",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+						},
+						"description": "Création d'une entité Car"
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CARS",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+						},
+						"description": "Get all Cars"
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CARS copy",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"id\": \"Car4\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 120\n}\n}"
+						},
+						"description": "Get all Cars"
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL DATA ATRB CAR",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/Car6/attrs",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Recupére les attributs  CAR"
+					},
+					"response": []
+				},
+				{
+					"name": "GET A DATA ATTRIBUTE",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/Car1/attrs/speed/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"id\": \"Room1\",\n\t\"type\": \"Room\",\n\t\"temperature\": {\n\t\"type\": \"Float\",\n\t\"value\": 24\n\t},\n\"pressure\": {\n\t\"type\": \"Integer\",\n\t\"value\": 800\n\t}\n}"
+						},
+						"description": "Obtenir les attributs d'un entité donné"
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE CAR_ID",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/Car1/",
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"Car1\",\n\t\"type\" : \"CarB\",\n\t\"speed\": {\n            \"type\": \"Float\",\n            \"value\": 98,\n            \"metadata\": {}\n        }\n}"
+						},
+						"description": "UPDATE CAR (ID)"
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE ATTR_VALUE CAR",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"id\": \"Car6\",\n\"type\": \"Car\",\n\"speed\": {\n\"type\": \"Float\",\n\"value\": 98\n},\n\"color\": {\n\"type\": \"String\",\n\"value\": \"red\"\n}\n}"
+						},
+						"description": "Update value of Car attribute"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Attribute value",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/Car6/attrs/color/value",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\"yellow\""
+						},
+						"description": "Update an attribute value"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieves a test entity",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/test1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Recupère une entité"
+					},
+					"response": []
+				},
+				{
+					"name": "Update entity",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/test1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/oliv",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Maj d'une entité"
+					},
+					"response": []
+				},
+				{
+					"name": "Update entity copy",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/{IdEntity}",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/getEntity",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Maj d'une entité"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Entity",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/{IdEntity}",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/getEntity",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Suppression d'un entité"
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Attributes",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/Room1/attrs/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addRoom",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"id\": \"Room1\",\n\t\"type\": \"Room\",\n\t\"temperature\": {\n\t\"type\": \"Float\",\n\t\"value\": 30\n\t},\n\"pressure\": {\n\t\"type\": \"Integer\",\n\t\"value\": 718\n\t}\n}"
+						},
+						"description": "Getting all attributes of Entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieves an attribute’s data copy",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/{entityID}/attrs/{attrName}",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/getEntity",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Recupére la donnée d'un attribut"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieves an attribute’s value",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/{entityID}/attrs/{attrName}/value",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/getEntity",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Recupére la valeur d'un attribut"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Entity copy",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/{IdEntity}",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/getEntity",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Suppression d'un entité"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieves a Car entity",
+					"request": {
+						"url": "iot.testnca.org:1026/v2/entities/Car3",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Fiware-Service",
+								"value": "testnca",
+								"description": ""
+							},
+							{
+								"key": "Fiware-ServicePath",
+								"value": "/addCar",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"test1\",\r\n        \"type\": \"obj-test\",\r\n        \"description\":  {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test description\"            \r\n    },\r\n        \"location\": {\r\n        \"type\": \"geo:point\",\r\n        \"value\": \"43.66756, 7.21334\"\r\n    },\r\n        \"name\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"test1\"\r\n    },\r\n        \"unit\": {\r\n        \"type\": \"Text\",\r\n        \"value\": \"°c\"\r\n    }\r\n}\r\n\r\n"
+						},
+						"description": "Recupère une entité Car"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MATCHING IOT",
+			"description": "Matching avec les Datamodels existants",
+			"item": []
+		}
+	]
+}
