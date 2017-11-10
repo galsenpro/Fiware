@@ -5,17 +5,26 @@
   "location": {
       "type": "Point",
       "coordinates": [
-	        -8.768460000000001,
-	        434106.71
+	        "+0071240.09",
+	       "+433927.89"
       ]
     },
+
   "codeConstituant":"081",
   "numberSite": "24030",
+  "nomConstituant": "ozone",
+  "uniteMesureConstituant": "microg/m3",
+  "methodeConstituant": "absorption_uv",
+  "hauteurConstituant": "2",
+  "limiteSupConstituant": "2000",
+  "limiteInfConstituant": "0",
+  /*
+  "nbSites": "2",
+  */
   "identifiantSite": "AEROPORT NICE",
   "ecart": "0",
-  "latitude": "+433927.89",
-  "longitude": "+0071240.09",
   "altitude": "+5",
+  "dateCreated": "305.00.12 (Sur le nom du fichier) converti en DATETIME",
   "dateModified": "2017-09-25T09:04:26Z",
-  "refSeeAlso":["081-24011"]
+  "refSeeAlso":["AirQualityStatement-081-24030"]
 }
