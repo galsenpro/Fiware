@@ -1,6 +1,7 @@
 {
   "id": "Madrid-AmbientObserved-28079004-2016-03-15T11:00:00",
-  "type": "AirQualityObserved",
+  "type": "PointOfInterest",
+  "category":"AirQualityStation",
   "address": {
     "postalCode": "06000",
     "addressLocality": "NICE",
@@ -13,4 +14,7 @@
  /***
   "refSeeAlso":["Lise des numberSite liés au Constituant"]
   */
+  "CodeConstituant":"081",
+  "refPOI" : ["24011", "24030"],
+  "refAirQualityObserved":["081-24011", "081-24030"]
 }

@@ -12,16 +12,19 @@ France
 Nb de sites      Code constituant     Nom constituant     Unité de mesure     Methode     Hauteur    Code/défaut   LimSup   LimInf
 2                  081 ozone           microg/m3 absorption_uv         2       2000     0
 N° site       Idf site    écart   heure   lat long   altitude  type
-24011 NICE OUEST BOTANIQUE   0+434106.71+0071240.09 +117    0
-24030 AEROPORT NICE          0+433927.89+0071206.96   +5    0
+    24011 NICE OUEST BOTANIQUE   0+434106.71+0071240.09 +117    0
+    24030 AEROPORT NICE          0+433927.89+0071206.96   +5    0
 
-  108Aozone           microg/m3 absorption_uv         3       2000     0
+  1 08Aozone           microg/m3 absorption_uv         3       2000     0
 24050Cabine Mobile NCA      0+000000.00+0000000.00   +0    0
-  2242pm10            microg/m3 503                   5     999999-99999
+
+  2 242pm10            microg/m3 503                   5     999999-99999
 24030AEROPORT NICE          0+433927.89+0071206.96   +5    0
 24036NICE ARSON             0+434207.48+0071710.49  +11    0
-  124Bpm10            microg/m3 503                   3     999999-99999
+
+  1 24Bpm10            microg/m3 503                   3     999999-99999
 24050Cabine Mobile NCA      0+000000.00+0000000.00   +0    0
+
   1021monoxyde d'azotemicrog/m3 chimiluminescence     2       1250     0
 24030AEROPORT NICE          0+433927.89+0071206.96   +5    0
   2021monoxyde d'azotemicrog/m3 chimiluminescence     5       1250     0

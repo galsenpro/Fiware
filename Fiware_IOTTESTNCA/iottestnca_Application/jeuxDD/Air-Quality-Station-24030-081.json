@@ -1,0 +1,21 @@
+{
+  "id": "Air-Quality-Station-24030-081",
+  "type": "PointOfInterest",
+  "category": "AirQualityStation",
+  "location": {
+      "type": "Point",
+      "coordinates": [
+	        -8.768460000000001,
+	        434106.71
+      ]
+    },
+  "codeConstituant":"081",
+  "numberSite": "24030",
+  "identifiantSite": "AEROPORT NICE",
+  "ecart": "0",
+  "latitude": "+433927.89",
+  "longitude": "+0071240.09",
+  "altitude": "+5",
+  "dateModified": "2017-09-25T09:04:26Z",
+  "refSeeAlso":["081-24011"]
+}

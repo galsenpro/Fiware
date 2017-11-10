@@ -1,0 +1,30 @@
+{
+  "id": "Air-Quality-Station-24011-081",
+  "type": "PointOfInterest",
+  "name": "NICE OUEST BOTANIQUE",
+  "category": "AirQualityStation",
+  "location": {
+      "type": "Point",
+      "coordinates": [
+	        "+0071240.09",
+	      "+434106.71"
+      ]
+    },
+  "codeConstituant":"081",
+  "numberSite": "24011",
+  "nomConstituant": "ozone",
+  "uniteMesureConstituant": "microg/m3",
+  "methodeConstituant": "absorption_uv",
+  "hauteurConstituant": "2",
+  "limiteSupConstituant": "2000",
+  "limiteInfConstituant": "0",
+  /*
+  "nbSites": "2",
+  */
+  "identifiantSite": "NICE OUEST BOTANIQUE",
+  "ecart": "0",
+  "altitude": "+117",
+  "dateCreated": "305.00.12 (Sur le nom du fichier) converti en DATETIME",
+  "dateModified": "2017-09-25T09:04:26Z",
+  "refSeeAlso":["AirQualityStatement-081-24011"]
+}
