@@ -13,7 +13,7 @@
             "-id": "31408",
             "-TrackDataType": "459",
             "-CommonDataType": "NO2",
-            "-StorageUnit": "µg/m3",
+            "-StorageUnit": "?g/m3",
             "publication": [
               {
                 "-date": "2017-10-31T06:00:00",
@@ -1990,7 +1990,7 @@
                 {
                   "-id": "104",
                   "-code": "LEQ_P1",
-                  "-name": "Leq période",
+                  "-name": "Leq p?riode",
                   "value": {
                     "-id": "208402129",
                     "-date": "2017-10-31T06:00:00",
@@ -2000,7 +2000,7 @@
                 {
                   "-id": "104",
                   "-code": "LEQ_P2",
-                  "-name": "Leq période",
+                  "-name": "Leq p?riode",
                   "value": {
                     "-id": "208402147",
                     "-date": "2017-10-31T18:00:00",
@@ -2010,7 +2010,7 @@
                 {
                   "-id": "104",
                   "-code": "LEQ_P3",
-                  "-name": "Leq période",
+                  "-name": "Leq p?riode",
                   "value": {
                     "-id": "208402154",
                     "-date": "2017-10-31T22:00:00",

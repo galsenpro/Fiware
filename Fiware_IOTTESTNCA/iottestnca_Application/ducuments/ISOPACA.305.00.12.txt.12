@@ -3,10 +3,18 @@ Qualitair
 64 route de Grenoble
 06200 NICE
 France
-   18  120
-  2081ozone           microg/m3 absorption_uv         2       2000     0
-24011NICE OUEST BOTANIQUE   0+434106.71+0071240.09 +117    0
-24030AEROPORT NICE          0+433927.89+0071206.96   +5    0
+
+#Nbre de Const      Nbre de bloc de données
+   18               120
+
+   --- BLOC CONSTITUANT (18 ELEMENTS) ---
+
+Nb de sites      Code constituant     Nom constituant     Unité de mesure     Methode     Hauteur    Code/défaut   LimSup   LimInf
+2                  081 ozone           microg/m3 absorption_uv         2       2000     0
+N° site       Idf site    écart   heure   lat long   altitude  type
+24011 NICE OUEST BOTANIQUE   0+434106.71+0071240.09 +117    0
+24030 AEROPORT NICE          0+433927.89+0071206.96   +5    0
+
   108Aozone           microg/m3 absorption_uv         3       2000     0
 24050Cabine Mobile NCA      0+000000.00+0000000.00   +0    0
   2242pm10            microg/m3 503                   5     999999-99999
@@ -23,7 +31,8 @@ France
 24050Cabine Mobile NCA      0+000000.00+0000000.00   +0    0
   1031dioxyde d'azote microg/m3 chimiluminescence     2       1910     0
 24030AEROPORT NICE          0+433927.89+0071206.96   +5    0
-  1121oxydes d azote  microg/m3 chimiluminescence     2       1910     0
+
+1            121    oxydes d azote  microg/m3 chimiluminescence     2       1910     0
 24030AEROPORT NICE          0+433927.89+0071206.96   +5    0
   2392pm2.5           microg/m3 503                   0     999999-99999
 24035PROMENADE DES ANGLAI   0+434121.46+0071431.43   +4    0
@@ -39,14 +48,20 @@ France
 24036NICE ARSON             0+434207.48+0071710.49  +11    0
   102Amonoxyde d'azotemicrog/m3 chimiluminescence     3       1250     0
 24050Cabine Mobile NCA      0+000000.00+0000000.00   +0    0
-  2121oxydes d azote  microg/m3 chimiluminescence     3       1910     0
+
+2    121      oxydes d azote  microg/m3 chimiluminescence     3       1910     0
 24035PROMENADE DES ANGLAI   0+434121.46+0071431.43   +4    0
 24036NICE ARSON             0+434207.48+0071710.49  +11    0
   1241pm10            microg/m3 503                   5     999999-99999
 24035PROMENADE DES ANGLAI   0+434121.46+0071431.43   +4    0
   112Aoxydes d azote  microg/m3 chimiluminescence     3       1910     0
 24050Cabine Mobile NCA      0+000000.00+0000000.00   +0    0
-12124035    1171031 0 0 0 0 1 0 0 0 0 0 015 0 0 0 015   1   0   96
+
+  --- FIN BLOC CONSTITUANT (18 ELEMENTS) ---
+
+    --- RELEVÉ DE L'OBTENTION DES DONNÉES ---
+CodeConst   N°Site  TypeDonnées  HeureDebut  DuréePeriode   IntervalTps  IntervalTpsEchant  NbMersurePr1eDonnee  FacteurMultiple  NbDonnées
+121          24035    1          17103100      00100        000015       000015                1                   0                 96
 A   28A   22A   16Z    0C    2A   13A   23A   20A   18A   13A   14A   26
 A   26A   28A   36A   35A   30A   46A   70A   42A   50A   87A   46A   49
 A  101A  143A   99A  126A   51A   62A   60A   44A   47A   47A   37A   58
@@ -55,17 +70,20 @@ A  129A   89A  110A  129A  140A   68A   96A  108A   64A   80A   72A  109
 A  130A  129A  159A  179A  147A  165A  161A  223A  201A  240A  157A  155
 A  148A  108A  112A  120A  135A  115A   94A   82A   65A   54A   51A   46
 A   38A   35A   31A   34A   31A   31A   32A   27A   43A   42A   45A   31
-12124035    1171031 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 015   1   0   24
+
+121        24035    1171031 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 015   1   0   24
 A   22A   19A   18A   31A   47A   58A  117A   54A   47A  135A  158A  101
 A  114A  103A   81A  149A  174A  188A  122A  107A   54A   35A   30A   40
-12124035    1171031 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 015   1   0    1
+
+121        24035    1        171031 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 015   1   0    1
 A   84
-12124035    117 1 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 015   1   0   12
+121        24035    1        17 1 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 015   1   0   12
 A   96A  102A   92A   91A   94A  107A   86A   91A   89A   90N     N     
-12124035    117 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 015   1   0    1
-N     
+121        24035    1        17 1 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 015   1   0    1
+N
+
 01124050    1171031 0 0 0 0 1 0 0 0 0 0 015 0 0 0 015   1   0   96
-N     N     N     N     N     N     N     N     N     N     N     N     
+N     N     N     N     N     N     N     N     N     N     N     N
 N     N     N     N     N     N     N     N     N     N     N     N     
 N     N     N     N     N     N     N     N     N     N     N     N     
 N     N     N     N     N     M  -13M   22M   35M   34M   32A   27A   23
