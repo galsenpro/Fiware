@@ -18,9 +18,6 @@
   "hauteurConstituant": "2",
   "limiteSupConstituant": "2000",
   "limiteInfConstituant": "0",
-  /*
-  "nbSites": "2",
-  */
   "identifiantSite": "NICE OUEST BOTANIQUE",
   "ecart": "0",
   "altitude": "+117",
