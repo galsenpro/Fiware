@@ -7,8 +7,8 @@
 	        "+0071240.09",
 	      "+434106.71"]
   },
-  "codeConst": "081",
-  "numberSite": "24011",
+  "branchCode": "081",
+  "siteNumber": "24011",
   "dataType": "1",
   "debutPeriode": "2017-10-31T00:00:00",
   "dureePeriode": "00100",
@@ -19,5 +19,5 @@
   "nbreDonneesSites": "9",
   "controlledProperty" : null,
   "dateObserved": "2017-10-31T00:00:00",
-  "value": ["A59","A60", "A60", "A60", "A60", "A60", "A60", "A59", "A58"]
+  "value": ["Données"]
 }
