@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f3cc2e-9eb8-49e6-92b7-c03ed2a9e63c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/ducuments/.~lock.ISOPACAfilesémantiquefr _v2.doc#" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24011-081.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24011-081.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24030-081.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24030-081.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24011-081.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24030-081.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24011-081.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24011-081.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24030-081.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24030-081.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,105 +16,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="17882" />
+    <option name="totalTimeSeconds" value="18686" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ISOPACA_305_00_12.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/ISOPACA_305_00_12.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7803">
-              <caret line="459" column="32" lean-forward="false" selection-start-line="459" selection-start-column="32" selection-end-line="469" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISOPACA.305.00.12.txt.12" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/ducuments/ISOPACA.305.00.12.txt.12">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5474">
-              <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="329" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirQualityStatement-081-24011.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirQuality-NCA.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQuality-NCA.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="POI_Air-Quality-Station-24011-081.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json">
+      <file leaf-file-name="POI_Air-Quality-Station-24030-081.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24030-081.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Air-Quality-Station-24011-081.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24011-081.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Air-Quality-Station-24030-081.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24030-081.json">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24030-081.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="POI_Air-Quality-Station-24030-081.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointOfInteraction.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/PointOfInteraction.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointOfInterest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/PointOfInterest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="374">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -191,10 +110,10 @@
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/ducuments/ISOPACA.305.00.12.txt.12" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI-Sites.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json" />
-        <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json" />
-        <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24011-081.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24030-081.json" />
+        <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json" />
+        <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json" />
       </list>
     </option>
   </component>
@@ -297,6 +216,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD" />
       <recent name="$PROJECT_DIR$/Fiware_IOTTESTNCA/static" />
@@ -690,6 +612,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24011-081.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -698,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json">
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24011-081.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
@@ -706,7 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json">
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24030-081.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
@@ -714,18 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24011-081.json">
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24030-081.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Air-Quality-Station-24030-081.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
