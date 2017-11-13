@@ -1,7 +1,6 @@
 {
   "id": "Air-Quality-Station-24030-081",
-  "type": "PointOfInterest",
-  "category": "AirQualityStation",
+  "type": "AirQualitySite",
   "location": {
       "type": "Point",
       "coordinates": [
@@ -9,19 +8,17 @@
 	       "+433927.89"
       ]
     },
-
-  "codeConstituant":"081",
-  "numberSite": "24030",
-  "nomConstituant": "ozone",
-  "uniteMesureConstituant": "microg/m3",
-  "methodeConstituant": "absorption_uv",
-  "hauteurConstituant": "2",
-  "limiteSupConstituant": "2000",
-  "limiteInfConstituant": "0",
-  "identifiantSite": "AEROPORT NICE",
-  "ecart": "0",
-  "altitude": "+5",
+  "branchCode":"081",
+  "siteNumber": "24030",
+  "constituantName": "ozone",
+  "unitText": "microg/m3",
+  "constituantMethod": "absorption_uv",
+  "constituantHeight": "2",
+  "maxValue": "2000",
+  "minValue": "0",
+  "siteIdentifier": "AEROPORT NICE",
+  "siteGap": "0",
+  "elevation": "+5",
   "dateCreated": "305.00.12 (Sur le nom du fichier) converti en DATETIME",
-  "dateModified": "2017-09-25T09:04:26Z",
-  "refSeeAlso":["AirQualityStatement-081-24030"]
+  "dateModified": "2017-09-25T09:04:26Z"
 }

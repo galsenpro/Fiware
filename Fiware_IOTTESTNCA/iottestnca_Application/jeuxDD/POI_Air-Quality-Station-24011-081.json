@@ -1,0 +1,15 @@
+{
+  "id": "POI_Air-Quality-Station-24011-081",
+  "type": "PointOfInterest",
+  "name": "NICE OUEST BOTANIQUE",
+  "category": ["Valeur correspondant à AirQualityStation"],
+  "location": {
+      "type": "Point",
+      "coordinates": [
+	        "+0071240.09",
+	      "+434106.71"
+      ]
+    },
+  "refSeeAlso":["AirQualityStatement-24011-081"],
+  "source": "http://datasource"
+}
