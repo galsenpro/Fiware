@@ -20,5 +20,6 @@
   "siteGap": "0",
   "elevation": "+117",
   "dateCreated": "305.00.12 (Sur le nom du fichier) converti en DATETIME",
-  "dateModified": "2017-09-25T09:04:26Z"
+  "dateModified": "2017-09-25T09:04:26Z",
+  "refAirQualityObserved":  "AirQualityStatement-081-24011"
 }
