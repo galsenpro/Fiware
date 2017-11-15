@@ -1,0 +1,29 @@
+<boitier baliseid="1000011" balise="GBOX000014" emplacement="GBOX000014" emplacementid="6" lat="43.660530261510573" lng="7.1552125224843621">
+	<voies>
+		<voie id="31408" TrackDataType="459" CommonDataType="NO2" StorageUnit="µg/m3">
+			<publication date="2017-10-31T06:00:00">
+				<data canal="NO2" value="1.800000000000000e+001" />
+			</publication>
+		</voie>
+		<voie id="15440" comment="av Cyrille Besset" TrackDataType="79" CommonDataType="LAeq Histo" StorageUnit="dBA">
+			<publication date="2017-10-31T06:00:00">
+				<data canal="db_leqg" value="7.000000000000000e+001" />
+			</publication>
+		</voie>
+	</voies>
+	<IndicateursMetiers>
+		<Metier nom="Bruit" code="8">
+			<ficheMetier name="BOZZ0014_Bruit">
+				<indicateur id="4" code="LDEN" name="Lden">
+					<value id="208402176" date="2017-10-31T06:00:00" value="7587" color="" />
+				</indicateur>
+				<indicateur id="86" code="INDIC_ELEM_P1" name="Indicateur elementaire">
+					<value id="208401964" date="2017-10-31T06:00:00" value="B" color="Green" />
+				</indicateur>
+				<indicateur id="104" code="LEQ_P1" name="Leq période">
+					<value id="208402129" date="2017-10-31T06:00:00" value="7400" color="" />
+				</indicateur>
+			</ficheMetier>
+		</Metier>
+	</IndicateursMetiers>
+</boitier>
