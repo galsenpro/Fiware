@@ -1,0 +1,19 @@
+ {
+      "id": "NoiseLevelObserved-2017-10-31T06:00:00_208402176",
+      "type": "NoiseLevelObserved",
+      "location": {
+        "type": "Point",
+        "coordinates": [7.1552125224843621, 43.660530261510573]
+      },
+      "dateObserved": "2017-10-31T06:00:00/2017-10-31T06:15:00",
+      "measurand": [
+        "LDEN  | 7587 | Lden",
+        "INDIC_ELEM_P1 | B | Indicateur elementaire",
+        "LEQ_P1  | 7400 | Leq période",
+      ],
+      "LDEN": 7587,
+      "INDIC_ELEM_P1": "B",
+      "LEQ_P1": 7400,
+      "sonometerClass": "2", /* ? */
+      "refDevice": "GBOX000014"
+    }

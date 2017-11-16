@@ -7,17 +7,24 @@
 	        "+0071240.09",
 	      "+434106.71"]
   },
-  "branchCode": "081",
-  "siteNumber": "24011",
-  "constituantType": "1",
-  "startTime": "2017-10-31T00:00:00",
-  "duration": "00100",
-  "datasetTimeInterval": "000015",
-  "samplingDatasetTimeInterval": "000015",
-  "measurementNumber": "1",
-  "constituantMultiplier": "0",
-  "numberOfData": "9",
-  "controlledProperty" : null,
-  "dateObserved": "2017-10-31T00:00:00",
-  "value": ["A86", "A91","A72","A69"]
+  "measurements": [{
+  	  "branchCode": null,
+  	  "constituantName" : null,
+  	  "siteNumber": null,
+	  "commonDataType":"NO2",
+	  "trackDataType":"459", 
+	  "constituantType": "1",
+	  "startTime": "2017-10-31T00:00:00",
+	  "storageUnit":"µg/m3",
+	  "dataCanal" : ["NO2"],
+	  "duration": "00100",
+	  "datasetTimeInterval": null,
+	  "samplingDatasetTimeInterval": null,
+	  "measurementNumber": "1",
+	  "constituantMultiplier": "0",
+	  "numberOfData": "9",
+	  "controlledProperty" : null,
+  	  "value": ["1.800000000000000e+001"]
+	  }],
+  "dateObserved": "2017-10-31T00:00:00"
 }

@@ -8,21 +8,24 @@
 	      "+434106.71"
       ]
     },
-  "branchCode":"081",
-  "siteNumber": "24011",
-  "constituantName": "ozone",
-  "trackDataType":"459",
+  "boxOrBranchCode":"081", /* contituant => boitier */
+  "siteNumber": "24011", /* site => voie (id) */
+  /* "constituantName": "ozone" */
   "commonDataType":"NO2",
+  "trackDataType":"459",
+  /* "type":"0" */
   "storageUnit":"µg/m3",
-  "unitText": "microg/m3",
-  "constituantMethod": "absorption_uv",
-  "constituantHeight": "2",
-  "maxValue": "2000",
-  "minValue": "0",
+  /* "unitText" : "micro_g..." */
+  "dataCanal" : "db_leqg", /* Type de données du Canal */
+  "method": "absorption_uv", /* constituantMethod */
+  "height": "2", /* constituantHeight */
+  "maxValue": "2000", /* Limite maximale */ 
+  "minValue": "0", /* limite minimale */
   "siteIdentifier": "NICE OUEST BOTANIQUE",
-  "siteGap": "0",
-  "elevation": "+117",
+  "siteGap": "0", /* ecart du site */
+  "elevation": "+117", /* altitude */
   "dateCreated": "305.00.12 (Sur le nom du fichier) converti en DATETIME",
   "dateModified": "2017-09-25T09:04:26Z",
-  "refAirQualityObserved":  "AirQualityStatement-081-24011"
+  "refAirQualityObserved":  "AirQualityStatement-081-24011",
+  "refNoiseLevelObserved": "NoiseLevelObserved-2017-10-31T06:00:00_208402176" /* null, cas de la source ISO-PACA*/
 }
