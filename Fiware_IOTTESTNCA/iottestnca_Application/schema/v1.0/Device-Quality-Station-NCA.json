@@ -23,9 +23,9 @@
 	"manufactureName": "Nom du fabricant",
 	"serialNumber": "Numéro de serie",
 	"dateInstalled":  "2017-10-31T06:00:00",
-	"dateLastCalibration" : "2017-10-31T06:00:00",
 	"dateCreated": "305.00.12 (Sur le nom du fichier) converti en DATETIME",
 	"dateModified": "2017-10-31T06:00:00",
+	"refSeeAlso": "NoiseQualityStatement-GBOX000014",
 	"measurements": [{
 		"identifier": "31408",
 		"name" : "airPollution",
@@ -33,8 +33,9 @@
 		"measurementTechnique": "NO2",
 		"unitCode": "NO2",
 		"unitText": "µg/m3",
-		"value": ["1.800000000000000e+001"],
+		"value": "1.800000000000000e+001",
 		"dateObserved": "2017-10-31T06:00:00",
+		"dateLastCalibration" : "2017-10-31T06:00:00",
 		"height": null,
 		"channelState": "db_leqg",
 		"multiplier": null,
@@ -42,16 +43,16 @@
 		"maxValue": null,
 		"minValue": null,
 		"siteGap": null ,
-		"elevation": null,
-		"refSeeAlso": "AirQualityStatement-GBOX000014"
+		"elevation": null
 		},{
 		"name" : "noiseLevel",
 		"label": "Bruit",
 		"measurementTechnique": "db_leqg",
 		"unitCode": "db_leqg",
 		"unitText": "dBA",
-		"value": ["7.000000000000000e+001"],
+		"value": "7.000000000000000e+001",
 		"dateObserved": "2017-10-31T06:00:00",
+		"dateLastCalibration" : "2017-10-31T06:00:00",
 		"height": null,
 		"channelState": "db_leqg",
 		"multiplier": null,
@@ -59,7 +60,7 @@
 		"maxValue": null,
 		"minValue": null,
 		"siteGap": null ,
-		"elevation": null,
-		"refSeeAlso": "NoiseQualityStatement-GBOX000014"
-		}]
-}
+		"elevation": null
+		}],
+	"source": "http://somlit.mio.univ-amu.fr/#/donnees/7/12/2"
+	}
