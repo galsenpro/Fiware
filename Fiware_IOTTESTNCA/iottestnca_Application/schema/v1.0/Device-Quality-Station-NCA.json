@@ -2,6 +2,7 @@
 	"id": "PropertyName-Quality-Observed-GBOX000014",
 	"type": "Device",
 	"name" : "GBOX000014",
+	"category": "sensor",
 	"description": "Description du constituant qui posséde une liste de sites ou du boitier qui possède une liste de voies ou canaux",
 	"address": {
 		"postalCode": "06200",
@@ -17,7 +18,6 @@
 			43.660530261510573
 		]
 	},
-	"deviceClass": "C1",
 	"brandName": "La marque",
 	"modelName": "Modèle du device",
 	"manufactureName": "Nom du fabricant",
@@ -37,7 +37,7 @@
 		"dateObserved": "2017-10-31T06:00:00",
 		"dateLastCalibration" : "2017-10-31T06:00:00",
 		"height": null,
-		"channelState": "db_leqg",
+		"channelState": "NO2",
 		"multiplier": null,
 		"measureFrequency": null,
 		"maxValue": null,
@@ -45,6 +45,7 @@
 		"siteGap": null ,
 		"elevation": null
 		},{
+		"identifier": "15440",
 		"name" : "noiseLevel",
 		"label": "Bruit",
 		"measurementTechnique": "db_leqg",
