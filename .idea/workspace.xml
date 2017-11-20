@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6f3cc2e-9eb8-49e6-92b7-c03ed2a9e63c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/UN_CEFACT_UnitCode.json" afterPath="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/UN_CEFACT_UnitCode.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,35 +13,85 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="19195" />
+    <option name="totalTimeSeconds" value="22539" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="POI_Air-Quality-Station-24030-081.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24030-081.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Air-Quality-Station-24030-081.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24030-081.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirQualityStatement-081-24011.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirQualityStatement-081-24011.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bruit et Qualité d'air_6_18_t0_2017-11-01_06h09.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Bruit et Qualité d'air_6_18_t0_2017-11-01_06h09.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Device-Quality-Station-NCA.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Device-Quality-Station-NCA.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UN_CEFACT_UnitCode.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/UN_CEFACT_UnitCode.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="116" column="27" lean-forward="true" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_18_t0_2017-11-01_06h09.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/6_18_t0_2017-11-01_06h09.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6_18_t0_2017-11-01_06h09.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/6_18_t0_2017-11-01_06h09.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5423">
+              <caret line="319" column="30" lean-forward="false" selection-start-line="319" selection-start-column="30" selection-end-line="319" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="villefranche-eol-20130916.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/villefranche-eol-20130916.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,6 +171,7 @@
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24030-081.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/POI_Air-Quality-Station-24011-081.json" />
         <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json" />
+        <option value="$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/UN_CEFACT_UnitCode.json" />
       </list>
     </option>
   </component>
@@ -171,27 +223,6 @@
               <item name="Fiware" type="462c0819:PsiDirectoryNode" />
               <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
               <item name="iottestnca_Application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="iottestnca_Application" type="462c0819:PsiDirectoryNode" />
-              <item name="ducuments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="iottestnca_Application" type="462c0819:PsiDirectoryNode" />
-              <item name="jeuDeDonnees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fiware" type="462c0819:PsiDirectoryNode" />
-              <item name="Fiware_IOTTESTNCA" type="462c0819:PsiDirectoryNode" />
-              <item name="iottestnca_Application" type="462c0819:PsiDirectoryNode" />
-              <item name="jeuxDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fiware" type="b2602c69:ProjectViewProjectNode" />
@@ -271,14 +302,14 @@
     <frame x="277" y="52" width="1887" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25502992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25774878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2675367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27678087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33089006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -308,29 +339,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/stats.html" />
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/static/stats.html" />
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/xadmin/stats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/templates/xadmin/includes/sitemenu_default2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -519,14 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/6_18_t0_2017-11-01_06h09.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/extras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -538,15 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1059">
           <caret line="531" column="24" lean-forward="true" selection-start-line="531" selection-start-column="24" selection-end-line="531" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/6_18_t0_2017-11-01_06h09.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="14" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7803">
           <caret line="459" column="32" lean-forward="false" selection-start-line="459" selection-start-column="32" selection-end-line="469" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5474">
           <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="329" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,22 +615,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/POI_Air-Quality-Station-24030-081.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/villefranche-eol-20130916.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/export_Var.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/6_18_t0_2017-11-01_06h09.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/6_18_t0_2017-11-01_06h09.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5423">
+          <caret line="319" column="30" lean-forward="false" selection-start-line="319" selection-start-column="30" selection-end-line="319" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Air-Quality-Station-24030-081.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -653,7 +667,31 @@
     <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/AirQualityStatement-081-24011.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/jeuxDD/Bruit et Qualité d'air_6_18_t0_2017-11-01_06h09.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/Device-Quality-Station-NCA.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fiware_IOTTESTNCA/iottestnca_Application/schema/v1.0/UN_CEFACT_UnitCode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="116" column="27" lean-forward="true" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
           <folding />
         </state>
       </provider>

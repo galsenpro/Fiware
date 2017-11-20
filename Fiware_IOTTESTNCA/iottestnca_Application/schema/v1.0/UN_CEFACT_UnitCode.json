@@ -89,5 +89,65 @@
 	},{
 		"CommonCode":"DAY",
 		"UnitOfMeasurement":"d"
+	},{
+		"CommonCode":"DD",
+		"UnitOfMeasurement":"°"
+	},{
+		"CommonCode":"E01",
+		"UnitOfMeasurement":"N/cm²"
+	},{
+		"CommonCode":"E32",
+		"UnitOfMeasurement":"l/h"
+	},{
+		"CommonCode":"FAR",
+		"UnitOfMeasurement":"F"
+	},{
+		"CommonCode":"GM",
+		"UnitOfMeasurement":"g/m²"
+	},{
+		"CommonCode":"GRM",
+		"UnitOfMeasurement":"g"
+	},{
+		"CommonCode":"HTZ",
+		"UnitOfMeasurement":"Hz"
+	},{
+		"CommonCode":"HUR",
+		"UnitOfMeasurement":"h"
+	},{
+		"CommonCode":"KEL",
+		"UnitOfMeasurement":"K"
+	},{
+		"CommonCode":"KGM",
+		"UnitOfMeasurement":"kg"
+	},{
+		"CommonCode":"KGS",
+		"UnitOfMeasurement":"kg/s"
+	},{
+		"CommonCode":"KHZ",
+		"UnitOfMeasurement":"kHz"
+	},{
+		"CommonCode":"KL",
+		"UnitOfMeasurement":"kg/m"
+	},{
+		"CommonCode":"KMQ",
+		"UnitOfMeasurement":"kg/m³"
+	},{
+		"CommonCode":"KVT",
+		"UnitOfMeasurement":"kV"
+	},{
+		"CommonCode":"KWT",
+		"UnitOfMeasurement":"kW"
+	},{
+		"CommonCode":"L2",
+		"UnitOfMeasurement":"l/min"
+	},{
+		"CommonCode":"LTR",
+		"UnitOfMeasurement":"l"
+	},{
+		"CommonCode":"LUM",
+		"UnitOfMeasurement":"lm"
+	},{
+		"CommonCode":"LUX",
+		"UnitOfMeasurement":"lx"
 	}]
 }
