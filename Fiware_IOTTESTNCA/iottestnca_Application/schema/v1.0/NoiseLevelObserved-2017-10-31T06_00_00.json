@@ -9,11 +9,11 @@
       "measurand": [
         "LDEN  | 7587 | Lden",
         "INDIC_ELEM_P1 | B | Indicateur elementaire",
-        "LEQ_P1  | 7400 | Leq période",
-      ],
+        "LEQ_P1  | 7400 | Leq période"
+      ] ,
       "LDEN": 7587,
       "INDIC_ELEM_P1": "B",
       "LEQ_P1": 7400,
-      "sonometerClass": "2", /* ? */
+      "sonometerClass": "2", 
       "refDevice": "GBOX000014"
     }
