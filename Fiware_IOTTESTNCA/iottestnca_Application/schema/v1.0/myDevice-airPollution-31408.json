@@ -11,11 +11,13 @@
 			43.660530261510573
 		]
 	},
-	"measurementTechnique": "NO2",
-	"label": "Qualité d'air",
-	"unitCode": "CODE_OF_MICROGPERM3",
-	"unitText": "µm/m3",
-	"value": "1.800000000000000e+001",
+	"measurement":[{
+		"measurementTechnique": "NO2",
+		"label": "Qualité d'air",
+		"unitCode": "usedUniversalCode",
+		"unitText": "TextOfusedUniversalCode",
+		"value": 1.800000000000000e+001
+		}],
 	"dateObserved": "2017-10-31T06:00:00",
 	"dateLastCalibration" : "2017-10-31T06:00:00",
 	"height": null,

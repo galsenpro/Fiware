@@ -11,11 +11,13 @@
 			43.660530261510573
 		]
 	},
-	"measurementTechnique": "LA",
-	"label": "LA, valeur minimale calculee sur la periode d'enregistrement", 
-	"unitCode": "LA",
-	"unitText": "LA",
-	"value": "62.2",
+	"measurement":[{
+		"measurementTechnique": "LA",
+		"label": "LA, valeur minimale calculee sur la periode d'enregistrement",
+		"unitCode": "usedUniversalCode",
+		"unitText": "TextOfusedUniversalCode",
+		"value": 62.2
+		}],
     "dateObserved": "2017-09-25T09:06:26Z",
     "dateLastCalibration": "2017-09-25T09:06:26Z",
 	"height": null,
