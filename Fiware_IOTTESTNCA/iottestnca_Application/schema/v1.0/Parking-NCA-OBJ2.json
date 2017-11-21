@@ -1,21 +1,21 @@
 {
-  "id": "Parking-OBJ001",
-  "type": "OffStreetParking",
-  "name": "MASSENA",
-  "category": ["Catégories du site de stationnement"],
-  "chargeType": ["temporaryPrice"],
-  "requiredPermit": ["employeePermit", "studentPermit"],
-  "layout": ["disposition de stationnement"],
-  "maximumParkingDuration": "PT8H",
-  "location": {
-    "coordinates": [7.26985643, 43.69770086],
-    "type": "Point"
-  },
-  "allowedVehicleType": ["car", "bus","motorscooter"],
-  "totalSpotNumber": 325,
-  "availableSpotNumber": 1,
-  "dateModified": "2017-11-07T14:18:58.00Z",
-  "active": "oui",
-  "message": "1 | COMPLET | OUVERT | ... ",
-  "eventInfo": "OK"
+	"id": "Parking-OBJ001",
+	"type": "OffStreetParking",
+	"name": "MASSENA",
+	"category": ["Catégories du site de stationnement"],
+	"chargeType": ["temporaryPrice"],
+	"requiredPermit": ["employeePermit", "studentPermit"],
+	"layout": ["disposition de stationnement"],
+	"maximumParkingDuration": "PT8H",
+	"location": {
+		"coordinates": [7.26985643, 43.69770086],
+		"type": "Point"
+	},
+	"allowedVehicleType": ["car", "bus","motorscooter"],
+	"totalSpotNumber": 325,
+	"availableSpotNumber": 1,
+	"dateModified": "2017-11-07T14:18:58.00Z",
+	"active": "oui",
+	"message": "1 | COMPLET | OUVERT | ... ",
+	"eventInfo": "OK"
 }

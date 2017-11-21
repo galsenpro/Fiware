@@ -4,9 +4,9 @@
 	"location": {
 		"type": "Point",
 		"coordinates": [
-			      "+0071240.09",
-			    "+434106.71"]
-		  },
+			"+0071240.09",
+			"+434106.71"]
+	},
 	"measurements": [{
 		"brandName": null,
 		"modelName": null,
@@ -29,8 +29,8 @@
 		"numberOfData": "9",
 		"controlledProperty" : null,
 		"value": ["1.800000000000000e+001"]
-  	  
-  	  /*
+
+	/*
 		brandName,
 		modelName,
 		manufactureName,
@@ -51,8 +51,8 @@
 		unitText,
 		multiplier,
 		measureFrequency
-		  	  
-  	  */
-	  }],
-"dateObserved": "2017-10-31T00:00:00"
+
+	 */
+	}],
+	"dateObserved": "2017-10-31T00:00:00"
 }

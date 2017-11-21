@@ -9,13 +9,13 @@
 		"addressRegion": "Alpes Maritimes",
 		"addressCountry": "FR",
 		"streetAddress": "Av Cyrille Besset"
-	    	}, 
+	}, 
 	"location": {
 		"type": "Point",
 		"coordinates": [
 			7.1552125224843621,
 			43.660530261510573
-		]
+			]
 	},
 	"deviceClass": "C1",
 	"brandName": "La marque",
@@ -44,7 +44,7 @@
 		"siteGap": null ,
 		"elevation": null,
 		"refSeeAlso": "AirQualityStatement-GBOX000014"
-		},{
+	},{
 		"name" : "noiseLevel",
 		"label": "Bruit",
 		"measurementTechnique": "db_leqg",
@@ -61,5 +61,5 @@
 		"siteGap": null ,
 		"elevation": null,
 		"refSeeAlso": "NoiseQualityStatement-GBOX000014"
-		}]
+	}]
 }

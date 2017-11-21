@@ -2,505 +2,505 @@
 	"attributes" : [{
 		"value": "language",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "French",
-			      "fr": "Français",
-			      "es": "Francés"
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "English",
-			      "fr": "Anglais",
-			      "es": "Inglés"
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "Spanish",
-			      "fr": "Espagnol",
-			      "es": "Español"
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "French",
+				"fr": "Français",
+				"es": "Francés"
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "English",
+				"fr": "Anglais",
+				"es": "Inglés"
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "Spanish",
+				"fr": "Espagnol",
+				"es": "Español"
+			}
+		}
+	},{
 		"value": "paymentAccepted",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "Cash",
-			      "fr": "Espèces",
-			      "es": "Efectivo"
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "Transfer",
-			      "fr": "Virement",
-			      "es": "Transferencia"
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "Credit card - Visa",
-			      "fr": "Carte Bleue - Visa",
-			      "es": "Tarjeta de crédito - Visa"
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "Cash",
+				"fr": "Espèces",
+				"es": "Efectivo"
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "Transfer",
+				"fr": "Virement",
+				"es": "Transferencia"
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "Credit card - Visa",
+				"fr": "Carte Bleue - Visa",
+				"es": "Tarjeta de crédito - Visa"
+			}
+		}
+	},{
 		"value": "amenityFeature",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Ascenseur",
-			      "es": ""
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Wifi gratuit",
-			      "es":""
-			    }
-	   	 	},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Double vitrage",
-			      "es":""
-			    }
-	   		},
-			"4":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Télévision",
-			      "es":""
-			    }
-	   		},
-			"5":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Terrasse privative",
-			      "es":""
-			    }
-	   		},
-			"6":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Lave linge",
-			      "es":""
-			    }
-	   		},
-			"7":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Sèche cheveux",
-			      "es":""
-			    }
-	   		},
-			"8":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Parking privé payant",
-			      "es":""
-			    }
-	   		},
-			"9":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Parking public à  proximité",
-			      "es":""
-			    }
-	   		},
-			"10":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Piscine",
-			      "es":""
-			    }
-	   		},
-			"11":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Animaux acceptés",
-			      "es":""
-			    }
-	   		},
-			"12":{
-			    "labels":{
-			      "en": "",
-			      "fr": "Climatisation",
-			      "es":""
-			    }
-	   		},
-			"13":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Dépose-bus",
-			      "es": ""
-			    }
-	   		},
-			"14":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Parking bus",
-			      "es": ""
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Ascenseur",
+				"es": ""
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Wifi gratuit",
+				"es":""
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "Double vitrage",
+				"es":""
+			}
+		},
+		"4":{
+			"labels":{
+				"en": "",
+				"fr": "Télévision",
+				"es":""
+			}
+		},
+		"5":{
+			"labels":{
+				"en": "",
+				"fr": "Terrasse privative",
+				"es":""
+			}
+		},
+		"6":{
+			"labels":{
+				"en": "",
+				"fr": "Lave linge",
+				"es":""
+			}
+		},
+		"7":{
+			"labels":{
+				"en": "",
+				"fr": "Sèche cheveux",
+				"es":""
+			}
+		},
+		"8":{
+			"labels":{
+				"en": "",
+				"fr": "Parking privé payant",
+				"es":""
+			}
+		},
+		"9":{
+			"labels":{
+				"en": "",
+				"fr": "Parking public à  proximité",
+				"es":""
+			}
+		},
+		"10":{
+			"labels":{
+				"en": "",
+				"fr": "Piscine",
+				"es":""
+			}
+		},
+		"11":{
+			"labels":{
+				"en": "",
+				"fr": "Animaux acceptés",
+				"es":""
+			}
+		},
+		"12":{
+			"labels":{
+				"en": "",
+				"fr": "Climatisation",
+				"es":""
+			}
+		},
+		"13":{
+			"labels": {
+				"en": "",
+				"fr": "Dépose-bus",
+				"es": ""
+			}
+		},
+		"14":{
+			"labels": {
+				"en": "",
+				"fr": "Parking bus",
+				"es": ""
+			}
+		}
+	},{
 		"value": "category",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Restaurants",
-			      "es": ""
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Cuisine Méditerranéenne",
-			      "es": ""
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Groupes à  partir de 50 personnes",
-			      "es": ""
-			    }
-	   		},
-			"4":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Magasins de Luxe",
-			      "es": ""
-			    }
-	   		},
-			"5":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Mode homme",
-			      "es": ""
-			    }
-	   		},
-			"6":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Toutes les boutiques",
-			      "es": ""
-			    }
-	   		},
-			"7":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Mode femme",
-			      "es": ""
-			    }
-	   		},
-			"8":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Toutes les boutiques",
-			      "es": ""
-			    }
-	   		},
-			"9":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Ouverts le dimanche",
-			      "es": ""
-			    }
-	   		},
-			"10":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Locations de voiture",
-			      "es": ""
-			    }
-	   		},
-			"11":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Monuments et églises",
-			      "es": ""
-			    }
-	   		},
-			"12":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Lieux de réceptions Nice",
-			      "es": ""
-			    }
-	   		},
-			"13":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Salles de spectacle",
-			      "es": ""
-			    }
-	   		},
-			"14":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Autres lieux de réunions Nice",
-			      "es": ""
-			    }
-	   		},
-			"15":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Sites privatisables Nice",
-			      "es": ""
-			    }
-	   		},
-			"16":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Monuments et églises",
-			      "es": ""
-			    }
-	   		}
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Restaurants",
+				"es": ""
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Cuisine Méditerranéenne",
+				"es": ""
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "Groupes à  partir de 50 personnes",
+				"es": ""
+			}
+		},
+		"4":{
+			"labels": {
+				"en": "",
+				"fr": "Magasins de Luxe",
+				"es": ""
+			}
+		},
+		"5":{
+			"labels": {
+				"en": "",
+				"fr": "Mode homme",
+				"es": ""
+			}
+		},
+		"6":{
+			"labels": {
+				"en": "",
+				"fr": "Toutes les boutiques",
+				"es": ""
+			}
+		},
+		"7":{
+			"labels": {
+				"en": "",
+				"fr": "Mode femme",
+				"es": ""
+			}
+		},
+		"8":{
+			"labels": {
+				"en": "",
+				"fr": "Toutes les boutiques",
+				"es": ""
+			}
+		},
+		"9":{
+			"labels": {
+				"en": "",
+				"fr": "Ouverts le dimanche",
+				"es": ""
+			}
+		},
+		"10":{
+			"labels": {
+				"en": "",
+				"fr": "Locations de voiture",
+				"es": ""
+			}
+		},
+		"11":{
+			"labels": {
+				"en": "",
+				"fr": "Monuments et églises",
+				"es": ""
+			}
+		},
+		"12":{
+			"labels": {
+				"en": "",
+				"fr": "Lieux de réceptions Nice",
+				"es": ""
+			}
+		},
+		"13":{
+			"labels": {
+				"en": "",
+				"fr": "Salles de spectacle",
+				"es": ""
+			}
+		},
+		"14":{
+			"labels": {
+				"en": "",
+				"fr": "Autres lieux de réunions Nice",
+				"es": ""
+			}
+		},
+		"15":{
+			"labels": {
+				"en": "",
+				"fr": "Sites privatisables Nice",
+				"es": ""
+			}
+		},
+		"16":{
+			"labels": {
+				"en": "",
+				"fr": "Monuments et églises",
+				"es": ""
+			}
+		}
 	},{
 		"value": "localBusiness",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Nice Irisée Naturellement",
-			      "es": ""
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Famille Plus",
-			      "es":""
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Accueil sportif",
-			      "es":""
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Nice Irisée Naturellement",
+				"es": ""
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Famille Plus",
+				"es":""
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "Accueil sportif",
+				"es":""
+			}
+		}
+	},{
 		"value": "accommodationType",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Meublé",
-			      "es":""
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Non meublé",
-			      "es":""
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Meublé",
+				"es":""
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Non meublé",
+				"es":""
+			}
+		}
+	},{
 		"value": "standingsLevel",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "1 étoile"
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "2 étoiles"
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "3 étoiles"
-			    }
-	   		},
-			"4":{
-			    "labels": {
-			      "en": "",
-			      "fr": "4 étoiles"
-			    }
-	   		},
-			"5":{
-			    "labels": {
-			      "en": "",
-			      "fr": "5 étoiles"
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "1 étoile"
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "2 étoiles"
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "3 étoiles"
+			}
+		},
+		"4":{
+			"labels": {
+				"en": "",
+				"fr": "4 étoiles"
+			}
+		},
+		"5":{
+			"labels": {
+				"en": "",
+				"fr": "5 étoiles"
+			}
+		}
+	},{
 		"value": "furnishedRental",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Appartement dans immeuble"
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Appartement dans immeuble"
+			}
+		}
+	},{
 		"value": "rentalMonthes",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "January",
-			      "fr": "Janvier",
-			      "es": "Enero"
-			    }
-	   		},
-	   		"2":{
-			    "labels": {
-			      "en": "February",
-			      "fr": "Février",
-			      "es": "Febrero"
-			    }
-	   		},
-	   		"3":{
-			    "labels": {
-			      "en": "March",
-			      "fr": "Mars",
-			      "es": "Marzo"
-			    }
-	   		},
-	   		"4":{
-			    "labels": {
-			      "en": "April",
-			      "fr": "Avril",
-			      "es": "Abril"
-			    }
-	   		},
-	   		"5":{
-			    "labels": {
-			      "en": "May",
-			      "fr": "Mai",
-			      "es": "Mayo"
-			    }
-	   		},
-	   		"6":{
-			    "labels": {
-			      "en": "Juin",
-			      "fr": "Juin",
-			      "es": "Junio"
-			    }
-	   		},
-	   		"7":{
-			    "labels": {
-			      "en": "July",
-			      "fr": "Juillet",
-			      "es": "Julio"
-			    }
-	   		},
-	   		"8":{
-			    "labels": {
-			      "en": "August",
-			      "fr": "Août",
-			      "es": "Agosto"
-			    }
-	   		},
-	   		"9":{
-			    "labels": {
-			      "en": "September",
-			      "fr": "Septembre",
-			      "es": "Setiembre"
-			    }
-	   		},
-	   		"10":{
-			    "labels": {
-			      "en": "October",
-			      "fr": "Octobre",
-			      "es": "Octubre"
-			    }
-	   		},
-	   		"11":{
-			    "labels": {
-			      "en": "November",
-			      "fr": "Novembre",
-			      "es": "Noviembre"
-			    }
-	   		},
-	   		"12":{
-			    "labels": {
-			      "en": "December",
-			      "fr": "Décembre",
-			      "es": "Diciembre"
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "January",
+				"fr": "Janvier",
+				"es": "Enero"
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "February",
+				"fr": "Février",
+				"es": "Febrero"
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "March",
+				"fr": "Mars",
+				"es": "Marzo"
+			}
+		},
+		"4":{
+			"labels": {
+				"en": "April",
+				"fr": "Avril",
+				"es": "Abril"
+			}
+		},
+		"5":{
+			"labels": {
+				"en": "May",
+				"fr": "Mai",
+				"es": "Mayo"
+			}
+		},
+		"6":{
+			"labels": {
+				"en": "Juin",
+				"fr": "Juin",
+				"es": "Junio"
+			}
+		},
+		"7":{
+			"labels": {
+				"en": "July",
+				"fr": "Juillet",
+				"es": "Julio"
+			}
+		},
+		"8":{
+			"labels": {
+				"en": "August",
+				"fr": "Août",
+				"es": "Agosto"
+			}
+		},
+		"9":{
+			"labels": {
+				"en": "September",
+				"fr": "Septembre",
+				"es": "Setiembre"
+			}
+		},
+		"10":{
+			"labels": {
+				"en": "October",
+				"fr": "Octobre",
+				"es": "Octubre"
+			}
+		},
+		"11":{
+			"labels": {
+				"en": "November",
+				"fr": "Novembre",
+				"es": "Noviembre"
+			}
+		},
+		"12":{
+			"labels": {
+				"en": "December",
+				"fr": "Décembre",
+				"es": "Diciembre"
+			}
+		}
+	},{
 		"value": "disabledOptions",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Accessible personnes handicapées"
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Toilettes accessibles"
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Douche de plain pied"
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Accessible personnes handicapées"
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Toilettes accessibles"
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "Douche de plain pied"
+			}
+		}
+	},{
 		"value": "servesCuisine",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Méditerranéenne",
-			      "es":""
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Traditionnelle",
-			      "es":""
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Pizzas",
-			      "es":""
-			    }
-	   		}
- 	},{
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Méditerranéenne",
+				"es":""
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Traditionnelle",
+				"es":""
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "Pizzas",
+				"es":""
+			}
+		}
+	},{
 		"value": "atmospher",
 		"default" : "fr",
-			"1":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Lounge",
-			      "es":""
-			    }
-	   		},
-			"2":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Soirées à thème",
-			      "es":""
-			    }
-	   		},
-			"3":{
-			    "labels": {
-			      "en": "",
-			      "fr": "Animation Spectacle",
-			      "es":""
-			    }
-	   		}
- 	}
- ]}
+		"1":{
+			"labels": {
+				"en": "",
+				"fr": "Lounge",
+				"es":""
+			}
+		},
+		"2":{
+			"labels": {
+				"en": "",
+				"fr": "Soirées à thème",
+				"es":""
+			}
+		},
+		"3":{
+			"labels": {
+				"en": "",
+				"fr": "Animation Spectacle",
+				"es":""
+			}
+		}
+	}
+	]}

@@ -1,44 +1,44 @@
 {
-    "id": "Restaurant-NCA:4506",
-    "type": "Restaurant",
-    "name": "AC LOUNGE BAR & RESTAURANT | AC LOUNGE", 
-    "description": "Descriptions dU RESTAURANT",
-    "address": {
-      "addressCountry": "FR",
-      "streetAddress": "59 Promenade des anglais"
-    },
-    "url" : "http://www.marriott.com/nceac",
-    "faxNumber" : "+33(0)4 93 44 50 40",
-    "telephone" : "+33(0)4 93 97 74 27",
-    "email": "ac.nceac.restaurant@marriott.com",
+	"id": "Restaurant-NCA:4506",
+	"type": "Restaurant",
+	"name": "AC LOUNGE BAR & RESTAURANT | AC LOUNGE", 
+	"description": "Descriptions dU RESTAURANT",
+	"address": {
+		"addressCountry": "FR",
+		"streetAddress": "59 Promenade des anglais"
+	},
+	"url" : "http://www.marriott.com/nceac",
+	"faxNumber" : "+33(0)4 93 44 50 40",
+	"telephone" : "+33(0)4 93 97 74 27",
+	"email": "ac.nceac.restaurant@marriott.com",
 	"language": ["1", "2", "3"],
-    "paymentAccepted":["1", "2", "3"],
-    "amenities": ["8", "9", "10", "2", "11", "12","5"],
-    "proximity": ["Bord de mer","Magnan", "Gambetta" ],
-    "category": ["1", "2", "3"],
-    "servesCuisine": ["1", "2", "3"],
-    "atmospher" : ["1", "2","3"],
-    "option": ["Privatisable"],
-    "publication" : null,
-    "commonTags": null,
-    "groupOptions": null,
-    "familyOptions": ["matériel adapté aux enfants"],
-    "disabledOptions" : ["Accessible personnes handicapées"],
-    "sectors": null,
-    "living": null,
-    "tariffs": null,
-    "capacity": {
-            "indoor": "50",
-            "outdoor": "80",
-            "roomCount": "3",
-            "seated": "0",
-            "cocktail": "0"
-          },
-    "closures": {
-    	"closureDay": "Dimanche",
-    	"closureSpan": "toute la journée"
-    	},
-    "spaces": null,
-    "openingHours": "12:00-14:00 - 19:30 -22:00",
-    "closing" : "01/12-30/04"
+	"paymentAccepted":["1", "2", "3"],
+	"amenities": ["8", "9", "10", "2", "11", "12","5"],
+	"proximity": ["Bord de mer","Magnan", "Gambetta" ],
+	"category": ["1", "2", "3"],
+	"servesCuisine": ["1", "2", "3"],
+	"atmospher" : ["1", "2","3"],
+	"option": ["Privatisable"],
+	"publication" : null,
+	"commonTags": null,
+	"groupOptions": null,
+	"familyOptions": ["matériel adapté aux enfants"],
+	"disabledOptions" : ["Accessible personnes handicapées"],
+	"sectors": null,
+	"living": null,
+	"tariffs": null,
+	"capacity": {
+		"indoor": "50",
+		"outdoor": "80",
+		"roomCount": "3",
+		"seated": "0",
+		"cocktail": "0"
+	},
+	"closures": {
+		"closureDay": "Dimanche",
+		"closureSpan": "toute la journée"
+	},
+	"spaces": null,
+	"openingHours": "12:00-14:00 - 19:30 -22:00",
+	"closing" : "01/12-30/04"
 }

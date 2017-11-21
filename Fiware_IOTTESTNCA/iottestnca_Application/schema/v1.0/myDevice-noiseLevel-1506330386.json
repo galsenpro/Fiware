@@ -2,7 +2,7 @@
 	"id": "myDevice-noiseLevel-1506330386",
 	"type": "DeviceModel",
 	"category": "sensor",
-	"name":"BRUITO-SENSIB-000001",
+	"name": "BRUITO-SENSIB-000001",
 	"description": "PREVENTEC Sensibel triple",
 	"location": {
 		"type": "Point",
@@ -11,21 +11,23 @@
 			43.660530261510573
 		]
 	},
-	"measurement":[{
-		"measurementTechnique": "LA",
-		"label": "LA, valeur minimale calculee sur la periode d'enregistrement",
-		"unitCode": "usedUniversalCode",
-		"unitText": "TextOfusedUniversalCode",
-		"value": 62.2
-		}],
-    "dateObserved": "2017-09-25T09:06:26Z",
-    "dateLastCalibration": "2017-09-25T09:06:26Z",
+	"measurement": [
+		{
+			"measurementTechnique": "LA",
+			"label": "LA, valeur minimale calculee sur la periode d'enregistrement",
+			"unitCode": "usedUniversalCode",
+			"unitText": "TextOfusedUniversalCode",
+			"value": 62.2
+		}
+	],
+	"dateObserved": "2017-09-25T09:06:26Z",
+	"dateLastCalibration": "2017-09-25T09:06:26Z",
 	"height": null,
 	"channelState": null,
 	"multiplier": null,
 	"measureFrequency": null,
 	"maxValue": null,
 	"minValue": null,
-	"siteGap": null ,
+	"siteGap": null,
 	"elevation": null
-	}
+}

@@ -8,7 +8,7 @@
 		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
 		"en": ["Cash", "Transfer", "Credit card - Visa"],
 		"es": ["Efectivo","Transferencia","Tarjeta de crédito - Visa"]
-		},
+	},
 	"amenities":{
 	},
 	"accommodationLabels":{
