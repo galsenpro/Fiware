@@ -1,6 +1,6 @@
 {
 	"id": "myDevice-airPollution-15440",
-	"type": "DeviceModel",
+	"type": "DeviceDataModel",
 	"category": "sensor",
 	"name": "Name of canal",
 	"description": "Description du canal ou voie",
@@ -11,15 +11,11 @@
 			43.660530261510573
 		]
 	},
-	"measurement": [
-		{
-			"measurementTechnique": "db_leqg",
-			"label": "Bruit",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 7.000000000000000e+001
-		}
-	],
+	"measurementTechnique": "db_leqg",
+	"label": "Bruit",
+	"unitCode": "usedUniversalCode",
+	"unitText": "TextOfusedUniversalCode",
+	"value": 7.000000000000000e+001,
 	"dateObserved": "2017-10-31T06:00:00",
 	"dateLastCalibration": "2017-10-31T06:00:00",
 	"height": null,

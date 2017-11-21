@@ -1,6 +1,6 @@
 {
 	"id": "myDevice-salinity-20130916140350",
-	"type": "DeviceModel",
+	"type": "DeviceDataModel",
 	"category": "sensor",
 	"name": "Name of canal",
 	"description": "Salinité villeFranche",
@@ -11,85 +11,11 @@
 			43.660530261510573
 		]
 	},
-	"measurement": [
-		{
-			"measurementTechnique": "P",
-			"label": "Pressure, Strain Gauge",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 4
-		},
-		{
-			"measurementTechnique": "T",
-			"label": "Temperature",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 23.0190333333333
-		},
-		{
-			"measurementTechnique": "qT",
-			"label": "SOMLIT Quality Code ",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 8
-		},
-		{
-			"measurementTechnique": "S",
-			"label": "Salinity, Practical",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 38.2042
-		},
-		{
-			"measurementTechnique": "qS",
-			"label": "SOMLIT Quality Code",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 8
-		},
-		{
-			"measurementTechnique": "O2",
-			"label": "Oxygen Optode, Aanderaa",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 999.999
-		},
-		{
-			"measurementTechnique": "qO2",
-			"label": "SOMLIT Quality Code",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 8
-		},
-		{
-			"measurementTechnique": "Turb",
-			"label": "Turbidity",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 999.999
-		},
-		{
-			"measurementTechnique": "qTurb",
-			"label": "SOMLIT Quality Code",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 8
-		},
-		{
-			"measurementTechnique": "Fluo",
-			"label": "Fluorescence",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 999.999
-		},
-		{
-			"measurementTechnique": "qFluo",
-			"label": "SOMLIT Quality Code",
-			"unitCode": "usedUniversalCode",
-			"unitText": "TextOfusedUniversalCode",
-			"value": 8
-		}
-	],
+	"measurementTechnique": "S",
+	"label": "Salinity, Practical",
+	"unitCode": "usedUniversalCode",
+	"unitText": "TextOfusedUniversalCode",
+	"value": 38.2042,
 	"dateObserved": "2017-10-31T06:00:00",
 	"dateLastCalibration": "2017-10-31T06:00:00",
 	"height": null,
