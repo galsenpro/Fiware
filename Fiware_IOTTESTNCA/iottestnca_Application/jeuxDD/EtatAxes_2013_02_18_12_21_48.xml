@@ -6,20 +6,24 @@
       <nationalIdentifier>MinEquip</nationalIdentifier>
     </supplierIdentification>
   </exchange>
+  
   <payloadPublication xsi:type="ElaboratedDataPublication" lang="fr">
     <publicationTime>2013-02-18T12:21:48.828125+01:00</publicationTime>
     <publicationCreator>
       <country>fr</country>
       <nationalIdentifier>MinEquip</nationalIdentifier>
     </publicationCreator>
+    
     <headerInformation>
       <confidentiality>noRestriction</confidentiality>
       <informationStatus>real</informationStatus>
     </headerInformation>
+    
     <elaboratedData id="A000">
       <sourceInformation>
         <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
       </sourceInformation>
+      
       <basicDataValue xsi:type="TrafficStatusValue">
         <time>2013-02-18T12:21:00</time>
         <affectedLocation>
@@ -30,6 +34,8 @@
         <trafficStatus>freeFlow</trafficStatus>
       </basicDataValue>
     </elaboratedData>
+    
+    
     <elaboratedData id="A001">
       <sourceInformation>
         <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
