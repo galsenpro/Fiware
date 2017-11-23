@@ -1,0 +1,559 @@
+﻿<d2LogicalModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://datex2.eu/schema/1_0/1_0" modelBaseVersion="1.0">
+  <exchange>
+    <supplierIdentification>
+      <country>fr</country>
+      <nationalIdentifier>200030195</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  <payloadPublication xsi:type="ElaboratedDataPublication" lang="fr">
+    <publicationTime>2017-11-23T13:58:11.0539847+01:00</publicationTime>
+    <publicationCreator>
+      <country>fr</country>
+      <nationalIdentifier>200030195</nationalIdentifier>
+    </publicationCreator>
+    <headerInformation>
+      <confidentiality>noRestriction</confidentiality>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.LINDBERGH.TAUX.06088AU0020_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AU0020_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>-1</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.PVOIE.VL.TAUX.06088AA1215_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>9</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.PVOIE.VR.TAUX.06088AA1215_001_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_001_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>5</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="BOSQUETS.COMPTAGE.FABRON.TAUX.06088BA0193_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0193_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>4</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="BOSQUETS.COMPTAGE.SORTIE.TAUX.06088BA1527_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA1527_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>2</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CARRAS.COMPTAGE.SORTIE.TAUX.06088BA1498_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA1498_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>3</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.LAMBERT.TAUX.06088BA0186_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0186_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>0</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.MALRAUX.VL.TAUX.06088AA1215_006_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_006_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>0</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.MALRAUX.VR.TAUX.06088AA1215_006_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_006_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>0</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.NORD.VL.TAUX.06088BA0136_001_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_001_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>4</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.NORD.VR.TAUX.06088BA0136_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>4</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.SUD.VL.TAUX.06088AA1215_005_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_005_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>3</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.SUD.VR.TAUX.06088AA1215_005_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_005_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>3</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.SORTIE.TAUX.06088AU0013_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AU0013_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>8</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="ELNOUZAH.COMPTAGE.PVOIE.VL.TAUX.06088BA1524_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA1524_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>10</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="ELNOUZAH.COMPTAGE.PVOIE.VR.TAUX.06088BA1524_001_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA1524_001_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>10</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GLORIA.COMPTAGE.PVOIE.VL.TAUX.06088AA1215_002_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_002_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>9</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GLORIA.COMPTAGE.PVOIE.VR.TAUX.06088AA1215_002_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_002_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>8</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GLORIA.COMPTAGE.SORTIE.TAUX.06088BA0192_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0192_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>11</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VL.TAUX.06088BA0136_005_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_005_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>0</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VM.TAUX.06088BA0136_005_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_005_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>6</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VR.TAUX.06088BA0136_005_3">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_005_3</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>2</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.NORD.VL.TAUX.06088BA0136_002_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_002_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>5</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.NORD.VR.TAUX.06088BA0136_002_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_002_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>5</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.SUD.VL.TAUX.06088AA1215_004_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_004_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>5</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.SUD.VR.TAUX.06088AA1215_004_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_004_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>5</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.SORTIE.VL.TAUX.06088AU0032_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AU0032_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>2</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="MAGNAN.COMPTAGE.PVOIE.VL.TAUX.06088BA0136_004_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_004_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>-1</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="MAGNAN.COMPTAGE.PVOIE.VR.TAUX.06088BA0136_004_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_004_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>-1</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="MAGNAN.COMPTAGE.SORTIE.TAUX.06088AU0024_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AU0024_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>-1</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.NORD.VL.TAUX.06088BA0136_003_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_003_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>8</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.NORD.VR.TAUX.06088BA0136_003_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_003_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>5</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.SUD.VL.TAUX.06088AA1215_003_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_003_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>15</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.SUD.VR.TAUX.06088AA1215_003_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_003_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>11</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.SORTIE.NORD.TAUX.06088AU0029_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AU0029_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>-1</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.SORTIE.SUD.TAUX.06088AU0025_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficConcentration">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AU0025_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <occupancy>17</occupancy>
+      </basicDataValue>
+    </elaboratedData>
+  </payloadPublication>
+</d2LogicalModel>

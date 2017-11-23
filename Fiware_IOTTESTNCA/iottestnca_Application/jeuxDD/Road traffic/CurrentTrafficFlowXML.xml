@@ -1,0 +1,243 @@
+﻿<d2LogicalModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://datex2.eu/schema/1_0/1_0" modelBaseVersion="1.0">
+  <exchange>
+    <supplierIdentification>
+      <country>fr</country>
+      <nationalIdentifier>200030195</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  <payloadPublication xsi:type="ElaboratedDataPublication" lang="fr">
+    <publicationTime>2017-11-23T13:57:33.0223647+01:00</publicationTime>
+    <publicationCreator>
+      <country>fr</country>
+      <nationalIdentifier>200030195</nationalIdentifier>
+    </publicationCreator>
+    <headerInformation>
+      <confidentiality>noRestriction</confidentiality>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.LINDBERGH.VECTEUR.231">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>231</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>impossible</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.PVOIE.VECTEUR.233">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>233</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="BOSQUETS.COMPTAGE.FABRON.VECTEUR.247">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>247</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="BOSQUETS.COMPTAGE.SORTIE.VECTEUR.246">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>246</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CARRAS.COMPTAGE.SORTIE.VECTEUR.245">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>245</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.LAMBERT.VECTEUR.243">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>243</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.MALRAUX.VECTEUR.249">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>249</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.MALRAUX.VECTEUR.250">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>250</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.SUD.VECTEUR.251">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>251</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="ELNOUZAH.COMPTAGE.PVOIE.VECTEUR.220">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>220</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GLORIA.COMPTAGE.PVOIE.VECTEUR.237">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>237</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VECTEUR.229">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>229</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.SUD.VECTEUR.242">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>242</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="MAGNAN.COMPTAGE.PVOIE.VECTEUR.227">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>227</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.NORD.VECTEUR.225">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>225</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.SORTIE.NORD.VECTEUR.244">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>244</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+  </payloadPublication>
+</d2LogicalModel>

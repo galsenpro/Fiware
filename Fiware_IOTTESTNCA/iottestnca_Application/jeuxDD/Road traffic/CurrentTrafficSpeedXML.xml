@@ -1,0 +1,334 @@
+﻿<d2LogicalModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://datex2.eu/schema/1_0/1_0" modelBaseVersion="1.0">
+  <exchange>
+    <supplierIdentification>
+      <country>fr</country>
+      <nationalIdentifier>200030195</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  <payloadPublication xsi:type="ElaboratedDataPublication" lang="fr">
+    <publicationTime>2017-11-23T13:58:09.5071152+01:00</publicationTime>
+    <publicationCreator>
+      <country>fr</country>
+      <nationalIdentifier>200030195</nationalIdentifier>
+    </publicationCreator>
+    <headerInformation>
+      <confidentiality>noRestriction</confidentiality>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.PVOIE.VL.VIT.06088AA1215_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>66</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="AUGUSTIN.COMPTAGE.PVOIE.VR.VIT.06088AA1215_001_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_001_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>80</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.NORD.VL.VIT.06088BA0136_001_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_001_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>79</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.NORD.VR.VIT.06088BA0136_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>64</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.SUD.VL.VIT.06088AA1215_005_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_005_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>74</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="CIMIEZ.COMPTAGE.PVOIE.SUD.VR.VIT.06088AA1215_005_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_005_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>60</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="ELNOUZAH.COMPTAGE.PVOIE.VL.VIT.06088BA1524_001_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA1524_001_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>38</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="ELNOUZAH.COMPTAGE.PVOIE.VR.VIT.06088BA1524_001_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA1524_001_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>46</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GLORIA.COMPTAGE.PVOIE.VL.VIT.06088AA1215_002_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_002_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>56</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GLORIA.COMPTAGE.PVOIE.VR.VIT.06088AA1215_002_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_002_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>71</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VL.VIT.06088BA0136_005_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_005_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>72</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VM.VIT.06088BA0136_005_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_005_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>61</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="GRINDA.COMPTAGE.PVOIE.VR.VIT.06088BA0136_005_3">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_005_3</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>74</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.NORD.VL.VIT.06088BA0136_002_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_002_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>85</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.NORD.VR.VIT.06088BA0136_002_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_002_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>68</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.SUD.VL.VIT.06088AA1215_004_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_004_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>76</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="JEANNE.COMPTAGE.PVOIE.SUD.VR.VIT.06088AA1215_004_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088AA1215_004_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>66</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="MAGNAN.COMPTAGE.PVOIE.VL.VIT.06088BA0136_004_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_004_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>-1</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="MAGNAN.COMPTAGE.PVOIE.VR.VIT.06088BA0136_004_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_004_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>-1</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.NORD.VL.VIT.06088BA0136_003_1">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_003_1</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>57</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="PHILIPPE.COMPTAGE.PVOIE.NORD.VR.VIT.06088BA0136_003_2">
+      <sourceInformation>
+        <sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficSpeed">
+        <period>60</period>
+        <time>2017-11-23T13:57:02+01:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>06088BA0136_003_2</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <averageVehicleSpeed>70</averageVehicleSpeed>
+      </basicDataValue>
+    </elaboratedData>
+  </payloadPublication>
+</d2LogicalModel>

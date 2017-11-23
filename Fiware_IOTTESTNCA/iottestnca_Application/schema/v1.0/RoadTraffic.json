@@ -1,0 +1,33 @@
+{
+	"d2LogicalModel": {
+		"exchange":{
+			"country": "fr",
+			"nationalIdentifier": "MinEquip"
+		},
+		"payloadPublication":{
+			"publicationTime":"2013-02-18T12:21:48.828125+01:00",
+			"publicationCreator":{
+				"country": "fr",
+				"nationalIdentifier": "MinEquip"
+			},
+	      "headerInformation": {
+	        "confidentiality": "noRestriction",
+	        "informationStatus": "real"
+	      },
+	      "elaboratedData":{
+	      	"sourceInformation":{
+	      		"sourceIdentification" : "DIRXX/CIGTXXX"
+	      	},
+	      	"basicDataValue":{
+	      		"time":"2013-02-18T12:21:00",
+	      		"affectedLocation":{
+	      			"locationContainedInGroup":{
+	      				"predefinedLocationReference": "000"
+	      			}
+	      		},
+	      		"trafficStatus": "freeFlow"
+	      	}
+	      }
+		}
+	}
+}
