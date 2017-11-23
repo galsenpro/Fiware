@@ -1,0 +1,2774 @@
+{
+  "d2LogicalModel": {
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "-xmlns": "http://datex2.eu/schema/1_0/1_0",
+    "-modelBaseVersion": "1.0",
+    "exchange": {
+      "supplierIdentification": {
+        "country": "fr",
+        "nationalIdentifier": "MinEquip"
+      }
+    },
+    "payloadPublication": {
+      "-xsi:type": "ElaboratedDataPublication",
+      "-lang": "fr",
+      "publicationTime": "2013-02-18T12:21:48.828125+01:00",
+      "publicationCreator": {
+        "country": "fr",
+        "nationalIdentifier": "MinEquip"
+      },
+      "headerInformation": {
+        "confidentiality": "noRestriction",
+        "informationStatus": "real"
+      },
+      "elaboratedData": [
+        {
+          "-id": "A000",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "000"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A001",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "001"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A002",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "002"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A003",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "003"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A004",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "004"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A005",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "005"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A006",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "006"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A008",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "008"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A009",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "009"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A010",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "010"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A011",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "011"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A012",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "012"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A013",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "013"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A014",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "014"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A015",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "015"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A016",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "016"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A017",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "017"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A018",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "018"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A019",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "019"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A020",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "020"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A021",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "021"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A022",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "022"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A023",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "023"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A024",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "024"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A025",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "025"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A026",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "026"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A027",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "027"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A028",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "028"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A029",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "029"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A030",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "030"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A031",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "031"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A032",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "032"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A033",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "033"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A034",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "034"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A035",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "035"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A036",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "036"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A037",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "037"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A038",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "038"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A039",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "039"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A040",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "040"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A041",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "041"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A042",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "042"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A043",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "043"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A044",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "044"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A045",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "045"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A046",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "046"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A047",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "047"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A048",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "048"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A049",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "049"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A050",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "050"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A051",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "051"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A052",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "052"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A053",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "053"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A054",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "054"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A055",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "055"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A056",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "056"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A057",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "057"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A058",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "058"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A059",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "059"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A060",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "060"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A061",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "061"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A062",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "062"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A063",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "063"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A064",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "064"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A065",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "065"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A066",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "066"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A067",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "067"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A068",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "068"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A069",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "069"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A070",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "070"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A071",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "071"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A072",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "072"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A073",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "073"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A074",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "074"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A075",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "075"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A076",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "076"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A077",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "077"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A078",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "078"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A079",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "079"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A080",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "080"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A081",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "081"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A082",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "082"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A083",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "083"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A084",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "084"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A085",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "085"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A086",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "086"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A087",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "087"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A088",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "088"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A089",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "089"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A090",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "090"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A091",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "091"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A092",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "092"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A093",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "093"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A094",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "094"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A095",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "095"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A096",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "096"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A097",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "097"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A098",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "098"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A099",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "099"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A100",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "100"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A101",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "101"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A102",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "102"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A103",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "103"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A104",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "104"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A105",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "105"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A106",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "106"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A107",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "107"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A108",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "108"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A109",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "109"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A110",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "110"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A111",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "111"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A112",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "112"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A113",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "113"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A114",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "114"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A115",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "115"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A116",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "116"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A117",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "117"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A118",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "118"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A119",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "119"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A120",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "120"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A121",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "121"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A122",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "122"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A123",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "123"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A124",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "124"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A125",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "125"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A126",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "126"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A127",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "127"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A128",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "128"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A129",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "129"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A130",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "130"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A131",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "131"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A132",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "132"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A133",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "133"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A134",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "134"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A135",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "135"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A136",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "136"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A137",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "137"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A138",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "138"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A139",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "139"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A140",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "140"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A141",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "141"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A142",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "142"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A143",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "143"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A144",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "144"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A145",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "145"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A146",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "146"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A147",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "147"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A148",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "148"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A149",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "149"
+              }
+            },
+            "trafficStatus": "freeFlow"
+          }
+        },
+        {
+          "-id": "A201",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "201"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A202",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "202"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A203",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "203"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A204",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "204"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A205",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "205"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A206",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "206"
+              }
+            },
+            "trafficStatus": "impossible"
+          }
+        },
+        {
+          "-id": "A210",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "210"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A211",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "211"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A212",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "212"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A213",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "213"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A214",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "214"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A215",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "215"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A216",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "216"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A220",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "220"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A222",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "222"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A223",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "223"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A224",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "224"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A225",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "225"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A226",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "226"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A227",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "227"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A228",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "228"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A229",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "229"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A230",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "230"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A231",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "231"
+              }
+            },
+            "trafficStatus": "heavy"
+          }
+        },
+        {
+          "-id": "A233",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "233"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A234",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "234"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A235",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "235"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A236",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "236"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A237",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "237"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A238",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "238"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A239",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "239"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A240",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "240"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A241",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "241"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        },
+        {
+          "-id": "A242",
+          "sourceInformation": { "sourceIdentification": "DIRXX/CIGTXXX" },
+          "basicDataValue": {
+            "-xsi:type": "TrafficStatusValue",
+            "time": "2013-02-18T12:21:00",
+            "affectedLocation": {
+              "locationContainedInGroup": {
+                "-xsi:type": "LocationByReference",
+                "predefinedLocationReference": "242"
+              }
+            },
+            "trafficStatus": "unknown"
+          }
+        }
+      ]
+    }
+  }
+}
