@@ -3,7 +3,7 @@
 	"type": "OffStreetParking",
 	"name": "MASSENA",
 	"description": "Description du parking",
-	"category": ["Catégories du site de stationnement"],
+	"category": ["Categories du site de stationnement"],
 	"chargeType": ["temporaryPrice"],
 	"requiredPermit": ["employeePermit", "studentPermit"],
 	"layout": ["disposition de stationnement"],
@@ -20,7 +20,7 @@
 		"addressLocality": "NICE",
 		"addressRegion": "Alpes Maritimes",
 		"addressCountry": "FR",
-		"streetAddress": "18 Avenue Félix Faure"
+		"streetAddress": "18 Avenue Fï¿½lix Faure"
 	},
 	"dateModified": "2017-11-07T14:18:58.00Z",
 	"active": "oui",
