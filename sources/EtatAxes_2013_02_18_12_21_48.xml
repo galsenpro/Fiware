@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2LogicalModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelBaseVersion="1.0" xmlns="http://datex2.eu/schema/1_0/1_0">
+  <exchange>
+    <supplierIdentification>
+      <country>fr</country>
+      <nationalIdentifier>MinEquip</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  
+  <payloadPublication xsi:type="ElaboratedDataPublication" lang="fr">
+    <publicationTime>2013-02-18T12:21:48.828125+01:00</publicationTime>
+    <publicationCreator>
+      <country>fr</country>
+      <nationalIdentifier>MinEquip</nationalIdentifier>
+    </publicationCreator>
+    
+    <headerInformation>
+      <confidentiality>noRestriction</confidentiality>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    
+    <elaboratedData id="A000">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>000</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    
+    
+    <elaboratedData id="A001">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>001</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A002">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>002</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A003">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>003</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A004">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>004</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A005">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>005</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A006">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>006</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A008">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>008</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A009">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>009</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A010">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>010</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A011">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>011</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A012">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>012</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A013">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>013</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A014">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>014</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A015">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>015</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A016">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>016</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A017">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>017</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A018">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>018</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A019">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>019</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A020">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>020</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A021">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>021</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A022">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>022</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A023">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>023</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A024">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>024</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A025">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>025</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A026">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>026</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A027">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>027</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A028">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>028</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A029">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>029</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A030">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>030</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A031">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>031</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A032">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>032</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A033">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>033</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A034">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>034</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A035">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>035</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A036">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>036</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A037">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>037</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A038">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>038</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A039">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>039</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A040">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>040</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A041">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>041</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A042">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>042</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A043">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>043</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A044">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>044</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A045">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>045</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A046">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>046</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A047">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>047</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A048">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>048</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A049">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>049</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A050">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>050</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A051">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>051</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A052">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>052</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A053">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>053</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A054">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>054</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A055">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>055</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A056">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>056</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A057">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>057</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A058">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>058</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A059">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>059</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A060">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>060</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A061">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>061</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A062">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>062</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A063">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>063</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A064">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>064</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A065">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>065</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A066">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>066</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A067">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>067</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A068">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>068</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A069">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>069</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A070">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>070</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A071">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>071</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A072">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>072</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A073">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>073</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A074">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>074</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A075">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>075</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A076">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>076</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A077">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>077</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A078">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>078</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A079">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>079</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A080">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>080</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A081">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>081</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A082">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>082</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A083">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>083</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A084">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>084</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A085">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>085</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A086">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>086</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A087">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>087</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A088">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>088</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A089">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>089</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A090">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>090</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A091">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>091</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A092">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>092</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A093">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>093</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A094">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>094</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A095">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>095</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A096">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>096</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A097">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>097</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A098">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>098</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A099">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>099</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A100">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>100</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A101">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>101</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A102">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>102</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A103">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>103</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A104">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>104</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A105">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>105</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A106">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>106</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A107">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>107</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A108">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>108</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A109">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>109</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A110">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>110</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A111">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>111</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A112">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>112</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A113">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>113</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A114">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>114</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A115">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>115</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A116">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>116</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A117">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>117</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A118">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>118</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A119">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>119</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A120">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>120</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A121">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>121</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A122">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>122</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A123">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>123</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A124">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>124</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A125">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>125</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A126">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>126</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A127">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>127</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A128">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>128</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A129">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>129</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A130">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>130</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A131">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>131</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A132">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>132</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A133">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>133</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A134">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>134</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A135">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>135</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A136">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>136</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A137">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>137</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A138">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>138</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A139">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>139</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A140">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>140</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A141">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>141</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A142">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>142</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A143">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>143</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A144">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>144</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A145">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>145</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A146">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>146</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A147">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>147</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A148">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>148</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A149">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>149</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>freeFlow</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A201">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>201</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A202">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>202</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A203">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>203</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A204">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>204</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A205">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>205</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A206">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>206</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>impossible</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A210">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>210</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A211">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>211</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A212">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>212</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A213">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>213</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A214">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>214</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A215">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>215</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A216">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>216</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A220">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>220</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A222">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>222</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A223">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>223</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A224">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>224</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A225">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>225</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A226">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>226</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A227">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>227</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A228">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>228</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A229">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>229</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A230">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>230</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A231">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>231</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>heavy</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A233">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>233</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A234">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>234</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A235">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>235</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A236">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>236</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A237">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>237</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A238">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>238</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A239">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>239</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A240">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>240</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A241">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>241</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+    <elaboratedData id="A242">
+      <sourceInformation>
+        <sourceIdentification>DIRXX/CIGTXXX</sourceIdentification>
+      </sourceInformation>
+      <basicDataValue xsi:type="TrafficStatusValue">
+        <time>2013-02-18T12:21:00</time>
+        <affectedLocation>
+          <locationContainedInGroup xsi:type="LocationByReference">
+            <predefinedLocationReference>242</predefinedLocationReference>
+          </locationContainedInGroup>
+        </affectedLocation>
+        <trafficStatus>unknown</trafficStatus>
+      </basicDataValue>
+    </elaboratedData>
+  </payloadPublication>
+</d2LogicalModel>
