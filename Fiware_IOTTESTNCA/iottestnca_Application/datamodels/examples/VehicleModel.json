@@ -1,9 +1,0 @@
-{
-  "id": "vehiclemodel:econic",
-  "type": "VehicleModel",
-  "brandName": "Mercedes Benz",
-  "modelName": "Econic",
-  "vehicleType": "lorry",
-  "cargoVolume": 1000,
-  "fuelType": "diesel"
-}
