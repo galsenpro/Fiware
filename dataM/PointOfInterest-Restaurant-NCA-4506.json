@@ -1,0 +1,55 @@
+{
+    "id": "Restaurant-NCA:4506",
+    "type": "Restaurant",
+    "name": "AC LOUNGE BAR & RESTAURANT | AC LOUNGE", 
+    "description": "Descriptions dU RESTAURANT",
+    "address": {
+      "addressCountry": "FR",
+      "streetAddress": "59 Promenade des anglais"
+    },
+    "phone": "+33(0)4 93 97 74 27",
+    "fax": "+33(0)4 93 44 50 40",
+    "email": "ac.nceac.restaurant@marriott.com",
+    "website": "http://www.marriott.com/nceac",
+    "contacts": null,
+    "payments" :{
+		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
+		"en": ["Cash", "Transfer", "Credit card - Visa"],
+		"es": ["Efectivo","Transferencia","Tarjeta de crédito - Visa"]
+		},
+    "languages": {
+		"fr": "Français",
+		"en": "English",
+		"es": "Spanish"
+	},
+    "amenities": ["Parking privé payant", "Parking public Ã  proximité", "Piscine", "Wifi gratuit", "Animaux acceptés", "Climatisation","Terrasse privative"],
+    "locations": ["Bord de mer","Magnan", "Gambetta" ],
+    "categories": ["Restaurants", "Cuisine Méditerranéenne", "Groupes Ã  partir de 50 personnes"],
+    "services": ["Méditerranéenne", "Traditionnelle", "Pizzas"],
+    "atmosphere" : ["Lounge", "Soirées à thème","Animation Spectacle"],
+    "options": {
+           "option": "Privatisable"
+         },
+    "publications" : null,
+    "commonTags": null,
+    "groupOptions": null,
+    "familyOptions": ["matériel adapté aux enfants"],
+    "disabledOptions" : ["Accessible personnes handicapées"],
+    "sectors": null,
+    "living": null,
+    "tariffs": null,
+    "capacity": {
+            "indoor": "50",
+            "outdoor": "80",
+            "roomCount": "3",
+            "seated": "0",
+            "cocktail": "0"
+          },
+    "closures": {
+    	"closureDay": "Dimanche",
+    	"closureSpan": "toute la journée"
+    	},
+    "spaces": null,
+    "opening": "12:00-14:00 - 19:30 -22:00",
+    "closing": null
+}

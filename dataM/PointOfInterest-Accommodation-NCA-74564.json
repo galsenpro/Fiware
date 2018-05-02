@@ -1,0 +1,83 @@
+{
+    "id": "PointOfInterest-Accommodation-74564",
+    "type": "Accommodation",
+    "name": "DOUBLE TERRASSES L'ARCOLE",
+    "description": "MAJONE ....", 
+    "address": {
+      "addressCountry": "FR",
+      "streetAddress": "5 rue Mantéga, Résidence l'Arede"
+    },
+    "website" : "http://www.hm.com/fr",
+    "fax" : "0 805 08 88 65",
+    "phone" : "+33(0)6 63 52 19 70",
+    "email": "gregoops@hotmail.com",
+    "payments" :{
+		"fr": ["Expèces", "Virement", "Carte Bleue - Visa"],
+		"en": ["Cash", "Transfer", "Credit card - Visa"],
+		"es": ["Efectivo","Transferencia","Tarjeta de crédito - Visa"]
+		},
+	"languages" : {
+		"fr": "Français",
+		"en": "English",
+		"es": "Spanish"
+	},
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.768460000000001, 
+        42.60214472222222
+      ]
+     },
+   "proximity" : ["Nice Nord", "Gambetta"],
+   "amenities" : ["Ascenseur","Wifi gratuit", "Double vitrage", "Télévision", "Terrasse privative", "Lave linge","Sèche cheveux"],
+   "accommodationLabels" : ["Nice Irisée Naturellement", "Famille Plus", "Accueil sportif"],
+   "accommodationType": ["Meublés"],
+   "standingsLevel" : "2 étoiles",
+   "furnishedRental":"Appartement dans immeuble",
+   "rentalMonthes": {
+		"fr": ["Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre"],
+		"en": ["April", "May", "Juin", "July", "August", "September", "October"],
+		"es": ["Abril","Mayo","Junio", "Julio", "Agosto", "Setiembre", "Octubre"]
+   },
+   "allianceOption" : "widget direct Felix",
+   "sleeping" : "4 couchages",
+   "living" : {
+		   	"roomCount" : 0,
+		   	"roomBathCount" : 0,
+		   	"roomShowerCount" :0,
+		   	"suiteCount" : 0,
+		   	"studioCount" : 0,
+		   	"apartmentCount" : 0,
+		   	"roomAccessibleCount" :0,
+		   	"singleCount": 0,
+		   	"doubleCount" :0,
+		   	"tripleCount" :0,
+		   	"twinsCount" : 0,
+		   	"familyCount" : 0,
+		   	"area" : 41,
+		   	"typeLiving" : "61 vue mer",
+		   	"floor" : 0,
+		   	"bedroomCount" :1,
+		   	"sleepsCount" :4,
+		   	"furnishedRoomCount" :2
+      	},
+    "affiliations": ["Louvre Hôtels", "Syndicat des hôteliers"],
+    "chains": ["Kyriad"],
+    "disabledOptions" : ["Accessible personnes handicapées", "Toilettes accessibles", "Douche de plain pied"],
+    "tariffs" : null,
+    "capacity" : {
+    	"indoor": 0,
+    	"outdoor": 0,
+    	"room_count": 4,
+    	"seated": 100,
+    	"cocktail" : 150
+    	},
+    "closures" : null,
+    "spaces" : null,
+    "opening" : null,
+    "closing" : null,
+   	"source": null,
+   	"dateCreated": "2015-07-21 15:30:03",
+   	"dateUpdated": "2017-08-30 17:31:02", 
+   	"refSeeAlso": ["Accomadation-NCA-2017"]
+}

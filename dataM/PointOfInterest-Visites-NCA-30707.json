@@ -1,0 +1,72 @@
+{
+    "id": "PointOfInterest-Visites-40724",
+    "type": "Visites",
+    "name": "ALLIANZ RIVIERA",
+    "description": " ....", 
+    "address": {
+      "addressCountry": "FR",
+      "streetAddress": "455 Promenade des anglais"
+    },
+    "website" : "http://www.allianz-riviera.fr",
+    "fax" : null,
+    "phone" : null,
+    "email": "entreprise@allianz-riviera.fr",
+    "languages": ["Anglais", "Français", "Russe", "Polonais"],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.26344, 
+        43.7124
+      ]
+     },
+   "amenities" : ["Dépose-bus", "Parking bus"],
+   "proximity" : ["Nice Plaine du Var Est", "Nice Ouest"],
+   "categories": ["Monuments et églises", "Lieux de réceptions Nice","Salles de spectacle", "Autres lieux de réunions Nice", "Sites privatisables Nice"],
+   "stations" : ["Allianz Riviera"], 
+   "options" : ["Privatisable"],
+   "publications" : null,
+   "commonTags":null,
+   "groupOptions":null,
+   "disabledOtion":["Accessible personnes handicapées", "Toilettes accessibles","Accueil et services spécifiques"],
+   "sectors" : null,
+   "descriptions":["L’espace polyvalent de l’Allianz Riviera s’anime à Nice dans la plaine du Var au sein de l’éco-vallée et à quelques encablures de l’aéroport international Nice Côte d’Azur. Conçu par l’architecte de renommée internationale Jean-Michel Wilmotte, véritable lieu de vie, d’échange et de partage, il accueille les matches de l’OGC Nice, du football mais aussi du rugby, des concerts, des spectacles et des manifestations de grande envergure. Site hôte de l’Euro 2016, le stade connecté, accueille de 35 000 à 45 000 spectateurs et respecte les grands principes du développement durable. L’Allianz Riviera abrite le Musée National du Sport, labellisé « Musée de France », avec 5 000 m² dédiés à la conservation, diffusion et valorisation du patrimoine sportif (50 000 objets et 200 000 pièces de documentation)"],
+   "living" : {
+		   	"roomCount" : 0,
+		   	"roomBathCount" : 0,
+		   	"roomShowerCount" :0,
+		   	"suiteCount" : 0,
+		   	"studioCount" : 0,
+		   	"apartmentCount" : 0,
+		   	"roomAccessibleCount" :0,
+		   	"singleCount": 0,
+		   	"doubleCount" :0,
+		   	"tripleCount" :0,
+		   	"twinsCount" : 0,
+		   	"familyCount" : 0,
+		   	"area" : 0,
+		   	"livingType" : null,
+		   	"floor" : 0,
+		   	"bedroomCount" :0,
+		   	"sleepsCount" :0,
+		   	"furnishedRoomCount" :0
+      	},
+    "tariffs" : null,
+    "capacity" : {
+    	"indoor": 0,
+    	"outdoor": 0,
+    	"roomCount": 50,
+    	"seated": 36000,
+    	"cocktail" : 5000
+    	},
+    "closures" : {
+    	"closureDay" : "Dimanche",
+    	"closureSpan" : "Toute la journée"
+    	},
+    "spaces" : null,
+    "opening" : "8:00-23:00 (lundi au samedi) - 10:00-23:00 (dimanche)",
+    "closing" : "01/12-30/04",
+   	"source": null,
+   	"dateCreated": "2013-10-22 10:55:14",
+   	"dateUpdated": "2017-08-30 17:31:02", 
+   	"refSeeAlso": ["Visites-NCA-2017"]
+}
